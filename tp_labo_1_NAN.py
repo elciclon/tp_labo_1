@@ -38,5 +38,24 @@ for i in range(14):
 for i in range(14930, 15608):
     censo_2010_df = censo_2010_df.drop([i], axis = 0)
     
-for i in range(10542, 11001):
+for i in range(10541, 11001):
     censo_2022_df = censo_2022_df.drop([i], axis = 0)
+    
+#%% Elimina columnas innecesarias
+
+censo_2010_df = censo_2010_df.drop(['CEPAL/CELADE Redatam+SP 01/29/2026', 
+                                    'Unnamed: 5'], axis = 1)
+censo_2022_df = censo_2022_df.drop(['CEPAL/CELADE Redatam+SP 01/29/2026', 
+                                    'Unnamed: 5'], axis = 1)
+
+censo_2010_df = censo_2010_df.reset_index(drop=True)
+censo_2022_df = censo_2022_df.reset_index(drop=True)
+
+#%% Asigna los nombres de las provincias a cada tupla
+
+i = 14
+provincia = ''
+while i <= len(censo_2010_df):
+    if 'AREA' in censo_2010_df[i]['Unnamed: 1']:
+        provincia = censo_2010_df['Unnamed: 2']
+    censo_2010_df['Unnamed: 2'] = provincia
