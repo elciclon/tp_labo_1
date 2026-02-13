@@ -79,7 +79,8 @@ censo_2022_df = censo_2022_df.reset_index(drop=True)
 def asigna_provincias(censo):
     i = 0
     provincia = ''
-    while i < len(censo):
+    cantidad_de_elementos = len(censo)
+    while i < cantidad_de_elementos:
         
         if 'AREA' in str(censo.loc[i,'Unnamed: 1']):# Castea a str por Nan
             provincia = censo.loc[i, 'Unnamed: 2']
@@ -89,3 +90,21 @@ def asigna_provincias(censo):
 
 asigna_provincias(censo_2010_df)
 asigna_provincias(censo_2022_df)
+
+
+#%% Asigna los que no tienen cobertura 
+def asigna_cobertura(censo):
+    i = 0
+    cantidad_de_elementos = len(censo)
+    while i < cantidad_de_elementos:
+        if 'No tiene obra social' in str(censo.loc[i,'Unnamed: 1']):
+            i+=1
+            while 'AREA' not in str(censo.loc[i,'Unnamed: 1']):
+                censo.loc[i,'Unnamed: 1'] = False
+                i+=1
+                if i == cantidad_de_elementos:
+                    break
+        i+=1
+
+asigna_cobertura(censo_2010_df)
+asigna_cobertura(censo_2022_df)
