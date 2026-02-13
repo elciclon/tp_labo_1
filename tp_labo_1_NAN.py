@@ -48,14 +48,25 @@ censo_2010_df = censo_2010_df.drop(['CEPAL/CELADE Redatam+SP 01/29/2026',
 censo_2022_df = censo_2022_df.drop(['CEPAL/CELADE Redatam+SP 01/29/2026', 
                                     'Unnamed: 5'], axis = 1)
 
+
+#%% Elimina todas las tuplas con totales
+censo_2010_df = censo_2010_df[censo_2010_df['Unnamed: 2'] != ' Total']
+censo_2022_df = censo_2022_df[censo_2022_df['Unnamed: 2'] != ' Total']
+
 censo_2010_df = censo_2010_df.reset_index(drop=True)
 censo_2022_df = censo_2022_df.reset_index(drop=True)
 
 #%% Asigna los nombres de las provincias a cada tupla
+def asigna_provincias(censo):
+    i = 0
+    provincia = ''
+    while i < len(censo):
+        
+        if 'AREA' in str(censo.loc[i,'Unnamed: 1']):# Castea a str por Nan
+            provincia = censo.loc[i, 'Unnamed: 2']
+            i+=1
+        censo.loc[i, 'Unnamed: 2'] = provincia
+        i+=1
 
-i = 14
-provincia = ''
-while i <= len(censo_2010_df):
-    if 'AREA' in censo_2010_df[i]['Unnamed: 1']:
-        provincia = censo_2010_df['Unnamed: 2']
-    censo_2010_df['Unnamed: 2'] = provincia
+asigna_provincias(censo_2010_df)
+asigna_provincias(censo_2022_df)
