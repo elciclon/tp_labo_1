@@ -21,8 +21,22 @@ censo_2010_df = pd.read_excel(censo_2010)
 censo_2022 = 'censo2022.xlsX'
 censo_2022_df = pd.read_excel(censo_2022)
 
-instituciones = 'instituciones_de_salud.xlsX'
+instituciones = 'instituciones_de_salud.xlsx'
 instituciones_df = pd.read_excel(instituciones)
 
 defunciones = 'defunciones.csv'
 defunciones_df = pd.read_csv(defunciones)
+
+#%% Limpia encabezados y resúmenes
+
+# Limpiar encabezados
+for i in range(14):
+    censo_2010_df = censo_2010_df.drop([i], axis = 0)
+    censo_2022_df = censo_2022_df.drop([i], axis = 0)
+    
+# Limpiar resúmenes
+for i in range(14930, 15608):
+    censo_2010_df = censo_2010_df.drop([i], axis = 0)
+    
+for i in range(10542, 11001):
+    censo_2022_df = censo_2022_df.drop([i], axis = 0)
