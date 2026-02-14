@@ -6,8 +6,8 @@ Integrantes: Rozas Chavez, Antuanette Carolina
              Madril, Joaquin Leandro
              Fernández Fazio, Adrián Patricio
              
- Este archivo incluye todo el código para recolectar los datos desde las fuentes
- proporcionadas, limpiarlos, y responder a los requerimientos de la consigna.
+Este archivo incluye todo el código para recolectar los datos desde los censos,
+limpiarlos, y responder a los requerimientos de la consigna.
 
 """
 
@@ -21,11 +21,6 @@ censo_2010_df = pd.read_excel(censo_2010)
 censo_2022 = 'censo2022.xlsX'
 censo_2022_df = pd.read_excel(censo_2022)
 
-instituciones = 'instituciones_de_salud.xlsx'
-instituciones_df = pd.read_excel(instituciones)
-
-defunciones = 'defunciones.csv'
-defunciones_df = pd.read_csv(defunciones)
 
 #%% Separa la columna edad de la de provincia
 censo_2010_df['edad'] = censo_2010_df['Unnamed: 2']
