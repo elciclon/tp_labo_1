@@ -27,6 +27,10 @@ instituciones_df = pd.read_excel(instituciones)
 defunciones = 'defunciones.csv'
 defunciones_df = pd.read_csv(defunciones)
 
+#%% Separa la columna edad de la de provincia
+censo_2010_df['edad'] = censo_2010_df['Unnamed: 2']
+censo_2022_df['edad'] = censo_2022_df['Unnamed: 2']
+
 #%% Limpia encabezados y resúmenes
 
 # Limpiar encabezados
@@ -108,3 +112,30 @@ def asigna_cobertura(censo):
 
 asigna_cobertura(censo_2010_df)
 asigna_cobertura(censo_2022_df)
+#%% Renombramos las columnas
+def renombra_columnas(censo):
+    return censo.rename(columns={"Unnamed: 1": "cobertura", 
+                                 "Unnamed: 2": "provincia",
+                                 "Unnamed: 3": "varón",
+                                 "Unnamed: 4": "mujer"                          
+                          })
+
+censo_2010_df = renombra_columnas(censo_2010_df)
+censo_2022_df = renombra_columnas(censo_2022_df)
+#%% Borramos los encabezados de referencia
+def elimina_encabezados(censo):
+    i = 0
+    while i < len(censo):
+        if 'AREA' in str(censo.loc[i,'cobertura']):# Castea a str por Nan
+            for j in range(4):
+                censo = censo.drop([i + j], axis = 0)
+            i += 4
+        i+=1
+    return censo
+
+censo_2010_df = elimina_encabezados(censo_2010_df)
+censo_2022_df = elimina_encabezados(censo_2022_df)
+
+
+# censo_2010_df = censo_2010_df.reset_index(drop=True)
+# censo_2022_df = censo_2022_df.reset_index(drop=True)
