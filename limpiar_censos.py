@@ -136,6 +136,16 @@ def elimina_encabezados(censo):
 censo_2010_df = elimina_encabezados(censo_2010_df)
 censo_2022_df = elimina_encabezados(censo_2022_df)
 
+censo_2010_df = censo_2010_df.dropna(subset='edad')
+censo_2022_df = censo_2022_df.dropna(subset='edad')
 
-# censo_2010_df = censo_2010_df.reset_index(drop=True)
-# censo_2022_df = censo_2022_df.reset_index(drop=True)
+censo_2010_df = censo_2010_df.reset_index(drop=True)
+censo_2022_df = censo_2022_df.reset_index(drop=True)
+#%% Todos los nan de cobertura a TRUE
+censo_2010_df['cobertura'] = censo_2010_df['cobertura'].fillna(True)
+censo_2022_df['cobertura'] = censo_2022_df['cobertura'].fillna(True)
+#%% Cambiamos el nombre en el Censo 2010 a CABA
+censo_2010_df['provincia'] = censo_2010_df['provincia'].replace('Ciudad Autónoma de Buenos Aires', 'Caba')
+#%% Guardamos ambos dataframes como csv
+censo_2010_df.to_csv('censo_2010_limpio')
+censo_2022_df.to_csv('censo_2022_limpio')
