@@ -142,5 +142,5 @@ censo_2022_df['cobertura'] = censo_2022_df['cobertura'].fillna(True)
 #%% Cambiamos el nombre en el Censo 2010 a CABA
 censo_2010_df['provincia'] = censo_2010_df['provincia'].replace('Ciudad Autónoma de Buenos Aires', 'Caba')
 #%% Guardamos ambos dataframes como csv
-censo_2010_df.to_csv('censo_2010_limpio')
-censo_2022_df.to_csv('censo_2022_limpio')
+censo_2010_df.to_csv('censo_2010_limpio.csv')
+censo_2022_df.to_csv('censo_2022_limpio.csv')

@@ -51,4 +51,4 @@ defunciones = defunciones.drop('cie10_causa_id', axis=1)
 
 #%% Guarda los archivos
 
-defunciones.to_csv('defunciones_limpio')
+defunciones.to_csv('defunciones_limpio.csv')
