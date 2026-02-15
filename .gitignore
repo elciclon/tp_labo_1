@@ -207,3 +207,9 @@ marimo/_lsp/
 __marimo__/
 
 .~lock.censo2010.xlsX#
+
+# Archivos temporales de LaTeX
+*.aux
+*.log
+*.out
+*.pdf
