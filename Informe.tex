@@ -1,5 +1,9 @@
-\documentclass[10pt,a4paper]{article}
-
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[margin=2.5cm]{geometry}
 \usepackage{caratula} % Version modificada para usar las macros de algo1 de ~> https://github.com/bcardiff/dc-tex
 \usepackage[dvipsnames]{xcolor}
 \usepackage{hyperref}
@@ -9,6 +13,8 @@
 \usepackage{amsmath}
 \usepackage{amssymb} 
 \usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage{float}
 \DeclarePairedDelimiter\bra{\langle}{\rvert}
 \DeclarePairedDelimiter\ket{\lvert}{\rangle}
 \DeclarePairedDelimiterX\braket[2]{\langle}{\rangle}{#1\,\delimsize\vert\,\mathopen{}#2}
@@ -18,7 +24,7 @@
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
-    filecolor=magenta,      
+    filecolor=magenta,
     urlcolor=cyan,
     pdftitle={Overleaf Example},
     pdfpagemode=FullScreen,
@@ -41,7 +47,18 @@
 \maketitle
 \section*{Resumen}
 \section*{Introducción}
+\newpage
 \section*{Procesamiento de Datos}
+Para resolver los problemas proponemos el siguiente Diagrama Entidad-Relación:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\textwidth]{tplabo.png}
+\end{figure}
+A continuación definimos los esquemas del Modelo Relacional del DER:
+\begin{figure}[H]
+     \centering
+     \includegraphics[width=0.8\textwidth]{modelorelacional.png}
+\end{figure}
 \section*{Decisiones tomadas}
 \section*{Análisis de Datos}
 \section*{Conclusiones}
