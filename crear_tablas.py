@@ -30,13 +30,7 @@ defuncion = defunciones
 
 defuncion = defuncion.set_index(['id_provincia', 'causa', 'rango', 'sexo', 'año'])
 
-departamento = pd.DataFrame(columns= ['id_departamento', 'nombre', 'id_provincia'])
 
-departamento = departamento.set_index('id_departamento')
-
-establecimiento = pd.DataFrame(columns= ['id_establecimiento', 'financiamiento', 'tiene_terapia', 'id_departamento'])
-
-establecimiento = establecimiento.set_index('id_establecimiento')
 
 #%% Populamos provincia
 
@@ -63,5 +57,37 @@ for i in grupoPoblacional.index:
 grupoPoblacional.rename(columns={"provincia": "id_provincia", 
                              "cobertura": "tiene_cobertura",                                                 
                       }, inplace=True)
-grupoPoblacional.columns = ['id_provincia', 'rango', 'sexo', 'año', 'tiene_cobertura', 'cantidad']
+grupoPoblacional = grupoPoblacional[['id_provincia', 'rango', 'sexo', 'año', 'tiene_cobertura', 'cantidad']]
 grupoPoblacional = grupoPoblacional.set_index(['id_provincia', 'rango', 'sexo', 'año', 'tiene_cobertura'])
+#%% Populamos departamento
+departamento = instituciones
+departamento = departamento.drop(['establecimiento_id',
+                  'provincia_nombre',
+                  'origen_financiamiento',
+                  'tiene_terapia'], axis=1
+                  )
+departamento = departamento.rename(columns={"provincia_id": "id_provincia",
+                             "departamento_nombre": "nombre",
+                             "departamento_id": "id_departamento"})
+departamento = departamento[['id_departamento', 'nombre', 'id_provincia']]
+departamento = departamento.set_index('id_departamento')
+#%% Populamos establecimiento
+establecimiento = pd.DataFrame(columns= ['id_establecimiento', 'financiamiento', 'tiene_terapia', 'id_departamento'])
+establecimiento = instituciones
+establecimiento = establecimiento.drop(['provincia_id',
+                                        'provincia_nombre',
+                                        'departamento_nombre',
+                                        
+                  ], axis=1
+                  )
+establecimiento = establecimiento.rename(columns={"establecimiento_id": "id_establecimiento",
+                                                  "origen_financiamiento": "financiamiento",
+                                                  "departamento_id": "id_departamento"})
+establecimiento = establecimiento[['id_establecimiento', 'financiamiento', 'tiene_terapia', 'id_departamento']]
+establecimiento = establecimiento.set_index('id_establecimiento')
+#%% Exportamos todas las tablas a csv
+provincia.to_csv('provincia.csv')
+defuncion.to_csv('defuncion.csv')
+grupoPoblacional.to_csv('grupoPoblacional.csv')
+departamento.to_csv('departamento.csv')
+establecimiento.to_csv('establecimiento.csv')
