@@ -32,6 +32,7 @@ for i in instituciones.index:
         instituciones.loc[i, 'tipologia_nombre'] = True
     else:
         instituciones.loc[i, 'tipologia_nombre'] = False
+instituciones = instituciones.rename(columns={"tipologia_nombre": "tiene_terapia"})
 
 #%% Simplificamos tipo de financiamiento a Público o Privado
 for i in instituciones.index:
@@ -40,3 +41,8 @@ for i in instituciones.index:
         instituciones.loc[i, 'origen_financiamiento'] = 'privado'
     else:
         instituciones.loc[i, 'origen_financiamiento'] = 'estatal'
+        
+    
+        
+#%% Guardamos el archivo
+instituciones.to_csv('instituciones_limpio.csv')
