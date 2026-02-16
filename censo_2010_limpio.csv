@@ -102,14 +102,14 @@
 100,True,Caba,26,199,100
 101,True,Caba,1,94,101
 102,True,Caba,11,64,102
-103,True,Caba,-,27,103
+103,True,Caba,0,27,103
 104,True,Caba,10,17,104
 105,True,Caba,3,6,105
-106,True,Caba,-,4,106
-107,True,Caba,-,2,107
-108,True,Caba,-,1,108
+106,True,Caba,0,4,106
+107,True,Caba,0,2,107
+108,True,Caba,0,1,108
 109,True,Caba,1,2,109
-110,True,Caba,-,10,110
+110,True,Caba,0,10,110
 111,True,Caba,4954,4441,0
 112,True,Caba,4285,4230,1
 113,True,Caba,4576,4292,2
@@ -211,12 +211,12 @@
 209,True,Caba,3,36,98
 210,True,Caba,1,17,99
 211,True,Caba,12,17,100
-212,True,Caba,-,4,101
-213,True,Caba,-,2,102
+212,True,Caba,0,4,101
+213,True,Caba,0,2,102
 214,True,Caba,1,4,103
-215,True,Caba,-,1,105
-216,True,Caba,1,-,106
-217,True,Caba,-,1,108
+215,True,Caba,0,1,105
+216,True,Caba,1,0,106
+217,True,Caba,0,1,108
 218,True,Caba,2467,2390,0
 219,True,Caba,2150,2285,1
 220,True,Caba,2434,2124,2
@@ -319,12 +319,12 @@
 317,True,Caba,3,50,99
 318,True,Caba,2,14,100
 319,True,Caba,1,3,101
-320,True,Caba,-,11,102
-321,True,Caba,-,2,103
-322,True,Caba,-,11,104
-323,True,Caba,-,2,105
-324,True,Caba,-,12,106
-325,True,Caba,-,3,107
+320,True,Caba,0,11,102
+321,True,Caba,0,2,103
+322,True,Caba,0,11,104
+323,True,Caba,0,2,105
+324,True,Caba,0,12,106
+325,True,Caba,0,3,107
 326,True,Caba,285,213,0
 327,True,Caba,395,325,1
 328,True,Caba,387,274,2
@@ -415,18 +415,18 @@
 413,True,Caba,12,38,87
 414,True,Caba,41,54,88
 415,True,Caba,12,20,89
-416,True,Caba,-,29,90
+416,True,Caba,0,29,90
 417,True,Caba,22,10,91
 418,True,Caba,3,15,92
 419,True,Caba,10,6,93
 420,True,Caba,1,8,94
 421,True,Caba,10,15,95
-422,True,Caba,-,10,96
+422,True,Caba,0,10,96
 423,True,Caba,1,1,97
-424,True,Caba,-,1,98
-425,True,Caba,1,-,99
-426,True,Caba,-,14,100
-427,True,Caba,-,1,101
+424,True,Caba,0,1,98
+425,True,Caba,1,0,99
+426,True,Caba,0,14,100
+427,True,Caba,0,1,101
 428,False,Caba,4612,4539,0
 429,False,Caba,4442,4083,1
 430,False,Caba,4084,3974,2
@@ -520,18 +520,18 @@
 518,False,Caba,10,61,90
 519,False,Caba,10,77,91
 520,False,Caba,2,24,92
-521,False,Caba,-,14,93
+521,False,Caba,0,14,93
 522,False,Caba,10,25,94
 523,False,Caba,12,16,95
 524,False,Caba,19,2,96
 525,False,Caba,9,14,97
 526,False,Caba,13,21,98
-527,False,Caba,-,1,99
-528,False,Caba,-,1,101
-529,False,Caba,-,10,102
-530,False,Caba,2,-,103
-531,False,Caba,1,-,104
-532,False,Caba,-,1,107
+527,False,Caba,0,1,99
+528,False,Caba,0,1,101
+529,False,Caba,0,10,102
+530,False,Caba,2,0,103
+531,False,Caba,1,0,104
+532,False,Caba,0,1,107
 533,True,Buenos Aires,50336,47844,0
 534,True,Buenos Aires,50624,48760,1
 535,True,Buenos Aires,52523,49981,2
@@ -640,7 +640,7 @@
 638,True,Buenos Aires,2,8,105
 639,True,Buenos Aires,3,17,106
 640,True,Buenos Aires,2,7,107
-641,True,Buenos Aires,10,-,108
+641,True,Buenos Aires,10,0,108
 642,True,Buenos Aires,1,2,109
 643,True,Buenos Aires,6,45,110
 644,True,Buenos Aires,15193,14442,0
@@ -745,10 +745,10 @@
 743,True,Buenos Aires,1,25,99
 744,True,Buenos Aires,2,15,100
 745,True,Buenos Aires,9,13,101
-746,True,Buenos Aires,-,1,102
-747,True,Buenos Aires,-,1,103
+746,True,Buenos Aires,0,1,102
+747,True,Buenos Aires,0,1,103
 748,True,Buenos Aires,1,11,106
-749,True,Buenos Aires,2,-,109
+749,True,Buenos Aires,2,0,109
 750,True,Buenos Aires,5395,5183,0
 751,True,Buenos Aires,5595,5111,1
 752,True,Buenos Aires,5150,5184,2
@@ -847,16 +847,16 @@
 845,True,Buenos Aires,25,87,95
 846,True,Buenos Aires,10,51,96
 847,True,Buenos Aires,20,37,97
-848,True,Buenos Aires,-,11,98
+848,True,Buenos Aires,0,11,98
 849,True,Buenos Aires,1,16,99
-850,True,Buenos Aires,-,18,100
-851,True,Buenos Aires,-,1,101
-852,True,Buenos Aires,-,1,102
-853,True,Buenos Aires,-,1,103
-854,True,Buenos Aires,1,-,104
-855,True,Buenos Aires,-,12,105
-856,True,Buenos Aires,-,1,106
-857,True,Buenos Aires,-,1,107
+850,True,Buenos Aires,0,18,100
+851,True,Buenos Aires,0,1,101
+852,True,Buenos Aires,0,1,102
+853,True,Buenos Aires,0,1,103
+854,True,Buenos Aires,1,0,104
+855,True,Buenos Aires,0,12,105
+856,True,Buenos Aires,0,1,106
+857,True,Buenos Aires,0,1,107
 858,True,Buenos Aires,12,1,110
 859,True,Buenos Aires,2371,2227,0
 860,True,Buenos Aires,2375,2214,1
@@ -956,13 +956,13 @@
 954,True,Buenos Aires,3,18,95
 955,True,Buenos Aires,3,2,96
 956,True,Buenos Aires,10,3,97
-957,True,Buenos Aires,-,10,98
-958,True,Buenos Aires,-,17,99
-959,True,Buenos Aires,1,-,100
-960,True,Buenos Aires,-,1,101
-961,True,Buenos Aires,-,1,102
-962,True,Buenos Aires,1,-,104
-963,True,Buenos Aires,-,1,105
+957,True,Buenos Aires,0,10,98
+958,True,Buenos Aires,0,17,99
+959,True,Buenos Aires,1,0,100
+960,True,Buenos Aires,0,1,101
+961,True,Buenos Aires,0,1,102
+962,True,Buenos Aires,1,0,104
+963,True,Buenos Aires,0,1,105
 964,True,Buenos Aires,1,10,110
 965,False,Buenos Aires,62059,58994,0
 966,False,Buenos Aires,58452,58317,1
@@ -1065,11 +1065,11 @@
 1063,False,Buenos Aires,5,25,98
 1064,False,Buenos Aires,3,34,99
 1065,False,Buenos Aires,29,22,100
-1066,False,Buenos Aires,2,-,101
-1067,False,Buenos Aires,-,18,102
+1066,False,Buenos Aires,2,0,101
+1067,False,Buenos Aires,0,18,102
 1068,False,Buenos Aires,1,16,103
-1069,False,Buenos Aires,1,-,107
-1070,False,Buenos Aires,-,1,108
+1069,False,Buenos Aires,1,0,107
+1070,False,Buenos Aires,0,1,108
 1071,False,Buenos Aires,3,8,109
 1072,False,Buenos Aires,24,23,110
 1073,True,Catamarca,1035,1181,0
@@ -1174,10 +1174,10 @@
 1172,True,Catamarca,4,6,99
 1173,True,Catamarca,1,14,100
 1174,True,Catamarca,9,1,101
-1175,True,Catamarca,2,-,102
-1176,True,Catamarca,-,2,103
-1177,True,Catamarca,-,7,107
-1178,True,Catamarca,1,-,109
+1175,True,Catamarca,2,0,102
+1176,True,Catamarca,0,2,103
+1177,True,Catamarca,0,7,107
+1178,True,Catamarca,1,0,109
 1179,True,Catamarca,2,2,110
 1180,True,Catamarca,198,157,0
 1181,True,Catamarca,159,188,1
@@ -1270,12 +1270,12 @@
 1268,True,Catamarca,1,1,88
 1269,True,Catamarca,1,2,89
 1270,True,Catamarca,2,4,90
-1271,True,Catamarca,-,4,91
+1271,True,Catamarca,0,4,91
 1272,True,Catamarca,1,2,92
 1273,True,Catamarca,1,3,93
-1274,True,Catamarca,-,3,94
+1274,True,Catamarca,0,3,94
 1275,True,Catamarca,1,1,95
-1276,True,Catamarca,-,1,96
+1276,True,Catamarca,0,1,96
 1277,True,Catamarca,20,53,0
 1278,True,Catamarca,54,73,1
 1279,True,Catamarca,48,60,2
@@ -1344,27 +1344,27 @@
 1342,True,Catamarca,36,18,65
 1343,True,Catamarca,4,1,66
 1344,True,Catamarca,2,2,67
-1345,True,Catamarca,9,-,68
+1345,True,Catamarca,9,0,68
 1346,True,Catamarca,1,2,69
 1347,True,Catamarca,1,10,70
 1348,True,Catamarca,1,1,71
 1349,True,Catamarca,1,10,72
-1350,True,Catamarca,11,-,73
-1351,True,Catamarca,1,-,74
-1352,True,Catamarca,1,-,75
+1350,True,Catamarca,11,0,73
+1351,True,Catamarca,1,0,74
+1352,True,Catamarca,1,0,75
 1353,True,Catamarca,2,11,76
 1354,True,Catamarca,2,1,77
-1355,True,Catamarca,-,10,78
+1355,True,Catamarca,0,10,78
 1356,True,Catamarca,1,1,80
-1357,True,Catamarca,-,2,81
+1357,True,Catamarca,0,2,81
 1358,True,Catamarca,8,11,83
 1359,True,Catamarca,1,1,84
-1360,True,Catamarca,4,-,85
-1361,True,Catamarca,-,1,86
-1362,True,Catamarca,-,11,89
-1363,True,Catamarca,-,1,95
-1364,True,Catamarca,-,1,96
-1365,True,Catamarca,1,-,99
+1360,True,Catamarca,4,0,85
+1361,True,Catamarca,0,1,86
+1362,True,Catamarca,0,11,89
+1363,True,Catamarca,0,1,95
+1364,True,Catamarca,0,1,96
+1365,True,Catamarca,1,0,99
 1366,True,Catamarca,119,159,0
 1367,True,Catamarca,140,125,1
 1368,True,Catamarca,144,125,2
@@ -1454,15 +1454,15 @@
 1452,True,Catamarca,3,3,86
 1453,True,Catamarca,4,2,87
 1454,True,Catamarca,1,3,88
-1455,True,Catamarca,-,3,89
+1455,True,Catamarca,0,3,89
 1456,True,Catamarca,4,4,90
 1457,True,Catamarca,1,4,91
 1458,True,Catamarca,1,2,92
 1459,True,Catamarca,2,2,93
 1460,True,Catamarca,2,1,94
-1461,True,Catamarca,1,-,95
-1462,True,Catamarca,-,2,96
-1463,True,Catamarca,1,-,102
+1461,True,Catamarca,1,0,95
+1462,True,Catamarca,0,2,96
+1463,True,Catamarca,1,0,102
 1464,False,Catamarca,1723,1625,0
 1465,False,Catamarca,1552,1516,1
 1466,False,Catamarca,1545,1563,2
@@ -1559,14 +1559,14 @@
 1557,False,Catamarca,3,4,93
 1558,False,Catamarca,6,4,94
 1559,False,Catamarca,2,1,95
-1560,False,Catamarca,-,1,96
-1561,False,Catamarca,-,1,97
+1560,False,Catamarca,0,1,96
+1561,False,Catamarca,0,1,97
 1562,False,Catamarca,1,1,98
 1563,False,Catamarca,1,2,99
-1564,False,Catamarca,-,1,100
-1565,False,Catamarca,1,-,104
-1566,False,Catamarca,-,1,105
-1567,False,Catamarca,1,-,110
+1564,False,Catamarca,0,1,100
+1565,False,Catamarca,1,0,104
+1566,False,Catamarca,0,1,105
+1567,False,Catamarca,1,0,110
 1568,True,Córdoba,10273,9303,0
 1569,True,Córdoba,9829,9656,1
 1570,True,Córdoba,10555,10599,2
@@ -1672,11 +1672,11 @@
 1670,True,Córdoba,2,45,102
 1671,True,Córdoba,3,13,103
 1672,True,Córdoba,2,6,104
-1673,True,Córdoba,-,2,105
+1673,True,Córdoba,0,2,105
 1674,True,Córdoba,1,1,107
-1675,True,Córdoba,-,1,108
-1676,True,Córdoba,-,1,109
-1677,True,Córdoba,9,-,110
+1675,True,Córdoba,0,1,108
+1676,True,Córdoba,0,1,109
+1677,True,Córdoba,9,0,110
 1678,True,Córdoba,3510,3440,0
 1679,True,Córdoba,3357,3547,1
 1680,True,Córdoba,3576,3494,2
@@ -1773,13 +1773,13 @@
 1771,True,Córdoba,3,18,93
 1772,True,Córdoba,5,23,94
 1773,True,Córdoba,2,11,95
-1774,True,Córdoba,-,4,96
+1774,True,Córdoba,0,4,96
 1775,True,Córdoba,1,12,97
 1776,True,Córdoba,1,1,98
-1777,True,Córdoba,-,11,100
-1778,True,Córdoba,1,-,101
-1779,True,Córdoba,-,1,102
-1780,True,Córdoba,-,1,103
+1777,True,Córdoba,0,11,100
+1778,True,Córdoba,1,0,101
+1779,True,Córdoba,0,1,102
+1780,True,Córdoba,0,1,103
 1781,True,Córdoba,1710,1457,0
 1782,True,Córdoba,1436,1708,1
 1783,True,Córdoba,1449,1368,2
@@ -1875,11 +1875,11 @@
 1873,True,Córdoba,4,17,92
 1874,True,Córdoba,2,12,93
 1875,True,Córdoba,4,23,94
-1876,True,Córdoba,-,4,95
-1877,True,Córdoba,-,7,96
-1878,True,Córdoba,-,1,97
-1879,True,Córdoba,-,9,98
-1880,True,Córdoba,-,3,100
+1876,True,Córdoba,0,4,95
+1877,True,Córdoba,0,7,96
+1878,True,Córdoba,0,1,97
+1879,True,Córdoba,0,9,98
+1880,True,Córdoba,0,3,100
 1881,True,Córdoba,1170,1209,0
 1882,True,Córdoba,1163,1106,1
 1883,True,Córdoba,1047,1013,2
@@ -1969,20 +1969,20 @@
 1967,True,Córdoba,32,42,86
 1968,True,Córdoba,12,49,87
 1969,True,Córdoba,8,27,88
-1970,True,Córdoba,-,58,89
+1970,True,Córdoba,0,58,89
 1971,True,Córdoba,6,13,90
 1972,True,Córdoba,5,11,91
 1973,True,Córdoba,3,6,92
 1974,True,Córdoba,3,4,93
-1975,True,Córdoba,-,4,94
+1975,True,Córdoba,0,4,94
 1976,True,Córdoba,2,3,95
-1977,True,Córdoba,-,15,96
+1977,True,Córdoba,0,15,96
 1978,True,Córdoba,1,23,97
 1979,True,Córdoba,2,1,98
-1980,True,Córdoba,-,2,99
-1981,True,Córdoba,-,3,100
-1982,True,Córdoba,-,1,101
-1983,True,Córdoba,-,1,105
+1980,True,Córdoba,0,2,99
+1981,True,Córdoba,0,3,100
+1982,True,Córdoba,0,1,101
+1983,True,Córdoba,0,1,105
 1984,False,Córdoba,10574,10006,0
 1985,False,Córdoba,10552,10099,1
 1986,False,Córdoba,10318,10228,2
@@ -2084,10 +2084,10 @@
 2082,False,Córdoba,2,4,98
 2083,False,Córdoba,1,3,99
 2084,False,Córdoba,1,1,100
-2085,False,Córdoba,-,1,101
-2086,False,Córdoba,-,2,102
-2087,False,Córdoba,-,1,103
-2088,False,Córdoba,-,1,104
+2085,False,Córdoba,0,1,101
+2086,False,Córdoba,0,2,102
+2087,False,Córdoba,0,1,103
+2088,False,Córdoba,0,1,104
 2089,True,Corrientes,2447,2502,0
 2090,True,Corrientes,2501,2510,1
 2091,True,Corrientes,2655,2407,2
@@ -2192,8 +2192,8 @@
 2190,True,Corrientes,1,16,101
 2191,True,Corrientes,1,3,102
 2192,True,Corrientes,1,5,103
-2193,True,Corrientes,-,1,106
-2194,True,Corrientes,-,1,109
+2193,True,Corrientes,0,1,106
+2194,True,Corrientes,0,1,109
 2195,True,Corrientes,663,541,0
 2196,True,Corrientes,592,659,1
 2197,True,Corrientes,526,574,2
@@ -2281,17 +2281,17 @@
 2279,True,Corrientes,6,13,84
 2280,True,Corrientes,6,22,85
 2281,True,Corrientes,9,6,86
-2282,True,Corrientes,-,15,87
+2282,True,Corrientes,0,15,87
 2283,True,Corrientes,25,5,88
 2284,True,Corrientes,3,14,89
 2285,True,Corrientes,3,3,90
 2286,True,Corrientes,6,2,91
-2287,True,Corrientes,-,1,93
+2287,True,Corrientes,0,1,93
 2288,True,Corrientes,1,1,94
-2289,True,Corrientes,-,1,95
+2289,True,Corrientes,0,1,95
 2290,True,Corrientes,2,1,96
-2291,True,Corrientes,-,2,97
-2292,True,Corrientes,1,-,110
+2291,True,Corrientes,0,2,97
+2292,True,Corrientes,1,0,110
 2293,True,Corrientes,118,95,0
 2294,True,Corrientes,125,111,1
 2295,True,Corrientes,168,154,2
@@ -2372,20 +2372,20 @@
 2370,True,Corrientes,15,14,77
 2371,True,Corrientes,3,6,78
 2372,True,Corrientes,2,7,79
-2373,True,Corrientes,5,-,80
+2373,True,Corrientes,5,0,80
 2374,True,Corrientes,3,3,81
 2375,True,Corrientes,22,1,82
 2376,True,Corrientes,2,1,83
-2377,True,Corrientes,-,1,84
-2378,True,Corrientes,1,-,86
+2377,True,Corrientes,0,1,84
+2378,True,Corrientes,1,0,86
 2379,True,Corrientes,2,3,87
-2380,True,Corrientes,-,1,88
+2380,True,Corrientes,0,1,88
 2381,True,Corrientes,10,2,90
-2382,True,Corrientes,12,-,93
-2383,True,Corrientes,-,1,95
-2384,True,Corrientes,1,-,96
+2382,True,Corrientes,12,0,93
+2383,True,Corrientes,0,1,95
+2384,True,Corrientes,1,0,96
 2385,True,Corrientes,1,1,97
-2386,True,Corrientes,-,1,110
+2386,True,Corrientes,0,1,110
 2387,True,Corrientes,953,887,0
 2388,True,Corrientes,1071,1043,1
 2389,True,Corrientes,941,980,2
@@ -2476,18 +2476,18 @@
 2474,True,Corrientes,8,11,87
 2475,True,Corrientes,15,6,88
 2476,True,Corrientes,3,3,89
-2477,True,Corrientes,-,7,90
+2477,True,Corrientes,0,7,90
 2478,True,Corrientes,1,3,91
 2479,True,Corrientes,3,5,92
-2480,True,Corrientes,-,2,93
+2480,True,Corrientes,0,2,93
 2481,True,Corrientes,23,5,94
-2482,True,Corrientes,-,1,95
+2482,True,Corrientes,0,1,95
 2483,True,Corrientes,2,1,96
-2484,True,Corrientes,-,2,97
-2485,True,Corrientes,-,1,99
-2486,True,Corrientes,-,1,100
-2487,True,Corrientes,3,-,101
-2488,True,Corrientes,-,1,107
+2484,True,Corrientes,0,2,97
+2485,True,Corrientes,0,1,99
+2486,True,Corrientes,0,1,100
+2487,True,Corrientes,3,0,101
+2488,True,Corrientes,0,1,107
 2489,False,Corrientes,5357,4861,0
 2490,False,Corrientes,4834,4802,1
 2491,False,Corrientes,4857,4539,2
@@ -2585,11 +2585,11 @@
 2583,False,Corrientes,4,3,94
 2584,False,Corrientes,1,10,95
 2585,False,Corrientes,3,5,96
-2586,False,Corrientes,-,5,97
-2587,False,Corrientes,-,2,98
+2586,False,Corrientes,0,5,97
+2587,False,Corrientes,0,2,98
 2588,False,Corrientes,1,2,99
 2589,False,Corrientes,7,2,101
-2590,False,Corrientes,-,5,108
+2590,False,Corrientes,0,5,108
 2591,False,Corrientes,1,1,109
 2592,False,Corrientes,14,3,110
 2593,True,Chaco,2056,2054,0
@@ -2695,9 +2695,9 @@
 2693,True,Chaco,4,27,100
 2694,True,Chaco,3,5,101
 2695,True,Chaco,1,4,102
-2696,True,Chaco,-,1,104
-2697,True,Chaco,-,2,105
-2698,True,Chaco,1,-,108
+2696,True,Chaco,0,1,104
+2697,True,Chaco,0,2,105
+2698,True,Chaco,1,0,108
 2699,True,Chaco,1,1,110
 2700,True,Chaco,332,398,0
 2701,True,Chaco,387,444,1
@@ -2790,11 +2790,11 @@
 2788,True,Chaco,1,2,88
 2789,True,Chaco,13,10,89
 2790,True,Chaco,1,4,90
-2791,True,Chaco,1,-,91
-2792,True,Chaco,-,1,92
-2793,True,Chaco,-,2,94
-2794,True,Chaco,-,1,96
-2795,True,Chaco,-,1,98
+2791,True,Chaco,1,0,91
+2792,True,Chaco,0,1,92
+2793,True,Chaco,0,2,94
+2794,True,Chaco,0,1,96
+2795,True,Chaco,0,1,98
 2796,True,Chaco,133,144,0
 2797,True,Chaco,130,139,1
 2798,True,Chaco,145,228,2
@@ -2866,21 +2866,21 @@
 2864,True,Chaco,35,22,68
 2865,True,Chaco,7,11,69
 2866,True,Chaco,3,8,70
-2867,True,Chaco,12,-,71
+2867,True,Chaco,12,0,71
 2868,True,Chaco,2,11,72
 2869,True,Chaco,4,15,73
 2870,True,Chaco,3,14,74
 2871,True,Chaco,6,12,75
-2872,True,Chaco,-,12,76
+2872,True,Chaco,0,12,76
 2873,True,Chaco,2,3,77
 2874,True,Chaco,1,2,78
 2875,True,Chaco,2,9,79
-2876,True,Chaco,1,-,80
+2876,True,Chaco,1,0,80
 2877,True,Chaco,1,11,81
 2878,True,Chaco,9,11,82
 2879,True,Chaco,11,2,83
-2880,True,Chaco,-,1,89
-2881,True,Chaco,-,10,90
+2880,True,Chaco,0,1,89
+2881,True,Chaco,0,10,90
 2882,True,Chaco,246,245,0
 2883,True,Chaco,270,186,1
 2884,True,Chaco,263,292,2
@@ -2974,11 +2974,11 @@
 2972,True,Chaco,3,10,90
 2973,True,Chaco,1,4,91
 2974,True,Chaco,11,3,92
-2975,True,Chaco,-,2,93
-2976,True,Chaco,-,1,94
-2977,True,Chaco,-,10,96
-2978,True,Chaco,-,1,98
-2979,True,Chaco,-,1,99
+2975,True,Chaco,0,2,93
+2976,True,Chaco,0,1,94
+2977,True,Chaco,0,10,96
+2978,True,Chaco,0,1,98
+2979,True,Chaco,0,1,99
 2980,False,Chaco,7221,6936,0
 2981,False,Chaco,6792,6610,1
 2982,False,Chaco,6676,6844,2
@@ -3075,14 +3075,14 @@
 3073,False,Chaco,7,6,93
 3074,False,Chaco,13,5,94
 3075,False,Chaco,1,6,95
-3076,False,Chaco,-,3,96
+3076,False,Chaco,0,3,96
 3077,False,Chaco,2,1,97
-3078,False,Chaco,1,-,98
+3078,False,Chaco,1,0,98
 3079,False,Chaco,1,2,99
-3080,False,Chaco,1,-,100
-3081,False,Chaco,-,1,104
-3082,False,Chaco,-,1,108
-3083,False,Chaco,-,1,110
+3080,False,Chaco,1,0,100
+3081,False,Chaco,0,1,104
+3082,False,Chaco,0,1,108
+3083,False,Chaco,0,1,110
 3084,True,Chubut,2318,2192,0
 3085,True,Chubut,2377,2187,1
 3086,True,Chubut,2385,2420,2
@@ -3184,10 +3184,10 @@
 3182,True,Chubut,2,8,98
 3183,True,Chubut,10,35,99
 3184,True,Chubut,1,4,100
-3185,True,Chubut,-,1,101
-3186,True,Chubut,-,1,102
+3185,True,Chubut,0,1,101
+3186,True,Chubut,0,1,102
 3187,True,Chubut,1,11,107
-3188,True,Chubut,1,-,108
+3188,True,Chubut,1,0,108
 3189,True,Chubut,742,459,0
 3190,True,Chubut,564,541,1
 3191,True,Chubut,577,518,2
@@ -3277,11 +3277,11 @@
 3275,True,Chubut,1,3,86
 3276,True,Chubut,2,12,87
 3277,True,Chubut,1,2,88
-3278,True,Chubut,22,-,89
-3279,True,Chubut,1,-,91
-3280,True,Chubut,-,2,93
-3281,True,Chubut,-,1,94
-3282,True,Chubut,1,-,96
+3278,True,Chubut,22,0,89
+3279,True,Chubut,1,0,91
+3280,True,Chubut,0,2,93
+3281,True,Chubut,0,1,94
+3282,True,Chubut,1,0,96
 3283,True,Chubut,190,207,0
 3284,True,Chubut,90,140,1
 3285,True,Chubut,172,132,2
@@ -3356,23 +3356,23 @@
 3354,True,Chubut,27,26,71
 3355,True,Chubut,9,6,72
 3356,True,Chubut,20,18,73
-3357,True,Chubut,14,-,74
+3357,True,Chubut,14,0,74
 3358,True,Chubut,2,20,75
 3359,True,Chubut,12,1,76
 3360,True,Chubut,13,29,77
 3361,True,Chubut,3,31,78
 3362,True,Chubut,13,24,79
-3363,True,Chubut,-,1,80
+3363,True,Chubut,0,1,80
 3364,True,Chubut,10,11,81
 3365,True,Chubut,1,28,82
 3366,True,Chubut,2,3,83
-3367,True,Chubut,10,-,84
-3368,True,Chubut,-,1,85
-3369,True,Chubut,1,-,86
-3370,True,Chubut,1,-,87
-3371,True,Chubut,1,-,89
-3372,True,Chubut,-,2,90
-3373,True,Chubut,-,1,91
+3367,True,Chubut,10,0,84
+3368,True,Chubut,0,1,85
+3369,True,Chubut,1,0,86
+3370,True,Chubut,1,0,87
+3371,True,Chubut,1,0,89
+3372,True,Chubut,0,2,90
+3373,True,Chubut,0,1,91
 3374,True,Chubut,258,272,0
 3375,True,Chubut,187,128,1
 3376,True,Chubut,184,183,2
@@ -3461,14 +3461,14 @@
 3459,True,Chubut,2,19,85
 3460,True,Chubut,3,2,86
 3461,True,Chubut,3,1,87
-3462,True,Chubut,-,1,89
-3463,True,Chubut,-,1,90
-3464,True,Chubut,-,1,91
+3462,True,Chubut,0,1,89
+3463,True,Chubut,0,1,90
+3464,True,Chubut,0,1,91
 3465,True,Chubut,1,1,92
-3466,True,Chubut,1,-,93
-3467,True,Chubut,1,-,94
-3468,True,Chubut,-,1,95
-3469,True,Chubut,-,1,101
+3466,True,Chubut,1,0,93
+3467,True,Chubut,1,0,94
+3468,True,Chubut,0,1,95
+3469,True,Chubut,0,1,101
 3470,False,Chubut,1294,1452,0
 3471,False,Chubut,1311,1282,1
 3472,False,Chubut,1391,1315,2
@@ -3565,11 +3565,11 @@
 3563,False,Chubut,3,5,93
 3564,False,Chubut,9,2,94
 3565,False,Chubut,10,22,95
-3566,False,Chubut,-,10,96
-3567,False,Chubut,-,1,97
+3566,False,Chubut,0,10,96
+3567,False,Chubut,0,1,97
 3568,False,Chubut,1,10,98
-3569,False,Chubut,-,1,99
-3570,False,Chubut,-,1,100
+3569,False,Chubut,0,1,99
+3570,False,Chubut,0,1,100
 3571,True,Entre Ríos,4415,3955,0
 3572,True,Entre Ríos,4252,4375,1
 3573,True,Entre Ríos,4343,4362,2
@@ -3673,9 +3673,9 @@
 3671,True,Entre Ríos,6,45,100
 3672,True,Entre Ríos,6,23,101
 3673,True,Entre Ríos,2,4,102
-3674,True,Entre Ríos,-,4,104
-3675,True,Entre Ríos,-,2,105
-3676,True,Entre Ríos,-,1,110
+3674,True,Entre Ríos,0,4,104
+3675,True,Entre Ríos,0,2,105
+3676,True,Entre Ríos,0,1,110
 3677,True,Entre Ríos,585,555,0
 3678,True,Entre Ríos,608,582,1
 3679,True,Entre Ríos,609,637,2
@@ -3768,12 +3768,12 @@
 3766,True,Entre Ríos,13,16,89
 3767,True,Entre Ríos,2,11,90
 3768,True,Entre Ríos,2,1,91
-3769,True,Entre Ríos,-,18,92
-3770,True,Entre Ríos,-,2,93
+3769,True,Entre Ríos,0,18,92
+3770,True,Entre Ríos,0,2,93
 3771,True,Entre Ríos,1,1,94
 3772,True,Entre Ríos,1,1,95
-3773,True,Entre Ríos,-,2,96
-3774,True,Entre Ríos,1,-,101
+3773,True,Entre Ríos,0,2,96
+3774,True,Entre Ríos,1,0,101
 3775,True,Entre Ríos,348,285,0
 3776,True,Entre Ríos,465,318,1
 3777,True,Entre Ríos,406,377,2
@@ -3866,11 +3866,11 @@
 3864,True,Entre Ríos,5,6,89
 3865,True,Entre Ríos,1,7,90
 3866,True,Entre Ríos,8,8,91
-3867,True,Entre Ríos,-,1,93
-3868,True,Entre Ríos,1,-,94
+3867,True,Entre Ríos,0,1,93
+3868,True,Entre Ríos,1,0,94
 3869,True,Entre Ríos,1,1,95
 3870,True,Entre Ríos,1,1,97
-3871,True,Entre Ríos,-,1,98
+3871,True,Entre Ríos,0,1,98
 3872,True,Entre Ríos,437,359,0
 3873,True,Entre Ríos,324,391,1
 3874,True,Entre Ríos,412,376,2
@@ -3961,13 +3961,13 @@
 3959,True,Entre Ríos,15,3,87
 3960,True,Entre Ríos,3,3,88
 3961,True,Entre Ríos,12,13,89
-3962,True,Entre Ríos,-,2,90
+3962,True,Entre Ríos,0,2,90
 3963,True,Entre Ríos,11,1,91
-3964,True,Entre Ríos,-,1,93
-3965,True,Entre Ríos,-,2,94
+3964,True,Entre Ríos,0,1,93
+3965,True,Entre Ríos,0,2,94
 3966,True,Entre Ríos,1,2,95
-3967,True,Entre Ríos,-,1,99
-3968,True,Entre Ríos,-,1,104
+3967,True,Entre Ríos,0,1,99
+3968,True,Entre Ríos,0,1,104
 3969,False,Entre Ríos,4818,4398,0
 3970,False,Entre Ríos,4425,4241,1
 3971,False,Entre Ríos,4651,4294,2
@@ -4065,13 +4065,13 @@
 4063,False,Entre Ríos,2,7,94
 4064,False,Entre Ríos,3,5,95
 4065,False,Entre Ríos,11,4,96
-4066,False,Entre Ríos,-,1,97
-4067,False,Entre Ríos,-,1,98
-4068,False,Entre Ríos,-,2,99
-4069,False,Entre Ríos,-,8,100
-4070,False,Entre Ríos,-,1,101
-4071,False,Entre Ríos,1,-,104
-4072,False,Entre Ríos,-,1,109
+4066,False,Entre Ríos,0,1,97
+4067,False,Entre Ríos,0,1,98
+4068,False,Entre Ríos,0,2,99
+4069,False,Entre Ríos,0,8,100
+4070,False,Entre Ríos,0,1,101
+4071,False,Entre Ríos,1,0,104
+4072,False,Entre Ríos,0,1,109
 4073,True,Formosa,1164,1008,0
 4074,True,Formosa,1243,1173,1
 4075,True,Formosa,1183,1228,2
@@ -4171,10 +4171,10 @@
 4169,True,Formosa,5,25,96
 4170,True,Formosa,7,3,97
 4171,True,Formosa,1,7,98
-4172,True,Formosa,-,28,99
+4172,True,Formosa,0,28,99
 4173,True,Formosa,4,4,100
-4174,True,Formosa,-,1,102
-4175,True,Formosa,-,1,110
+4174,True,Formosa,0,1,102
+4175,True,Formosa,0,1,110
 4176,True,Formosa,146,160,0
 4177,True,Formosa,121,115,1
 4178,True,Formosa,212,94,2
@@ -4258,18 +4258,18 @@
 4256,True,Formosa,3,11,80
 4257,True,Formosa,13,1,81
 4258,True,Formosa,1,3,82
-4259,True,Formosa,3,-,83
+4259,True,Formosa,3,0,83
 4260,True,Formosa,3,1,84
-4261,True,Formosa,-,2,85
-4262,True,Formosa,10,-,86
+4261,True,Formosa,0,2,85
+4262,True,Formosa,10,0,86
 4263,True,Formosa,2,1,87
 4264,True,Formosa,2,1,88
-4265,True,Formosa,3,-,89
-4266,True,Formosa,2,-,90
-4267,True,Formosa,1,-,91
-4268,True,Formosa,1,-,94
-4269,True,Formosa,1,-,95
-4270,True,Formosa,-,1,96
+4265,True,Formosa,3,0,89
+4266,True,Formosa,2,0,90
+4267,True,Formosa,1,0,91
+4268,True,Formosa,1,0,94
+4269,True,Formosa,1,0,95
+4270,True,Formosa,0,1,96
 4271,True,Formosa,31,53,0
 4272,True,Formosa,63,25,1
 4273,True,Formosa,99,69,2
@@ -4335,24 +4335,24 @@
 4333,True,Formosa,31,23,62
 4334,True,Formosa,18,20,63
 4335,True,Formosa,15,1,64
-4336,True,Formosa,18,-,65
+4336,True,Formosa,18,0,65
 4337,True,Formosa,10,9,66
 4338,True,Formosa,3,2,67
-4339,True,Formosa,13,-,68
+4339,True,Formosa,13,0,68
 4340,True,Formosa,1,22,69
 4341,True,Formosa,1,10,70
 4342,True,Formosa,2,1,71
 4343,True,Formosa,2,1,72
-4344,True,Formosa,8,-,73
-4345,True,Formosa,-,1,74
-4346,True,Formosa,4,-,75
-4347,True,Formosa,-,11,77
-4348,True,Formosa,-,1,79
-4349,True,Formosa,1,-,80
-4350,True,Formosa,1,-,81
-4351,True,Formosa,-,1,82
-4352,True,Formosa,10,-,85
-4353,True,Formosa,-,10,88
+4344,True,Formosa,8,0,73
+4345,True,Formosa,0,1,74
+4346,True,Formosa,4,0,75
+4347,True,Formosa,0,11,77
+4348,True,Formosa,0,1,79
+4349,True,Formosa,1,0,80
+4350,True,Formosa,1,0,81
+4351,True,Formosa,0,1,82
+4352,True,Formosa,10,0,85
+4353,True,Formosa,0,10,88
 4354,True,Formosa,141,104,0
 4355,True,Formosa,191,189,1
 4356,True,Formosa,175,138,2
@@ -4446,8 +4446,8 @@
 4444,True,Formosa,10,5,90
 4445,True,Formosa,3,1,91
 4446,True,Formosa,1,2,92
-4447,True,Formosa,-,3,93
-4448,True,Formosa,1,-,94
+4447,True,Formosa,0,3,93
+4448,True,Formosa,1,0,94
 4449,True,Formosa,1,1,96
 4450,False,Formosa,3697,3442,0
 4451,False,Formosa,3647,3762,1
@@ -4546,14 +4546,14 @@
 4544,False,Formosa,10,3,94
 4545,False,Formosa,2,5,95
 4546,False,Formosa,11,2,96
-4547,False,Formosa,1,-,97
-4548,False,Formosa,1,-,98
+4547,False,Formosa,1,0,97
+4548,False,Formosa,1,0,98
 4549,False,Formosa,1,1,100
-4550,False,Formosa,-,1,101
+4550,False,Formosa,0,1,101
 4551,False,Formosa,1,2,102
-4552,False,Formosa,-,1,104
-4553,False,Formosa,-,1,105
-4554,False,Formosa,-,1,107
+4552,False,Formosa,0,1,104
+4553,False,Formosa,0,1,105
+4554,False,Formosa,0,1,107
 4555,True,Jujuy,1820,1689,0
 4556,True,Jujuy,1975,1901,1
 4557,True,Jujuy,1847,2114,2
@@ -4655,8 +4655,8 @@
 4653,True,Jujuy,1,4,98
 4654,True,Jujuy,2,7,99
 4655,True,Jujuy,1,6,100
-4656,True,Jujuy,-,9,101
-4657,True,Jujuy,-,1,105
+4656,True,Jujuy,0,9,101
+4657,True,Jujuy,0,1,105
 4658,True,Jujuy,362,430,0
 4659,True,Jujuy,484,405,1
 4660,True,Jujuy,500,449,2
@@ -4747,12 +4747,12 @@
 4745,True,Jujuy,11,10,87
 4746,True,Jujuy,1,13,88
 4747,True,Jujuy,1,1,89
-4748,True,Jujuy,-,11,90
-4749,True,Jujuy,2,-,91
+4748,True,Jujuy,0,11,90
+4749,True,Jujuy,2,0,91
 4750,True,Jujuy,1,13,92
-4751,True,Jujuy,-,1,93
-4752,True,Jujuy,-,1,97
-4753,True,Jujuy,-,10,109
+4751,True,Jujuy,0,1,93
+4752,True,Jujuy,0,1,97
+4753,True,Jujuy,0,10,109
 4754,True,Jujuy,127,124,0
 4755,True,Jujuy,134,144,1
 4756,True,Jujuy,155,222,2
@@ -4827,23 +4827,23 @@
 4825,True,Jujuy,3,1,71
 4826,True,Jujuy,11,3,72
 4827,True,Jujuy,3,13,73
-4828,True,Jujuy,-,6,74
+4828,True,Jujuy,0,6,74
 4829,True,Jujuy,4,14,75
 4830,True,Jujuy,6,13,76
 4831,True,Jujuy,2,4,77
 4832,True,Jujuy,32,2,78
 4833,True,Jujuy,2,2,79
-4834,True,Jujuy,17,-,80
-4835,True,Jujuy,-,2,81
+4834,True,Jujuy,17,0,80
+4835,True,Jujuy,0,2,81
 4836,True,Jujuy,2,2,82
 4837,True,Jujuy,1,1,83
 4838,True,Jujuy,2,11,84
 4839,True,Jujuy,1,24,85
-4840,True,Jujuy,1,-,87
+4840,True,Jujuy,1,0,87
 4841,True,Jujuy,10,1,88
-4842,True,Jujuy,-,6,90
+4842,True,Jujuy,0,6,90
 4843,True,Jujuy,1,1,93
-4844,True,Jujuy,1,-,95
+4844,True,Jujuy,1,0,95
 4845,True,Jujuy,608,551,0
 4846,True,Jujuy,514,475,1
 4847,True,Jujuy,490,471,2
@@ -4933,16 +4933,16 @@
 4931,True,Jujuy,12,22,86
 4932,True,Jujuy,2,3,87
 4933,True,Jujuy,3,3,88
-4934,True,Jujuy,-,12,89
+4934,True,Jujuy,0,12,89
 4935,True,Jujuy,1,1,90
 4936,True,Jujuy,2,1,91
 4937,True,Jujuy,3,5,92
 4938,True,Jujuy,1,13,93
-4939,True,Jujuy,1,-,94
-4940,True,Jujuy,-,2,95
-4941,True,Jujuy,-,1,96
-4942,True,Jujuy,1,-,97
-4943,True,Jujuy,-,1,100
+4939,True,Jujuy,1,0,94
+4940,True,Jujuy,0,2,95
+4941,True,Jujuy,0,1,96
+4942,True,Jujuy,1,0,97
+4943,True,Jujuy,0,1,100
 4944,False,Jujuy,3113,3324,0
 4945,False,Jujuy,3262,3158,1
 4946,False,Jujuy,3081,3169,2
@@ -5039,14 +5039,14 @@
 5037,False,Jujuy,4,7,93
 5038,False,Jujuy,4,6,94
 5039,False,Jujuy,10,7,95
-5040,False,Jujuy,-,1,96
-5041,False,Jujuy,-,5,97
-5042,False,Jujuy,-,2,99
+5040,False,Jujuy,0,1,96
+5041,False,Jujuy,0,5,97
+5042,False,Jujuy,0,2,99
 5043,False,Jujuy,3,2,100
-5044,False,Jujuy,-,1,101
-5045,False,Jujuy,-,1,103
-5046,False,Jujuy,1,-,108
-5047,False,Jujuy,2,-,110
+5044,False,Jujuy,0,1,101
+5045,False,Jujuy,0,1,103
+5046,False,Jujuy,1,0,108
+5047,False,Jujuy,2,0,110
 5048,True,La Pampa,1213,980,0
 5049,True,La Pampa,1119,971,1
 5050,True,La Pampa,1116,1023,2
@@ -5147,11 +5147,11 @@
 5145,True,La Pampa,2,31,97
 5146,True,La Pampa,4,8,98
 5147,True,La Pampa,3,22,99
-5148,True,La Pampa,-,7,100
+5148,True,La Pampa,0,7,100
 5149,True,La Pampa,1,3,101
-5150,True,La Pampa,-,1,102
+5150,True,La Pampa,0,1,102
 5151,True,La Pampa,1,1,103
-5152,True,La Pampa,-,1,104
+5152,True,La Pampa,0,1,104
 5153,True,La Pampa,152,190,0
 5154,True,La Pampa,198,228,1
 5155,True,La Pampa,233,222,2
@@ -5240,10 +5240,10 @@
 5238,True,La Pampa,3,7,85
 5239,True,La Pampa,3,1,86
 5240,True,La Pampa,3,13,87
-5241,True,La Pampa,-,11,88
+5241,True,La Pampa,0,11,88
 5242,True,La Pampa,1,9,89
-5243,True,La Pampa,-,1,91
-5244,True,La Pampa,3,-,93
+5243,True,La Pampa,0,1,91
+5244,True,La Pampa,3,0,93
 5245,True,La Pampa,1,1,94
 5246,True,La Pampa,67,108,0
 5247,True,La Pampa,80,73,1
@@ -5328,13 +5328,13 @@
 5326,True,La Pampa,3,3,80
 5327,True,La Pampa,7,12,81
 5328,True,La Pampa,1,2,82
-5329,True,La Pampa,3,-,83
+5329,True,La Pampa,3,0,83
 5330,True,La Pampa,8,1,84
 5331,True,La Pampa,1,2,85
 5332,True,La Pampa,1,1,86
 5333,True,La Pampa,1,2,88
-5334,True,La Pampa,-,1,90
-5335,True,La Pampa,-,1,92
+5334,True,La Pampa,0,1,90
+5335,True,La Pampa,0,1,92
 5336,True,La Pampa,177,166,0
 5337,True,La Pampa,151,194,1
 5338,True,La Pampa,196,179,2
@@ -5415,20 +5415,20 @@
 5413,True,La Pampa,19,3,77
 5414,True,La Pampa,5,9,78
 5415,True,La Pampa,3,5,79
-5416,True,La Pampa,-,6,80
+5416,True,La Pampa,0,6,80
 5417,True,La Pampa,24,24,81
 5418,True,La Pampa,4,3,82
 5419,True,La Pampa,2,12,83
 5420,True,La Pampa,2,1,84
 5421,True,La Pampa,1,3,85
-5422,True,La Pampa,-,2,86
-5423,True,La Pampa,-,1,87
+5422,True,La Pampa,0,2,86
+5423,True,La Pampa,0,1,87
 5424,True,La Pampa,1,2,88
 5425,True,La Pampa,3,1,89
-5426,True,La Pampa,-,1,90
-5427,True,La Pampa,2,-,92
-5428,True,La Pampa,-,2,97
-5429,True,La Pampa,-,1,99
+5426,True,La Pampa,0,1,90
+5427,True,La Pampa,2,0,92
+5428,True,La Pampa,0,2,97
+5429,True,La Pampa,0,1,99
 5430,False,La Pampa,1075,1099,0
 5431,False,La Pampa,1074,984,1
 5432,False,La Pampa,965,1022,2
@@ -5520,16 +5520,16 @@
 5518,False,La Pampa,3,14,88
 5519,False,La Pampa,6,3,89
 5520,False,La Pampa,2,4,90
-5521,False,La Pampa,1,-,91
+5521,False,La Pampa,1,0,91
 5522,False,La Pampa,1,3,92
-5523,False,La Pampa,-,2,93
+5523,False,La Pampa,0,2,93
 5524,False,La Pampa,2,2,94
 5525,False,La Pampa,1,1,95
-5526,False,La Pampa,-,1,96
-5527,False,La Pampa,-,1,98
-5528,False,La Pampa,-,1,99
-5529,False,La Pampa,-,1,100
-5530,False,La Pampa,1,-,106
+5526,False,La Pampa,0,1,96
+5527,False,La Pampa,0,1,98
+5528,False,La Pampa,0,1,99
+5529,False,La Pampa,0,1,100
+5530,False,La Pampa,1,0,106
 5531,True,La Rioja,1076,949,0
 5532,True,La Rioja,1129,1117,1
 5533,True,La Rioja,1229,1225,2
@@ -5632,11 +5632,11 @@
 5630,True,La Rioja,3,22,99
 5631,True,La Rioja,11,22,100
 5632,True,La Rioja,10,8,101
-5633,True,La Rioja,-,4,102
+5633,True,La Rioja,0,4,102
 5634,True,La Rioja,1,13,103
-5635,True,La Rioja,1,-,108
-5636,True,La Rioja,-,1,109
-5637,True,La Rioja,-,1,110
+5635,True,La Rioja,1,0,108
+5636,True,La Rioja,0,1,109
+5637,True,La Rioja,0,1,110
 5638,True,La Rioja,242,227,0
 5639,True,La Rioja,278,243,1
 5640,True,La Rioja,224,272,2
@@ -5728,10 +5728,10 @@
 5726,True,La Rioja,2,2,88
 5727,True,La Rioja,2,12,89
 5728,True,La Rioja,28,2,90
-5729,True,La Rioja,2,-,91
-5730,True,La Rioja,-,1,92
-5731,True,La Rioja,2,-,93
-5732,True,La Rioja,2,-,95
+5729,True,La Rioja,2,0,91
+5730,True,La Rioja,0,1,92
+5731,True,La Rioja,2,0,93
+5732,True,La Rioja,2,0,95
 5733,True,La Rioja,96,57,0
 5734,True,La Rioja,25,90,1
 5735,True,La Rioja,156,108,2
@@ -5806,18 +5806,18 @@
 5804,True,La Rioja,3,2,71
 5805,True,La Rioja,1,2,72
 5806,True,La Rioja,10,1,73
-5807,True,La Rioja,-,1,74
-5808,True,La Rioja,18,-,75
+5807,True,La Rioja,0,1,74
+5808,True,La Rioja,18,0,75
 5809,True,La Rioja,1,1,76
-5810,True,La Rioja,2,-,78
-5811,True,La Rioja,10,-,79
+5810,True,La Rioja,2,0,78
+5811,True,La Rioja,10,0,79
 5812,True,La Rioja,2,2,80
 5813,True,La Rioja,1,1,81
-5814,True,La Rioja,-,2,82
+5814,True,La Rioja,0,2,82
 5815,True,La Rioja,1,1,84
-5816,True,La Rioja,-,1,89
-5817,True,La Rioja,-,1,91
-5818,True,La Rioja,1,-,92
+5816,True,La Rioja,0,1,89
+5817,True,La Rioja,0,1,91
+5818,True,La Rioja,1,0,92
 5819,True,La Rioja,35,39,0
 5820,True,La Rioja,107,50,1
 5821,True,La Rioja,64,31,2
@@ -5905,10 +5905,10 @@
 5903,True,La Rioja,1,8,84
 5904,True,La Rioja,3,7,85
 5905,True,La Rioja,1,1,86
-5906,True,La Rioja,-,3,87
-5907,True,La Rioja,-,1,90
+5906,True,La Rioja,0,3,87
+5907,True,La Rioja,0,1,90
 5908,True,La Rioja,1,4,91
-5909,True,La Rioja,1,-,92
+5909,True,La Rioja,1,0,92
 5910,False,La Rioja,1478,1496,0
 5911,False,La Rioja,1471,1412,1
 5912,False,La Rioja,1486,1262,2
@@ -6004,11 +6004,11 @@
 6002,False,La Rioja,1,1,92
 6003,False,La Rioja,4,2,93
 6004,False,La Rioja,1,3,94
-6005,False,La Rioja,-,2,95
-6006,False,La Rioja,-,4,97
-6007,False,La Rioja,1,-,99
-6008,False,La Rioja,11,-,100
-6009,False,La Rioja,1,-,110
+6005,False,La Rioja,0,2,95
+6006,False,La Rioja,0,4,97
+6007,False,La Rioja,1,0,99
+6008,False,La Rioja,11,0,100
+6009,False,La Rioja,1,0,110
 6010,True,Mendoza,6294,6378,0
 6011,True,Mendoza,6134,6178,1
 6012,True,Mendoza,6969,6263,2
@@ -6110,13 +6110,13 @@
 6108,True,Mendoza,4,74,98
 6109,True,Mendoza,31,38,99
 6110,True,Mendoza,3,32,100
-6111,True,Mendoza,-,5,101
+6111,True,Mendoza,0,5,101
 6112,True,Mendoza,1,2,102
-6113,True,Mendoza,-,3,103
-6114,True,Mendoza,-,1,104
-6115,True,Mendoza,-,2,105
-6116,True,Mendoza,-,1,106
-6117,True,Mendoza,-,1,107
+6113,True,Mendoza,0,3,103
+6114,True,Mendoza,0,1,104
+6115,True,Mendoza,0,2,105
+6116,True,Mendoza,0,1,106
+6117,True,Mendoza,0,1,107
 6118,True,Mendoza,1336,1359,0
 6119,True,Mendoza,1486,1229,1
 6120,True,Mendoza,1342,1368,2
@@ -6211,12 +6211,12 @@
 6209,True,Mendoza,11,12,91
 6210,True,Mendoza,9,1,92
 6211,True,Mendoza,11,3,93
-6212,True,Mendoza,1,-,94
-6213,True,Mendoza,1,-,95
-6214,True,Mendoza,-,2,96
-6215,True,Mendoza,-,1,97
-6216,True,Mendoza,-,1,104
-6217,True,Mendoza,-,1,105
+6212,True,Mendoza,1,0,94
+6213,True,Mendoza,1,0,95
+6214,True,Mendoza,0,2,96
+6215,True,Mendoza,0,1,97
+6216,True,Mendoza,0,1,104
+6217,True,Mendoza,0,1,105
 6218,True,Mendoza,439,537,0
 6219,True,Mendoza,551,522,1
 6220,True,Mendoza,429,443,2
@@ -6305,15 +6305,15 @@
 6303,True,Mendoza,20,22,85
 6304,True,Mendoza,13,4,86
 6305,True,Mendoza,15,11,87
-6306,True,Mendoza,-,11,88
-6307,True,Mendoza,1,-,89
-6308,True,Mendoza,-,13,90
-6309,True,Mendoza,-,10,91
-6310,True,Mendoza,-,1,92
-6311,True,Mendoza,-,1,93
-6312,True,Mendoza,10,-,95
-6313,True,Mendoza,1,-,96
-6314,True,Mendoza,-,11,97
+6306,True,Mendoza,0,11,88
+6307,True,Mendoza,1,0,89
+6308,True,Mendoza,0,13,90
+6309,True,Mendoza,0,10,91
+6310,True,Mendoza,0,1,92
+6311,True,Mendoza,0,1,93
+6312,True,Mendoza,10,0,95
+6313,True,Mendoza,1,0,96
+6314,True,Mendoza,0,11,97
 6315,True,Mendoza,518,512,0
 6316,True,Mendoza,495,428,1
 6317,True,Mendoza,469,324,2
@@ -6407,12 +6407,12 @@
 6405,True,Mendoza,3,10,90
 6406,True,Mendoza,1,10,91
 6407,True,Mendoza,2,10,92
-6408,True,Mendoza,1,-,93
-6409,True,Mendoza,-,3,94
+6408,True,Mendoza,1,0,93
+6409,True,Mendoza,0,3,94
 6410,True,Mendoza,8,11,95
 6411,True,Mendoza,2,1,96
-6412,True,Mendoza,-,10,97
-6413,True,Mendoza,-,1,103
+6412,True,Mendoza,0,10,97
+6413,True,Mendoza,0,1,103
 6414,False,Mendoza,7216,6915,0
 6415,False,Mendoza,7229,6842,1
 6416,False,Mendoza,7141,6689,2
@@ -6508,13 +6508,13 @@
 6506,False,Mendoza,3,4,92
 6507,False,Mendoza,3,22,93
 6508,False,Mendoza,12,10,94
-6509,False,Mendoza,-,9,95
+6509,False,Mendoza,0,9,95
 6510,False,Mendoza,1,5,96
 6511,False,Mendoza,1,1,97
 6512,False,Mendoza,1,2,98
-6513,False,Mendoza,-,1,99
+6513,False,Mendoza,0,1,99
 6514,False,Mendoza,2,2,100
-6515,False,Mendoza,1,-,102
+6515,False,Mendoza,1,0,102
 6516,False,Mendoza,6,1,108
 6517,True,Misiones,3684,3690,0
 6518,True,Misiones,3830,3688,1
@@ -6618,11 +6618,11 @@
 6616,True,Misiones,1,23,99
 6617,True,Misiones,1,15,100
 6618,True,Misiones,3,4,101
-6619,True,Misiones,1,-,102
+6619,True,Misiones,1,0,102
 6620,True,Misiones,1,3,103
-6621,True,Misiones,-,1,104
+6621,True,Misiones,0,1,104
 6622,True,Misiones,1,2,105
-6623,True,Misiones,-,1,106
+6623,True,Misiones,0,1,106
 6624,True,Misiones,1,1,107
 6625,True,Misiones,1,2,110
 6626,True,Misiones,795,756,0
@@ -6712,17 +6712,17 @@
 6710,True,Misiones,12,2,84
 6711,True,Misiones,5,2,85
 6712,True,Misiones,1,18,86
-6713,True,Misiones,-,1,87
-6714,True,Misiones,-,3,88
+6713,True,Misiones,0,1,87
+6714,True,Misiones,0,3,88
 6715,True,Misiones,12,3,89
-6716,True,Misiones,1,-,90
+6716,True,Misiones,1,0,90
 6717,True,Misiones,1,1,91
 6718,True,Misiones,2,2,92
 6719,True,Misiones,2,1,93
-6720,True,Misiones,1,-,94
+6720,True,Misiones,1,0,94
 6721,True,Misiones,1,1,95
-6722,True,Misiones,1,-,98
-6723,True,Misiones,-,1,100
+6722,True,Misiones,1,0,98
+6723,True,Misiones,0,1,100
 6724,True,Misiones,166,285,0
 6725,True,Misiones,207,177,1
 6726,True,Misiones,226,169,2
@@ -6806,13 +6806,13 @@
 6804,True,Misiones,2,10,80
 6805,True,Misiones,2,2,81
 6806,True,Misiones,1,2,82
-6807,True,Misiones,-,1,83
+6807,True,Misiones,0,1,83
 6808,True,Misiones,1,1,86
 6809,True,Misiones,2,1,87
-6810,True,Misiones,-,14,89
-6811,True,Misiones,1,-,92
-6812,True,Misiones,-,1,93
-6813,True,Misiones,10,-,94
+6810,True,Misiones,0,14,89
+6811,True,Misiones,1,0,92
+6812,True,Misiones,0,1,93
+6813,True,Misiones,10,0,94
 6814,True,Misiones,1104,1204,0
 6815,True,Misiones,1052,1028,1
 6816,True,Misiones,1010,964,2
@@ -6900,7 +6900,7 @@
 6898,True,Misiones,7,6,84
 6899,True,Misiones,7,29,85
 6900,True,Misiones,1,8,86
-6901,True,Misiones,-,4,87
+6901,True,Misiones,0,4,87
 6902,True,Misiones,7,11,88
 6903,True,Misiones,3,26,89
 6904,True,Misiones,4,9,90
@@ -6909,11 +6909,11 @@
 6907,True,Misiones,1,2,93
 6908,True,Misiones,1,5,94
 6909,True,Misiones,1,1,95
-6910,True,Misiones,-,11,96
-6911,True,Misiones,-,1,97
-6912,True,Misiones,-,1,98
-6913,True,Misiones,-,1,103
-6914,True,Misiones,-,1,106
+6910,True,Misiones,0,11,96
+6911,True,Misiones,0,1,97
+6912,True,Misiones,0,1,98
+6913,True,Misiones,0,1,103
+6914,True,Misiones,0,1,106
 6915,False,Misiones,6516,6234,0
 6916,False,Misiones,5745,5467,1
 6917,False,Misiones,5515,5409,2
@@ -7016,12 +7016,12 @@
 7014,False,Misiones,1,5,99
 7015,False,Misiones,2,3,100
 7016,False,Misiones,1,4,101
-7017,False,Misiones,11,-,102
+7017,False,Misiones,11,0,102
 7018,False,Misiones,1,1,103
-7019,False,Misiones,-,11,104
-7020,False,Misiones,-,3,105
-7021,False,Misiones,1,-,106
-7022,False,Misiones,-,1,108
+7019,False,Misiones,0,11,104
+7020,False,Misiones,0,3,105
+7021,False,Misiones,1,0,106
+7022,False,Misiones,0,1,108
 7023,False,Misiones,3,2,110
 7024,True,Neuquén,2072,2199,0
 7025,True,Neuquén,2465,2265,1
@@ -7124,13 +7124,13 @@
 7122,True,Neuquén,3,17,98
 7123,True,Neuquén,2,14,99
 7124,True,Neuquén,1,4,100
-7125,True,Neuquén,-,5,101
-7126,True,Neuquén,-,1,102
-7127,True,Neuquén,1,-,103
-7128,True,Neuquén,-,2,104
-7129,True,Neuquén,-,1,105
-7130,True,Neuquén,-,1,108
-7131,True,Neuquén,-,1,109
+7125,True,Neuquén,0,5,101
+7126,True,Neuquén,0,1,102
+7127,True,Neuquén,1,0,103
+7128,True,Neuquén,0,2,104
+7129,True,Neuquén,0,1,105
+7130,True,Neuquén,0,1,108
+7131,True,Neuquén,0,1,109
 7132,True,Neuquén,483,447,0
 7133,True,Neuquén,494,561,1
 7134,True,Neuquén,538,592,2
@@ -7222,13 +7222,13 @@
 7220,True,Neuquén,1,3,88
 7221,True,Neuquén,3,14,89
 7222,True,Neuquén,2,12,90
-7223,True,Neuquén,-,1,91
-7224,True,Neuquén,-,11,92
-7225,True,Neuquén,-,1,93
-7226,True,Neuquén,-,1,94
+7223,True,Neuquén,0,1,91
+7224,True,Neuquén,0,11,92
+7225,True,Neuquén,0,1,93
+7226,True,Neuquén,0,1,94
 7227,True,Neuquén,9,1,95
-7228,True,Neuquén,-,1,99
-7229,True,Neuquén,-,1,110
+7228,True,Neuquén,0,1,99
+7229,True,Neuquén,0,1,110
 7230,True,Neuquén,103,93,0
 7231,True,Neuquén,122,78,1
 7232,True,Neuquén,116,74,2
@@ -7314,14 +7314,14 @@
 7312,True,Neuquén,4,4,82
 7313,True,Neuquén,11,1,83
 7314,True,Neuquén,2,1,84
-7315,True,Neuquén,-,1,86
-7316,True,Neuquén,-,1,87
-7317,True,Neuquén,1,-,88
-7318,True,Neuquén,-,2,89
+7315,True,Neuquén,0,1,86
+7316,True,Neuquén,0,1,87
+7317,True,Neuquén,1,0,88
+7318,True,Neuquén,0,2,89
 7319,True,Neuquén,1,3,90
-7320,True,Neuquén,-,11,91
-7321,True,Neuquén,-,1,92
-7322,True,Neuquén,1,-,93
+7320,True,Neuquén,0,11,91
+7321,True,Neuquén,0,1,92
+7322,True,Neuquén,1,0,93
 7323,True,Neuquén,117,97,0
 7324,True,Neuquén,127,122,1
 7325,True,Neuquén,93,99,2
@@ -7408,16 +7408,16 @@
 7406,True,Neuquén,3,2,83
 7407,True,Neuquén,3,5,84
 7408,True,Neuquén,14,19,85
-7409,True,Neuquén,-,4,86
+7409,True,Neuquén,0,4,86
 7410,True,Neuquén,1,2,87
 7411,True,Neuquén,1,3,88
 7412,True,Neuquén,1,3,89
 7413,True,Neuquén,3,2,90
-7414,True,Neuquén,1,-,92
-7415,True,Neuquén,-,1,93
+7414,True,Neuquén,1,0,92
+7415,True,Neuquén,0,1,93
 7416,True,Neuquén,1,4,94
-7417,True,Neuquén,1,-,95
-7418,True,Neuquén,-,1,100
+7417,True,Neuquén,1,0,95
+7418,True,Neuquén,0,1,100
 7419,False,Neuquén,2259,2193,0
 7420,False,Neuquén,2093,1958,1
 7421,False,Neuquén,2438,1768,2
@@ -7512,16 +7512,16 @@
 7510,False,Neuquén,17,7,91
 7511,False,Neuquén,1,10,92
 7512,False,Neuquén,1,9,93
-7513,False,Neuquén,-,12,94
+7513,False,Neuquén,0,12,94
 7514,False,Neuquén,2,12,95
-7515,False,Neuquén,-,1,96
+7515,False,Neuquén,0,1,96
 7516,False,Neuquén,1,2,97
 7517,False,Neuquén,1,4,98
-7518,False,Neuquén,-,1,99
-7519,False,Neuquén,-,1,100
-7520,False,Neuquén,-,1,105
-7521,False,Neuquén,-,1,107
-7522,False,Neuquén,-,13,110
+7518,False,Neuquén,0,1,99
+7519,False,Neuquén,0,1,100
+7520,False,Neuquén,0,1,105
+7521,False,Neuquén,0,1,107
+7522,False,Neuquén,0,13,110
 7523,True,Río negro,2183,2297,0
 7524,True,Río negro,2421,2198,1
 7525,True,Río negro,2441,2510,2
@@ -7624,11 +7624,11 @@
 7622,True,Río negro,6,4,99
 7623,True,Río negro,2,10,100
 7624,True,Río negro,2,3,101
-7625,True,Río negro,-,1,102
-7626,True,Río negro,-,1,103
-7627,True,Río negro,-,1,104
-7628,True,Río negro,-,2,109
-7629,True,Río negro,-,1,110
+7625,True,Río negro,0,1,102
+7626,True,Río negro,0,1,103
+7627,True,Río negro,0,1,104
+7628,True,Río negro,0,2,109
+7629,True,Río negro,0,1,110
 7630,True,Río negro,629,560,0
 7631,True,Río negro,671,664,1
 7632,True,Río negro,459,446,2
@@ -7717,15 +7717,15 @@
 7715,True,Río negro,1,4,85
 7716,True,Río negro,2,2,86
 7717,True,Río negro,3,4,87
-7718,True,Río negro,-,1,88
-7719,True,Río negro,1,-,89
+7718,True,Río negro,0,1,88
+7719,True,Río negro,1,0,89
 7720,True,Río negro,1,1,90
-7721,True,Río negro,-,12,91
-7722,True,Río negro,1,-,92
-7723,True,Río negro,-,1,94
-7724,True,Río negro,-,1,95
-7725,True,Río negro,-,1,97
-7726,True,Río negro,-,1,98
+7721,True,Río negro,0,12,91
+7722,True,Río negro,1,0,92
+7723,True,Río negro,0,1,94
+7724,True,Río negro,0,1,95
+7725,True,Río negro,0,1,97
+7726,True,Río negro,0,1,98
 7727,True,Río negro,183,171,0
 7728,True,Río negro,194,189,1
 7729,True,Río negro,157,187,2
@@ -7814,13 +7814,13 @@
 7812,True,Río negro,2,1,85
 7813,True,Río negro,3,9,86
 7814,True,Río negro,2,1,87
-7815,True,Río negro,-,1,88
+7815,True,Río negro,0,1,88
 7816,True,Río negro,3,1,89
 7817,True,Río negro,3,2,90
 7818,True,Río negro,1,1,91
-7819,True,Río negro,-,8,94
-7820,True,Río negro,-,1,95
-7821,True,Río negro,-,1,97
+7819,True,Río negro,0,8,94
+7820,True,Río negro,0,1,95
+7821,True,Río negro,0,1,97
 7822,True,Río negro,138,138,0
 7823,True,Río negro,125,146,1
 7824,True,Río negro,128,100,2
@@ -7909,14 +7909,14 @@
 7907,True,Río negro,5,4,85
 7908,True,Río negro,2,2,86
 7909,True,Río negro,3,12,87
-7910,True,Río negro,-,4,88
-7911,True,Río negro,-,4,89
-7912,True,Río negro,-,11,90
+7910,True,Río negro,0,4,88
+7911,True,Río negro,0,4,89
+7912,True,Río negro,0,11,90
 7913,True,Río negro,1,9,91
-7914,True,Río negro,-,4,92
-7915,True,Río negro,-,9,93
-7916,True,Río negro,-,2,95
-7917,True,Río negro,-,2,100
+7914,True,Río negro,0,4,92
+7915,True,Río negro,0,9,93
+7916,True,Río negro,0,2,95
+7917,True,Río negro,0,2,100
 7918,False,Río negro,2397,2132,0
 7919,False,Río negro,2183,2124,1
 7920,False,Río negro,2285,2095,2
@@ -8010,15 +8010,15 @@
 8008,False,Río negro,10,20,90
 8009,False,Río negro,5,8,91
 8010,False,Río negro,4,15,92
-8011,False,Río negro,-,3,93
+8011,False,Río negro,0,3,93
 8012,False,Río negro,4,7,94
 8013,False,Río negro,2,2,95
 8014,False,Río negro,1,13,96
-8015,False,Río negro,-,1,97
-8016,False,Río negro,-,3,98
-8017,False,Río negro,-,1,100
-8018,False,Río negro,-,1,105
-8019,False,Río negro,1,-,110
+8015,False,Río negro,0,1,97
+8016,False,Río negro,0,3,98
+8017,False,Río negro,0,1,100
+8018,False,Río negro,0,1,105
+8019,False,Río negro,1,0,110
 8020,True,Salta,3487,3750,0
 8021,True,Salta,3920,3499,1
 8022,True,Salta,3839,3354,2
@@ -8122,9 +8122,9 @@
 8120,True,Salta,5,10,100
 8121,True,Salta,12,3,101
 8122,True,Salta,21,5,102
-8123,True,Salta,-,2,104
-8124,True,Salta,-,1,105
-8125,True,Salta,-,4,110
+8123,True,Salta,0,2,104
+8124,True,Salta,0,1,105
+8125,True,Salta,0,4,110
 8126,True,Salta,887,812,0
 8127,True,Salta,870,827,1
 8128,True,Salta,866,933,2
@@ -8216,14 +8216,14 @@
 8214,True,Salta,4,14,88
 8215,True,Salta,4,13,89
 8216,True,Salta,1,1,90
-8217,True,Salta,-,2,91
-8218,True,Salta,-,3,92
+8217,True,Salta,0,2,91
+8218,True,Salta,0,3,92
 8219,True,Salta,1,10,93
 8220,True,Salta,10,1,94
-8221,True,Salta,-,1,95
-8222,True,Salta,1,-,96
-8223,True,Salta,1,-,98
-8224,True,Salta,-,1,101
+8221,True,Salta,0,1,95
+8222,True,Salta,1,0,96
+8223,True,Salta,1,0,98
+8224,True,Salta,0,1,101
 8225,True,Salta,226,244,0
 8226,True,Salta,175,235,1
 8227,True,Salta,253,234,2
@@ -8308,14 +8308,14 @@
 8306,True,Salta,1,3,81
 8307,True,Salta,1,2,82
 8308,True,Salta,2,11,83
-8309,True,Salta,3,-,84
+8309,True,Salta,3,0,84
 8310,True,Salta,11,1,85
-8311,True,Salta,-,1,87
+8311,True,Salta,0,1,87
 8312,True,Salta,1,1,88
-8313,True,Salta,-,2,89
-8314,True,Salta,1,-,90
-8315,True,Salta,-,11,92
-8316,True,Salta,1,-,97
+8313,True,Salta,0,2,89
+8314,True,Salta,1,0,90
+8315,True,Salta,0,11,92
+8316,True,Salta,1,0,97
 8317,True,Salta,735,580,0
 8318,True,Salta,549,626,1
 8319,True,Salta,706,685,2
@@ -8408,15 +8408,15 @@
 8406,True,Salta,13,16,89
 8407,True,Salta,4,6,90
 8408,True,Salta,2,3,91
-8409,True,Salta,-,1,92
+8409,True,Salta,0,1,92
 8410,True,Salta,3,13,93
 8411,True,Salta,1,3,94
-8412,True,Salta,-,2,95
+8412,True,Salta,0,2,95
 8413,True,Salta,10,1,96
-8414,True,Salta,-,1,97
-8415,True,Salta,-,1,98
-8416,True,Salta,1,-,99
-8417,True,Salta,1,-,100
+8414,True,Salta,0,1,97
+8415,True,Salta,0,1,98
+8416,True,Salta,1,0,99
+8417,True,Salta,1,0,100
 8418,False,Salta,7850,7278,0
 8419,False,Salta,6767,6657,1
 8420,False,Salta,6805,6484,2
@@ -8517,14 +8517,14 @@
 8515,False,Salta,2,2,97
 8516,False,Salta,2,5,98
 8517,False,Salta,2,5,99
-8518,False,Salta,-,2,100
+8518,False,Salta,0,2,100
 8519,False,Salta,1,9,101
 8520,False,Salta,1,1,102
-8521,False,Salta,-,1,103
-8522,False,Salta,-,1,104
-8523,False,Salta,-,1,105
-8524,False,Salta,-,1,109
-8525,False,Salta,2,-,110
+8521,False,Salta,0,1,103
+8522,False,Salta,0,1,104
+8523,False,Salta,0,1,105
+8524,False,Salta,0,1,109
+8525,False,Salta,2,0,110
 8526,True,San Juan,1992,1676,0
 8527,True,San Juan,2126,1874,1
 8528,True,San Juan,2042,2040,2
@@ -8626,13 +8626,13 @@
 8624,True,San Juan,1,6,98
 8625,True,San Juan,1,30,99
 8626,True,San Juan,2,2,100
-8627,True,San Juan,-,2,101
-8628,True,San Juan,9,-,102
-8629,True,San Juan,2,-,103
-8630,True,San Juan,-,1,104
-8631,True,San Juan,1,-,105
-8632,True,San Juan,-,1,108
-8633,True,San Juan,-,1,109
+8627,True,San Juan,0,2,101
+8628,True,San Juan,9,0,102
+8629,True,San Juan,2,0,103
+8630,True,San Juan,0,1,104
+8631,True,San Juan,1,0,105
+8632,True,San Juan,0,1,108
+8633,True,San Juan,0,1,109
 8634,True,San Juan,634,525,0
 8635,True,San Juan,643,550,1
 8636,True,San Juan,707,573,2
@@ -8723,10 +8723,10 @@
 8721,True,San Juan,4,14,87
 8722,True,San Juan,10,12,88
 8723,True,San Juan,1,11,89
-8724,True,San Juan,-,3,90
-8725,True,San Juan,-,13,93
-8726,True,San Juan,-,11,94
-8727,True,San Juan,1,-,96
+8724,True,San Juan,0,3,90
+8725,True,San Juan,0,13,93
+8726,True,San Juan,0,11,94
+8727,True,San Juan,1,0,96
 8728,True,San Juan,1,1,97
 8729,True,San Juan,96,205,0
 8730,True,San Juan,199,170,1
@@ -8813,13 +8813,13 @@
 8811,True,San Juan,1,9,82
 8812,True,San Juan,10,10,83
 8813,True,San Juan,1,2,84
-8814,True,San Juan,-,10,85
-8815,True,San Juan,-,9,86
-8816,True,San Juan,-,2,89
+8814,True,San Juan,0,10,85
+8815,True,San Juan,0,9,86
+8816,True,San Juan,0,2,89
 8817,True,San Juan,1,7,90
-8818,True,San Juan,1,-,93
-8819,True,San Juan,1,-,95
-8820,True,San Juan,-,7,96
+8818,True,San Juan,1,0,93
+8819,True,San Juan,1,0,95
+8820,True,San Juan,0,7,96
 8821,True,San Juan,273,243,0
 8822,True,San Juan,233,213,1
 8823,True,San Juan,239,224,2
@@ -8910,11 +8910,11 @@
 8908,True,San Juan,3,20,87
 8909,True,San Juan,9,18,88
 8910,True,San Juan,3,1,89
-8911,True,San Juan,2,-,90
-8912,True,San Juan,-,3,93
-8913,True,San Juan,1,-,95
-8914,True,San Juan,-,1,96
-8915,True,San Juan,1,-,101
+8911,True,San Juan,2,0,90
+8912,True,San Juan,0,3,93
+8913,True,San Juan,1,0,95
+8914,True,San Juan,0,1,96
+8915,True,San Juan,1,0,101
 8916,False,San Juan,3688,3446,0
 8917,False,San Juan,3504,3436,1
 8918,False,San Juan,3648,3411,2
@@ -9010,11 +9010,11 @@
 9008,False,San Juan,9,13,92
 9009,False,San Juan,1,2,93
 9010,False,San Juan,2,1,94
-9011,False,San Juan,-,2,95
+9011,False,San Juan,0,2,95
 9012,False,San Juan,11,10,96
-9013,False,San Juan,-,1,98
+9013,False,San Juan,0,1,98
 9014,False,San Juan,1,1,99
-9015,False,San Juan,-,2,100
+9015,False,San Juan,0,2,100
 9016,True,San Luis,1506,1306,0
 9017,True,San Luis,1594,1555,1
 9018,True,San Luis,1771,1503,2
@@ -9115,12 +9115,12 @@
 9113,True,San Luis,4,10,97
 9114,True,San Luis,2,23,98
 9115,True,San Luis,10,16,99
-9116,True,San Luis,-,4,100
+9116,True,San Luis,0,4,100
 9117,True,San Luis,10,1,101
-9118,True,San Luis,-,2,102
+9118,True,San Luis,0,2,102
 9119,True,San Luis,1,2,103
-9120,True,San Luis,-,11,106
-9121,True,San Luis,1,-,110
+9120,True,San Luis,0,11,106
+9121,True,San Luis,1,0,110
 9122,True,San Luis,340,380,0
 9123,True,San Luis,316,360,1
 9124,True,San Luis,336,264,2
@@ -9209,15 +9209,15 @@
 9207,True,San Luis,22,13,85
 9208,True,San Luis,14,6,86
 9209,True,San Luis,1,2,87
-9210,True,San Luis,-,11,88
-9211,True,San Luis,-,18,89
+9210,True,San Luis,0,11,88
+9211,True,San Luis,0,18,89
 9212,True,San Luis,1,3,90
 9213,True,San Luis,3,1,91
-9214,True,San Luis,-,1,92
-9215,True,San Luis,-,1,93
-9216,True,San Luis,1,-,94
-9217,True,San Luis,-,1,101
-9218,True,San Luis,-,1,110
+9214,True,San Luis,0,1,92
+9215,True,San Luis,0,1,93
+9216,True,San Luis,1,0,94
+9217,True,San Luis,0,1,101
+9218,True,San Luis,0,1,110
 9219,True,San Luis,47,143,0
 9220,True,San Luis,61,48,1
 9221,True,San Luis,126,52,2
@@ -9302,11 +9302,11 @@
 9300,True,San Luis,1,10,81
 9301,True,San Luis,3,3,82
 9302,True,San Luis,1,2,83
-9303,True,San Luis,-,1,85
-9304,True,San Luis,-,9,86
+9303,True,San Luis,0,1,85
+9304,True,San Luis,0,9,86
 9305,True,San Luis,1,2,87
-9306,True,San Luis,-,10,88
-9307,True,San Luis,-,1,89
+9306,True,San Luis,0,10,88
+9307,True,San Luis,0,1,89
 9308,True,San Luis,127,125,0
 9309,True,San Luis,128,77,1
 9310,True,San Luis,67,81,2
@@ -9399,12 +9399,12 @@
 9397,True,San Luis,1,3,89
 9398,True,San Luis,2,5,90
 9399,True,San Luis,3,1,91
-9400,True,San Luis,-,21,92
-9401,True,San Luis,-,1,93
-9402,True,San Luis,-,3,94
-9403,True,San Luis,-,2,95
-9404,True,San Luis,-,1,96
-9405,True,San Luis,1,-,97
+9400,True,San Luis,0,21,92
+9401,True,San Luis,0,1,93
+9402,True,San Luis,0,3,94
+9403,True,San Luis,0,2,95
+9404,True,San Luis,0,1,96
+9405,True,San Luis,1,0,97
 9406,True,San Luis,1,1,98
 9407,False,San Luis,1684,1705,0
 9408,False,San Luis,1765,1611,1
@@ -9497,12 +9497,12 @@
 9495,False,San Luis,1,6,88
 9496,False,San Luis,4,14,89
 9497,False,San Luis,13,15,90
-9498,False,San Luis,-,13,91
+9498,False,San Luis,0,13,91
 9499,False,San Luis,1,4,92
 9500,False,San Luis,2,14,93
-9501,False,San Luis,1,-,94
-9502,False,San Luis,-,2,95
-9503,False,San Luis,-,8,96
+9501,False,San Luis,1,0,94
+9502,False,San Luis,0,2,95
+9503,False,San Luis,0,8,96
 9504,False,San Luis,1,1,99
 9505,True,Santa Cruz,1703,1620,0
 9506,True,Santa Cruz,1735,1431,1
@@ -9600,11 +9600,11 @@
 9598,True,Santa Cruz,1,19,93
 9599,True,Santa Cruz,5,26,94
 9600,True,Santa Cruz,4,5,95
-9601,True,Santa Cruz,-,2,96
-9602,True,Santa Cruz,-,5,97
+9601,True,Santa Cruz,0,2,96
+9602,True,Santa Cruz,0,5,97
 9603,True,Santa Cruz,10,3,98
-9604,True,Santa Cruz,-,1,99
-9605,True,Santa Cruz,1,-,104
+9604,True,Santa Cruz,0,1,99
+9605,True,Santa Cruz,1,0,104
 9606,True,Santa Cruz,297,285,0
 9607,True,Santa Cruz,355,297,1
 9608,True,Santa Cruz,349,298,2
@@ -9687,7 +9687,7 @@
 9685,True,Santa Cruz,11,5,79
 9686,True,Santa Cruz,8,9,80
 9687,True,Santa Cruz,7,10,81
-9688,True,Santa Cruz,2,-,82
+9688,True,Santa Cruz,2,0,82
 9689,True,Santa Cruz,5,4,83
 9690,True,Santa Cruz,2,4,84
 9691,True,Santa Cruz,9,2,85
@@ -9695,9 +9695,9 @@
 9693,True,Santa Cruz,17,3,87
 9694,True,Santa Cruz,2,1,88
 9695,True,Santa Cruz,3,10,89
-9696,True,Santa Cruz,-,6,90
-9697,True,Santa Cruz,-,2,91
-9698,True,Santa Cruz,-,9,93
+9696,True,Santa Cruz,0,6,90
+9697,True,Santa Cruz,0,2,91
+9698,True,Santa Cruz,0,9,93
 9699,True,Santa Cruz,1,1,94
 9700,True,Santa Cruz,49,39,0
 9701,True,Santa Cruz,69,52,1
@@ -9778,13 +9778,13 @@
 9776,True,Santa Cruz,4,5,76
 9777,True,Santa Cruz,8,3,77
 9778,True,Santa Cruz,1,1,78
-9779,True,Santa Cruz,8,-,79
+9779,True,Santa Cruz,8,0,79
 9780,True,Santa Cruz,5,1,81
 9781,True,Santa Cruz,2,1,82
 9782,True,Santa Cruz,1,1,83
-9783,True,Santa Cruz,-,3,84
-9784,True,Santa Cruz,1,-,85
-9785,True,Santa Cruz,2,-,87
+9783,True,Santa Cruz,0,3,84
+9784,True,Santa Cruz,1,0,85
+9785,True,Santa Cruz,2,0,87
 9786,True,Santa Cruz,10,2,88
 9787,True,Santa Cruz,1,1,90
 9788,True,Santa Cruz,232,216,0
@@ -9869,19 +9869,19 @@
 9867,True,Santa Cruz,3,18,79
 9868,True,Santa Cruz,6,10,80
 9869,True,Santa Cruz,1,17,81
-9870,True,Santa Cruz,4,-,82
+9870,True,Santa Cruz,4,0,82
 9871,True,Santa Cruz,2,4,83
 9872,True,Santa Cruz,3,3,84
 9873,True,Santa Cruz,5,5,85
-9874,True,Santa Cruz,1,-,86
-9875,True,Santa Cruz,-,1,87
+9874,True,Santa Cruz,1,0,86
+9875,True,Santa Cruz,0,1,87
 9876,True,Santa Cruz,1,1,88
-9877,True,Santa Cruz,1,-,89
+9877,True,Santa Cruz,1,0,89
 9878,True,Santa Cruz,1,3,90
-9879,True,Santa Cruz,-,1,92
-9880,True,Santa Cruz,1,-,96
-9881,True,Santa Cruz,-,1,97
-9882,True,Santa Cruz,1,-,100
+9879,True,Santa Cruz,0,1,92
+9880,True,Santa Cruz,1,0,96
+9881,True,Santa Cruz,0,1,97
+9882,True,Santa Cruz,1,0,100
 9883,False,Santa Cruz,488,476,0
 9884,False,Santa Cruz,431,479,1
 9885,False,Santa Cruz,362,502,2
@@ -9971,14 +9971,14 @@
 9969,False,Santa Cruz,2,9,86
 9970,False,Santa Cruz,2,2,87
 9971,False,Santa Cruz,4,4,89
-9972,False,Santa Cruz,-,4,90
+9972,False,Santa Cruz,0,4,90
 9973,False,Santa Cruz,1,4,91
 9974,False,Santa Cruz,1,3,92
-9975,False,Santa Cruz,-,1,93
-9976,False,Santa Cruz,-,1,94
+9975,False,Santa Cruz,0,1,93
+9976,False,Santa Cruz,0,1,94
 9977,False,Santa Cruz,1,1,95
-9978,False,Santa Cruz,-,1,97
-9979,False,Santa Cruz,1,-,99
+9978,False,Santa Cruz,0,1,97
+9979,False,Santa Cruz,1,0,99
 9980,True,Santa Fe,9205,8741,0
 9981,True,Santa Fe,9048,8875,1
 9982,True,Santa Fe,8878,9010,2
@@ -10083,11 +10083,11 @@
 10081,True,Santa Fe,19,39,101
 10082,True,Santa Fe,13,32,102
 10083,True,Santa Fe,4,35,103
-10084,True,Santa Fe,-,2,104
+10084,True,Santa Fe,0,2,104
 10085,True,Santa Fe,11,14,105
-10086,True,Santa Fe,1,-,106
+10086,True,Santa Fe,1,0,106
 10087,True,Santa Fe,1,1,107
-10088,True,Santa Fe,1,-,108
+10088,True,Santa Fe,1,0,108
 10089,True,Santa Fe,2,1,110
 10090,True,Santa Fe,3301,3283,0
 10091,True,Santa Fe,3572,3407,1
@@ -10188,11 +10188,11 @@
 10186,True,Santa Fe,2,11,96
 10187,True,Santa Fe,2,31,97
 10188,True,Santa Fe,3,7,98
-10189,True,Santa Fe,-,2,99
-10190,True,Santa Fe,-,10,100
-10191,True,Santa Fe,1,-,101
-10192,True,Santa Fe,-,1,107
-10193,True,Santa Fe,-,1,109
+10189,True,Santa Fe,0,2,99
+10190,True,Santa Fe,0,10,100
+10191,True,Santa Fe,1,0,101
+10192,True,Santa Fe,0,1,107
+10193,True,Santa Fe,0,1,109
 10194,True,Santa Fe,1616,1467,0
 10195,True,Santa Fe,1663,1639,1
 10196,True,Santa Fe,1632,1784,2
@@ -10290,11 +10290,11 @@
 10288,True,Santa Fe,2,9,94
 10289,True,Santa Fe,3,25,95
 10290,True,Santa Fe,3,2,96
-10291,True,Santa Fe,-,13,97
+10291,True,Santa Fe,0,13,97
 10292,True,Santa Fe,10,16,98
-10293,True,Santa Fe,-,1,99
-10294,True,Santa Fe,-,1,100
-10295,True,Santa Fe,-,1,103
+10293,True,Santa Fe,0,1,99
+10294,True,Santa Fe,0,1,100
+10295,True,Santa Fe,0,1,103
 10296,True,Santa Fe,427,496,0
 10297,True,Santa Fe,545,556,1
 10298,True,Santa Fe,560,549,2
@@ -10391,12 +10391,12 @@
 10389,True,Santa Fe,10,12,93
 10390,True,Santa Fe,20,11,94
 10391,True,Santa Fe,11,3,95
-10392,True,Santa Fe,-,1,96
-10393,True,Santa Fe,-,12,97
-10394,True,Santa Fe,-,2,98
+10392,True,Santa Fe,0,1,96
+10393,True,Santa Fe,0,12,97
+10394,True,Santa Fe,0,2,98
 10395,True,Santa Fe,1,2,100
-10396,True,Santa Fe,1,-,101
-10397,True,Santa Fe,-,1,110
+10396,True,Santa Fe,1,0,101
+10397,True,Santa Fe,0,1,110
 10398,False,Santa Fe,10663,10163,0
 10399,False,Santa Fe,10200,10212,1
 10400,False,Santa Fe,10612,9815,2
@@ -10492,16 +10492,16 @@
 10490,False,Santa Fe,9,24,92
 10491,False,Santa Fe,15,40,93
 10492,False,Santa Fe,5,6,94
-10493,False,Santa Fe,-,7,95
+10493,False,Santa Fe,0,7,95
 10494,False,Santa Fe,2,8,96
 10495,False,Santa Fe,2,2,97
 10496,False,Santa Fe,3,3,98
 10497,False,Santa Fe,2,12,99
-10498,False,Santa Fe,-,11,100
-10499,False,Santa Fe,-,1,101
-10500,False,Santa Fe,1,-,103
-10501,False,Santa Fe,-,1,107
-10502,False,Santa Fe,1,-,108
+10498,False,Santa Fe,0,11,100
+10499,False,Santa Fe,0,1,101
+10500,False,Santa Fe,1,0,103
+10501,False,Santa Fe,0,1,107
+10502,False,Santa Fe,1,0,108
 10503,False,Santa Fe,1,1,109
 10504,False,Santa Fe,1,1,110
 10505,False,Santa Fe,25212,24150,0
@@ -10608,11 +10608,11 @@
 10606,False,Santa Fe,21,40,101
 10607,False,Santa Fe,13,32,102
 10608,False,Santa Fe,5,36,103
-10609,False,Santa Fe,-,2,104
+10609,False,Santa Fe,0,2,104
 10610,False,Santa Fe,11,14,105
-10611,False,Santa Fe,1,-,106
+10611,False,Santa Fe,1,0,106
 10612,False,Santa Fe,1,3,107
-10613,False,Santa Fe,2,-,108
+10613,False,Santa Fe,2,0,108
 10614,False,Santa Fe,1,2,109
 10615,False,Santa Fe,3,3,110
 10616,True,Santiago del Estero,1702,1535,0
@@ -10721,11 +10721,11 @@
 10719,True,Santiago del Estero,2,1,103
 10720,True,Santiago del Estero,3,1,104
 10721,True,Santiago del Estero,1,2,105
-10722,True,Santiago del Estero,1,-,106
-10723,True,Santiago del Estero,1,-,107
-10724,True,Santiago del Estero,-,1,108
-10725,True,Santiago del Estero,-,1,109
-10726,True,Santiago del Estero,-,2,110
+10722,True,Santiago del Estero,1,0,106
+10723,True,Santiago del Estero,1,0,107
+10724,True,Santiago del Estero,0,1,108
+10725,True,Santiago del Estero,0,1,109
+10726,True,Santiago del Estero,0,2,110
 10727,True,Santiago del Estero,361,430,0
 10728,True,Santiago del Estero,400,422,1
 10729,True,Santiago del Estero,518,389,2
@@ -10821,11 +10821,11 @@
 10819,True,Santiago del Estero,10,13,92
 10820,True,Santiago del Estero,1,12,93
 10821,True,Santiago del Estero,2,2,94
-10822,True,Santiago del Estero,-,1,95
-10823,True,Santiago del Estero,-,1,96
-10824,True,Santiago del Estero,-,3,98
-10825,True,Santiago del Estero,1,-,99
-10826,True,Santiago del Estero,1,-,107
+10822,True,Santiago del Estero,0,1,95
+10823,True,Santiago del Estero,0,1,96
+10824,True,Santiago del Estero,0,3,98
+10825,True,Santiago del Estero,1,0,99
+10826,True,Santiago del Estero,1,0,107
 10827,True,Santiago del Estero,173,224,0
 10828,True,Santiago del Estero,194,196,1
 10829,True,Santiago del Estero,110,179,2
@@ -10904,20 +10904,20 @@
 10902,True,Santiago del Estero,9,16,75
 10903,True,Santiago del Estero,3,6,76
 10904,True,Santiago del Estero,3,4,77
-10905,True,Santiago del Estero,-,4,78
+10905,True,Santiago del Estero,0,4,78
 10906,True,Santiago del Estero,1,12,79
 10907,True,Santiago del Estero,1,3,80
 10908,True,Santiago del Estero,3,2,81
 10909,True,Santiago del Estero,1,12,82
 10910,True,Santiago del Estero,2,3,83
-10911,True,Santiago del Estero,3,-,84
-10912,True,Santiago del Estero,2,-,85
+10911,True,Santiago del Estero,3,0,84
+10912,True,Santiago del Estero,2,0,85
 10913,True,Santiago del Estero,3,4,86
 10914,True,Santiago del Estero,2,2,87
-10915,True,Santiago del Estero,-,2,88
-10916,True,Santiago del Estero,1,-,95
-10917,True,Santiago del Estero,-,1,100
-10918,True,Santiago del Estero,-,1,110
+10915,True,Santiago del Estero,0,2,88
+10916,True,Santiago del Estero,1,0,95
+10917,True,Santiago del Estero,0,1,100
+10918,True,Santiago del Estero,0,1,110
 10919,True,Santiago del Estero,359,404,0
 10920,True,Santiago del Estero,434,469,1
 10921,True,Santiago del Estero,407,391,2
@@ -11012,13 +11012,13 @@
 11010,True,Santiago del Estero,2,4,91
 11011,True,Santiago del Estero,2,9,92
 11012,True,Santiago del Estero,2,6,93
-11013,True,Santiago del Estero,-,3,94
+11013,True,Santiago del Estero,0,3,94
 11014,True,Santiago del Estero,1,2,95
-11015,True,Santiago del Estero,-,1,96
-11016,True,Santiago del Estero,1,-,97
-11017,True,Santiago del Estero,-,2,98
-11018,True,Santiago del Estero,-,2,99
-11019,True,Santiago del Estero,1,-,100
+11015,True,Santiago del Estero,0,1,96
+11016,True,Santiago del Estero,1,0,97
+11017,True,Santiago del Estero,0,2,98
+11018,True,Santiago del Estero,0,2,99
+11019,True,Santiago del Estero,1,0,100
 11020,False,Santiago del Estero,6149,6195,0
 11021,False,Santiago del Estero,6297,6266,1
 11022,False,Santiago del Estero,5760,5510,2
@@ -11120,13 +11120,13 @@
 11118,False,Santiago del Estero,2,5,98
 11119,False,Santiago del Estero,2,3,99
 11120,False,Santiago del Estero,3,1,100
-11121,False,Santiago del Estero,-,1,101
+11121,False,Santiago del Estero,0,1,101
 11122,False,Santiago del Estero,1,2,102
-11123,False,Santiago del Estero,3,-,103
-11124,False,Santiago del Estero,1,-,104
-11125,False,Santiago del Estero,1,-,105
-11126,False,Santiago del Estero,1,-,106
-11127,False,Santiago del Estero,1,-,108
+11123,False,Santiago del Estero,3,0,103
+11124,False,Santiago del Estero,1,0,104
+11125,False,Santiago del Estero,1,0,105
+11126,False,Santiago del Estero,1,0,106
+11127,False,Santiago del Estero,1,0,108
 11128,False,Santiago del Estero,1,1,109
 11129,False,Santiago del Estero,2,2,110
 11130,False,Santiago del Estero,8744,8788,0
@@ -11235,8 +11235,8 @@
 11233,False,Santiago del Estero,5,1,103
 11234,False,Santiago del Estero,4,1,104
 11235,False,Santiago del Estero,2,2,105
-11236,False,Santiago del Estero,2,-,106
-11237,False,Santiago del Estero,2,-,107
+11236,False,Santiago del Estero,2,0,106
+11237,False,Santiago del Estero,2,0,107
 11238,False,Santiago del Estero,1,1,108
 11239,False,Santiago del Estero,1,2,109
 11240,False,Santiago del Estero,2,5,110
@@ -11344,8 +11344,8 @@
 11342,True,Tucumán,12,3,101
 11343,True,Tucumán,1,6,102
 11344,True,Tucumán,1,7,103
-11345,True,Tucumán,-,2,104
-11346,True,Tucumán,-,1,109
+11345,True,Tucumán,0,2,104
+11346,True,Tucumán,0,1,109
 11347,True,Tucumán,5,1,110
 11348,True,Tucumán,961,906,0
 11349,True,Tucumán,994,1010,1
@@ -11438,17 +11438,17 @@
 11436,True,Tucumán,3,16,88
 11437,True,Tucumán,4,30,89
 11438,True,Tucumán,11,2,90
-11439,True,Tucumán,-,4,91
+11439,True,Tucumán,0,4,91
 11440,True,Tucumán,11,13,92
 11441,True,Tucumán,12,2,93
 11442,True,Tucumán,2,12,94
-11443,True,Tucumán,-,1,95
-11444,True,Tucumán,-,1,96
-11445,True,Tucumán,-,3,97
-11446,True,Tucumán,-,1,98
-11447,True,Tucumán,-,1,99
-11448,True,Tucumán,-,1,100
-11449,True,Tucumán,-,1,101
+11443,True,Tucumán,0,1,95
+11444,True,Tucumán,0,1,96
+11445,True,Tucumán,0,3,97
+11446,True,Tucumán,0,1,98
+11447,True,Tucumán,0,1,99
+11448,True,Tucumán,0,1,100
+11449,True,Tucumán,0,1,101
 11450,True,Tucumán,1217,884,0
 11451,True,Tucumán,1007,1011,1
 11452,True,Tucumán,926,989,2
@@ -11536,17 +11536,17 @@
 11534,True,Tucumán,6,20,84
 11535,True,Tucumán,24,14,85
 11536,True,Tucumán,4,15,86
-11537,True,Tucumán,-,9,87
+11537,True,Tucumán,0,9,87
 11538,True,Tucumán,3,17,88
 11539,True,Tucumán,4,8,89
 11540,True,Tucumán,2,4,90
 11541,True,Tucumán,2,2,91
 11542,True,Tucumán,1,5,92
 11543,True,Tucumán,1,1,94
-11544,True,Tucumán,-,2,96
-11545,True,Tucumán,-,2,97
-11546,True,Tucumán,-,11,98
-11547,True,Tucumán,-,1,99
+11544,True,Tucumán,0,2,96
+11545,True,Tucumán,0,2,97
+11546,True,Tucumán,0,11,98
+11547,True,Tucumán,0,1,99
 11548,True,Tucumán,630,485,0
 11549,True,Tucumán,661,646,1
 11550,True,Tucumán,544,542,2
@@ -11641,13 +11641,13 @@
 11639,True,Tucumán,6,8,91
 11640,True,Tucumán,2,5,92
 11641,True,Tucumán,2,20,93
-11642,True,Tucumán,1,-,94
-11643,True,Tucumán,-,1,95
+11642,True,Tucumán,1,0,94
+11643,True,Tucumán,0,1,95
 11644,True,Tucumán,1,1,96
-11645,True,Tucumán,-,11,97
-11646,True,Tucumán,-,1,98
-11647,True,Tucumán,-,1,99
-11648,True,Tucumán,1,-,102
+11645,True,Tucumán,0,11,97
+11646,True,Tucumán,0,1,98
+11647,True,Tucumán,0,1,99
+11648,True,Tucumán,1,0,102
 11649,False,Tucumán,6380,6054,0
 11650,False,Tucumán,6102,5520,1
 11651,False,Tucumán,5628,5686,2
@@ -11743,14 +11743,14 @@
 11741,False,Tucumán,8,6,92
 11742,False,Tucumán,8,4,93
 11743,False,Tucumán,2,10,94
-11744,False,Tucumán,-,3,95
+11744,False,Tucumán,0,3,95
 11745,False,Tucumán,2,13,96
 11746,False,Tucumán,1,3,97
-11747,False,Tucumán,-,2,98
+11747,False,Tucumán,0,2,98
 11748,False,Tucumán,1,1,99
-11749,False,Tucumán,3,-,100
-11750,False,Tucumán,1,-,105
-11751,False,Tucumán,1,-,110
+11749,False,Tucumán,3,0,100
+11750,False,Tucumán,1,0,105
+11751,False,Tucumán,1,0,110
 11752,False,Tucumán,13494,12857,0
 11753,False,Tucumán,13252,12615,1
 11754,False,Tucumán,13141,12909,2
@@ -11855,9 +11855,9 @@
 11853,False,Tucumán,12,4,101
 11854,False,Tucumán,2,6,102
 11855,False,Tucumán,1,7,103
-11856,False,Tucumán,-,2,104
-11857,False,Tucumán,1,-,105
-11858,False,Tucumán,-,1,109
+11856,False,Tucumán,0,2,104
+11857,False,Tucumán,1,0,105
+11858,False,Tucumán,0,1,109
 11859,False,Tucumán,6,1,110
 11860,True,Tierra del Fuego,611,504,0
 11861,True,Tierra del Fuego,679,647,1
@@ -11947,11 +11947,11 @@
 11945,True,Tierra del Fuego,16,36,85
 11946,True,Tierra del Fuego,27,13,86
 11947,True,Tierra del Fuego,27,50,87
-11948,True,Tierra del Fuego,-,34,88
+11948,True,Tierra del Fuego,0,34,88
 11949,True,Tierra del Fuego,25,7,89
-11950,True,Tierra del Fuego,-,30,90
-11951,True,Tierra del Fuego,-,5,91
-11952,True,Tierra del Fuego,-,30,92
+11950,True,Tierra del Fuego,0,30,90
+11951,True,Tierra del Fuego,0,5,91
+11952,True,Tierra del Fuego,0,30,92
 11953,True,Tierra del Fuego,158,167,0
 11954,True,Tierra del Fuego,211,144,1
 11955,True,Tierra del Fuego,161,193,2
@@ -12015,27 +12015,27 @@
 12013,True,Tierra del Fuego,69,45,60
 12014,True,Tierra del Fuego,50,7,61
 12015,True,Tierra del Fuego,61,14,62
-12016,True,Tierra del Fuego,45,-,63
+12016,True,Tierra del Fuego,45,0,63
 12017,True,Tierra del Fuego,49,35,64
 12018,True,Tierra del Fuego,47,31,65
 12019,True,Tierra del Fuego,17,24,66
 12020,True,Tierra del Fuego,27,7,67
-12021,True,Tierra del Fuego,19,-,68
-12022,True,Tierra del Fuego,16,-,69
-12023,True,Tierra del Fuego,6,-,70
-12024,True,Tierra del Fuego,-,2,71
+12021,True,Tierra del Fuego,19,0,68
+12022,True,Tierra del Fuego,16,0,69
+12023,True,Tierra del Fuego,6,0,70
+12024,True,Tierra del Fuego,0,2,71
 12025,True,Tierra del Fuego,19,8,72
 12026,True,Tierra del Fuego,6,6,73
-12027,True,Tierra del Fuego,5,-,74
-12028,True,Tierra del Fuego,8,-,75
-12029,True,Tierra del Fuego,-,5,76
-12030,True,Tierra del Fuego,-,6,79
-12031,True,Tierra del Fuego,1,-,80
+12027,True,Tierra del Fuego,5,0,74
+12028,True,Tierra del Fuego,8,0,75
+12029,True,Tierra del Fuego,0,5,76
+12030,True,Tierra del Fuego,0,6,79
+12031,True,Tierra del Fuego,1,0,80
 12032,True,Tierra del Fuego,21,10,81
-12033,True,Tierra del Fuego,-,5,82
-12034,True,Tierra del Fuego,6,-,83
-12035,True,Tierra del Fuego,-,14,90
-12036,True,Tierra del Fuego,-,6,91
+12033,True,Tierra del Fuego,0,5,82
+12034,True,Tierra del Fuego,6,0,83
+12035,True,Tierra del Fuego,0,14,90
+12036,True,Tierra del Fuego,0,6,91
 12037,True,Tierra del Fuego,29,37,0
 12038,True,Tierra del Fuego,28,21,1
 12039,True,Tierra del Fuego,16,32,2
@@ -12054,7 +12054,7 @@
 12052,True,Tierra del Fuego,8,31,15
 12053,True,Tierra del Fuego,9,36,16
 12054,True,Tierra del Fuego,14,35,17
-12055,True,Tierra del Fuego,7,-,18
+12055,True,Tierra del Fuego,7,0,18
 12056,True,Tierra del Fuego,7,6,19
 12057,True,Tierra del Fuego,18,9,20
 12058,True,Tierra del Fuego,15,25,21
@@ -12107,16 +12107,16 @@
 12105,True,Tierra del Fuego,1,5,68
 12106,True,Tierra del Fuego,14,1,69
 12107,True,Tierra del Fuego,3,4,70
-12108,True,Tierra del Fuego,1,-,72
-12109,True,Tierra del Fuego,-,1,73
+12108,True,Tierra del Fuego,1,0,72
+12109,True,Tierra del Fuego,0,1,73
 12110,True,Tierra del Fuego,1,3,74
-12111,True,Tierra del Fuego,1,-,75
-12112,True,Tierra del Fuego,6,-,77
+12111,True,Tierra del Fuego,1,0,75
+12112,True,Tierra del Fuego,6,0,77
 12113,True,Tierra del Fuego,6,7,80
-12114,True,Tierra del Fuego,-,6,83
-12115,True,Tierra del Fuego,5,-,92
-12116,True,Tierra del Fuego,1,-,99
-12117,True,Tierra del Fuego,1,-,104
+12114,True,Tierra del Fuego,0,6,83
+12115,True,Tierra del Fuego,5,0,92
+12116,True,Tierra del Fuego,1,0,99
+12117,True,Tierra del Fuego,1,0,104
 12118,True,Tierra del Fuego,190,193,0
 12119,True,Tierra del Fuego,245,264,1
 12120,True,Tierra del Fuego,189,164,2
@@ -12175,7 +12175,7 @@
 12173,True,Tierra del Fuego,42,21,55
 12174,True,Tierra del Fuego,20,35,56
 12175,True,Tierra del Fuego,37,33,57
-12176,True,Tierra del Fuego,-,20,58
+12176,True,Tierra del Fuego,0,20,58
 12177,True,Tierra del Fuego,41,22,59
 12178,True,Tierra del Fuego,36,33,60
 12179,True,Tierra del Fuego,6,9,61
@@ -12184,19 +12184,19 @@
 12182,True,Tierra del Fuego,4,6,64
 12183,True,Tierra del Fuego,20,1,65
 12184,True,Tierra del Fuego,12,1,66
-12185,True,Tierra del Fuego,14,-,67
+12185,True,Tierra del Fuego,14,0,67
 12186,True,Tierra del Fuego,7,2,68
 12187,True,Tierra del Fuego,28,5,69
 12188,True,Tierra del Fuego,3,1,70
 12189,True,Tierra del Fuego,1,11,71
-12190,True,Tierra del Fuego,1,-,72
+12190,True,Tierra del Fuego,1,0,72
 12191,True,Tierra del Fuego,3,1,73
-12192,True,Tierra del Fuego,13,-,74
+12192,True,Tierra del Fuego,13,0,74
 12193,True,Tierra del Fuego,13,2,76
-12194,True,Tierra del Fuego,-,7,79
-12195,True,Tierra del Fuego,-,1,84
-12196,True,Tierra del Fuego,-,1,86
-12197,True,Tierra del Fuego,1,-,91
+12194,True,Tierra del Fuego,0,7,79
+12195,True,Tierra del Fuego,0,1,84
+12196,True,Tierra del Fuego,0,1,86
+12197,True,Tierra del Fuego,1,0,91
 12198,False,Tierra del Fuego,152,111,0
 12199,False,Tierra del Fuego,182,121,1
 12200,False,Tierra del Fuego,137,192,2
@@ -12270,14 +12270,14 @@
 12268,False,Tierra del Fuego,13,18,70
 12269,False,Tierra del Fuego,16,6,71
 12270,False,Tierra del Fuego,18,15,72
-12271,False,Tierra del Fuego,-,1,73
-12272,False,Tierra del Fuego,2,-,75
-12273,False,Tierra del Fuego,-,15,76
-12274,False,Tierra del Fuego,-,11,82
-12275,False,Tierra del Fuego,6,-,84
-12276,False,Tierra del Fuego,-,8,88
-12277,False,Tierra del Fuego,6,-,94
-12278,False,Tierra del Fuego,-,1,95
+12271,False,Tierra del Fuego,0,1,73
+12272,False,Tierra del Fuego,2,0,75
+12273,False,Tierra del Fuego,0,15,76
+12274,False,Tierra del Fuego,0,11,82
+12275,False,Tierra del Fuego,6,0,84
+12276,False,Tierra del Fuego,0,8,88
+12277,False,Tierra del Fuego,6,0,94
+12278,False,Tierra del Fuego,0,1,95
 12279,False,Tierra del Fuego,1140,1012,0
 12280,False,Tierra del Fuego,1345,1197,1
 12281,False,Tierra del Fuego,1124,1082,2
@@ -12366,12 +12366,12 @@
 12364,False,Tierra del Fuego,16,36,85
 12365,False,Tierra del Fuego,27,14,86
 12366,False,Tierra del Fuego,27,50,87
-12367,False,Tierra del Fuego,-,42,88
+12367,False,Tierra del Fuego,0,42,88
 12368,False,Tierra del Fuego,25,7,89
-12369,False,Tierra del Fuego,-,44,90
+12369,False,Tierra del Fuego,0,44,90
 12370,False,Tierra del Fuego,1,11,91
 12371,False,Tierra del Fuego,5,30,92
-12372,False,Tierra del Fuego,6,-,94
-12373,False,Tierra del Fuego,-,1,95
-12374,False,Tierra del Fuego,1,-,99
-12375,False,Tierra del Fuego,1,-,104
+12372,False,Tierra del Fuego,6,0,94
+12373,False,Tierra del Fuego,0,1,95
+12374,False,Tierra del Fuego,1,0,99
+12375,False,Tierra del Fuego,1,0,104
