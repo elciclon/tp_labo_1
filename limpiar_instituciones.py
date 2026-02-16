@@ -43,6 +43,12 @@ for i in instituciones.index:
         instituciones.loc[i, 'origen_financiamiento'] = 'estatal'
         
     
-        
+#%%
+
+instituciones[
+    instituciones['departamento_nombre'].isin(['LA CAPITAL', 'CAPITAL'])
+    ][['departamento_nombre', 'provincia_nombre']].value_counts()    
+
+    
 #%% Guardamos el archivo
 instituciones.to_csv('instituciones_limpio.csv')
