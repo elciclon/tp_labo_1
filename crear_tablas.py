@@ -25,7 +25,6 @@ instituciones = pd.read_csv('instituciones_limpio.csv', index_col=0)
 
 provincia = pd.DataFrame(columns= ['id_provincia', 'nombre'])
 
-provincia = provincia.set_index('id_provincia')
 
 defuncion = defunciones
 
@@ -42,3 +41,22 @@ departamento = departamento.set_index('id_departamento')
 establecimiento = pd.DataFrame(columns= ['id_establecimiento', 'financiamiento', 'tiene_terapia', 'id_departamento'])
 
 establecimiento = establecimiento.set_index('id_establecimiento')
+
+#%% Populamos las tablas
+
+provincia['id_provincia'] = instituciones['provincia_id']
+provincia['nombre'] = instituciones['provincia_nombre']
+provincia = provincia.drop_duplicates()
+provincia = provincia.set_index('id_provincia')
+
+provincias_dict = {}
+for e in provincia.itertuples():
+    provincias_dict[e.nombre] = e.Index
+
+
+censo_2010['año'] = 2010
+censo_2022['año'] = 2022
+grupoPoblacional = pd.concat([censo_2010, censo_2022])
+
+
+# grupoPoblacional['id_provincia'] = provincia['id_provincia'].astype(str).map(provincias_dict)
