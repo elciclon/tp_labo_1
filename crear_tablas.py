@@ -14,7 +14,7 @@ consigna.
 
 #%% Cargamos archivos saneados
 import pandas as pd
-
+    
 censo_2010 = pd.read_csv('censo_2010_limpio.csv', index_col=0)
 censo_2022 = pd.read_csv('censo_2022_limpio.csv', index_col=0)
 defunciones = pd.read_csv('defunciones_limpio.csv')
@@ -30,10 +30,6 @@ defuncion = defunciones
 
 defuncion = defuncion.set_index(['id_provincia', 'causa', 'rango', 'sexo', 'año'])
 
-grupoPoblacional = pd.DataFrame(columns= ['id_provincia', 'rango', 'sexo', 'año', 'tiene_cobertura', 'cantidad'])
-
-grupoPoblacional = grupoPoblacional.set_index(['id_provincia', 'rango', 'sexo', 'año', 'tiene_cobertura'])
-
 departamento = pd.DataFrame(columns= ['id_departamento', 'nombre', 'id_provincia'])
 
 departamento = departamento.set_index('id_departamento')
@@ -42,21 +38,30 @@ establecimiento = pd.DataFrame(columns= ['id_establecimiento', 'financiamiento',
 
 establecimiento = establecimiento.set_index('id_establecimiento')
 
-#%% Populamos las tablas
+#%% Populamos provincia
 
 provincia['id_provincia'] = instituciones['provincia_id']
 provincia['nombre'] = instituciones['provincia_nombre']
 provincia = provincia.drop_duplicates()
 provincia = provincia.set_index('id_provincia')
 
-provincias_dict = {}
-for e in provincia.itertuples():
-    provincias_dict[e.nombre] = e.Index
-
+#%% Populamos grupoPoblacional
 
 censo_2010['año'] = 2010
 censo_2022['año'] = 2022
 grupoPoblacional = pd.concat([censo_2010, censo_2022])
+grupoPoblacional = grupoPoblacional.reset_index(drop=True)
 
 
-# grupoPoblacional['id_provincia'] = provincia['id_provincia'].astype(str).map(provincias_dict)
+provincias_dict = {}
+for e in provincia.itertuples():
+    provincias_dict[str(e.nombre).lower()] = e.Index
+
+for i in grupoPoblacional.index:
+    grupoPoblacional.loc[i, 'provincia'] = provincias_dict[str(grupoPoblacional.loc[i, 'provincia']).lower()]
+    
+grupoPoblacional.rename(columns={"provincia": "id_provincia", 
+                             "cobertura": "tiene_cobertura",                                                 
+                      }, inplace=True)
+grupoPoblacional.columns = ['id_provincia', 'rango', 'sexo', 'año', 'tiene_cobertura', 'cantidad']
+grupoPoblacional = grupoPoblacional.set_index(['id_provincia', 'rango', 'sexo', 'año', 'tiene_cobertura'])
