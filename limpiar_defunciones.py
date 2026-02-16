@@ -39,7 +39,7 @@ for clave, valor in categoria_por_inicial.items():
 
 #%% eliminamos columnas innecesarias
 
-defunciones = defunciones.drop(['jurisdiccion_de_residencia_id', 
+defunciones = defunciones.drop([ 
                  'sexo_id', 
                  'muerte_materna_id',
                  'muerte_materna_clasificacion'], axis=1)
@@ -52,6 +52,10 @@ defunciones = defunciones.drop('cie10_causa_id', axis=1)
 #%%
 for col in ['anio', 'jurisdicion_residencia_nombre', 'grupo_edad', 'Sexo', 'cantidad']:
     print(defunciones[col].value_counts(dropna=False))
+#%%
+print(defunciones[['jurisdiccion_de_residencia_id', 'jurisdicion_residencia_nombre']].value_counts(dropna=False))
+#%%
+defunciones.drop('jurisdicion_residencia_nombre', axis=1, inplace=True)
 
 # 'jurisdicion_residencia_nombre' tiene 9358 valores 'Sin Información'
 # y 4996 valores NaN
@@ -65,8 +69,7 @@ for col in ['anio', 'jurisdicion_residencia_nombre', 'grupo_edad', 'Sexo', 'cant
 # 28606/825814 (Null / total de registros) < 3,5%
 #%%
 defunciones = defunciones[
-    ( defunciones['jurisdicion_residencia_nombre'].notnull() &
-    (defunciones['jurisdicion_residencia_nombre'] != 'Sin Información') ) &
+    ( ~defunciones['jurisdiccion_de_residencia_id'].isin([98, 99])) &
     (defunciones['Sexo'].isin(['masculino', 'femenino'])) &
     (defunciones['grupo_edad'] != '06.Sin especificar')
     ]
@@ -75,14 +78,24 @@ defunciones = defunciones[
 #%%
 todas_menos_cantidad = [
     'anio',
-    'jurisdicion_residencia_nombre', 
+    'jurisdiccion_de_residencia_id', 
     'cie10_clasificacion',
     'Sexo', 
     'grupo_edad'
     ]
 
-defunciones = defunciones.groupby(todas_menos_cantidad).sum()
+defunciones = defunciones.groupby(todas_menos_cantidad).sum().reset_index()
+#%% reordeno columnas
+defunciones = defunciones[[
+    'jurisdiccion_de_residencia_id',
+    'cie10_clasificacion',
+    'grupo_edad',
+    'Sexo',
+    'anio',
+    'cantidad'
+    ]]
 
+defunciones.columns = ['id_provincia', 'causa', 'rango', 'sexo', 'año', 'cantidad']
 #%% Guarda los archivos
 
-defunciones.to_csv('defunciones_limpio.csv')
+defunciones.to_csv('defunciones_limpio.csv', index=False)

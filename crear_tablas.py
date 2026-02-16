@@ -27,7 +27,7 @@ provincia = pd.DataFrame(columns= ['id_provincia', 'nombre'])
 
 provincia = provincia.set_index('id_provincia')
 
-defuncion = pd.DataFrame(columns= ['id_provincia', 'causa', 'rango', 'sexo', 'año', 'cantidad'])
+defuncion = defunciones
 
 defuncion = defuncion.set_index(['id_provincia', 'causa', 'rango', 'sexo', 'año'])
 
