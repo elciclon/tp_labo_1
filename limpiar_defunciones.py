@@ -49,6 +49,40 @@ defunciones['cie10_clasificacion'] = defunciones['cie10_causa_id'].astype(str).s
 # Elimina columna innecesario 'cie10_causa_id'
 defunciones = defunciones.drop('cie10_causa_id', axis=1)
 
+#%%
+for col in ['anio', 'jurisdicion_residencia_nombre', 'grupo_edad', 'Sexo', 'cantidad']:
+    print(defunciones[col].value_counts(dropna=False))
+
+# 'jurisdicion_residencia_nombre' tiene 9358 valores 'Sin Información'
+# y 4996 valores NaN
+
+#'grupo_edad' tiene 8811 valores 'Sin especificar'
+
+#Sexo tiene 5220 valores 'desconocido' y 221 'indeterminado'
+
+#9358 + 4996 + 8811 + 5220 + 221 = 28606, si ninguno tuviera null en mas de un campo
+#como hay datos con Null en varios campos este valor es menor todavia
+# 28606/825814 (Null / total de registros) < 3,5%
+#%%
+defunciones = defunciones[
+    ( defunciones['jurisdicion_residencia_nombre'].notnull() &
+    (defunciones['jurisdicion_residencia_nombre'] != 'Sin Información') ) &
+    (defunciones['Sexo'].isin(['masculino', 'femenino'])) &
+    (defunciones['grupo_edad'] != '06.Sin especificar')
+    ]
+
+
+#%%
+todas_menos_cantidad = [
+    'anio',
+    'jurisdicion_residencia_nombre', 
+    'cie10_clasificacion',
+    'Sexo', 
+    'grupo_edad'
+    ]
+
+defunciones = defunciones.groupby(todas_menos_cantidad).sum()
+
 #%% Guarda los archivos
 
 defunciones.to_csv('defunciones_limpio.csv')
