@@ -15,10 +15,10 @@ consigna.
 #%% Cargamos archivos saneados
 import pandas as pd
 
-censo_2010 = pd.read_csv('censo_2010_limpio.csv')
-censo_2022 = pd.read_csv('censo_2022_limpio.csv')
+censo_2010 = pd.read_csv('censo_2010_limpio.csv', index_col=0)
+censo_2022 = pd.read_csv('censo_2022_limpio.csv', index_col=0)
 defunciones = pd.read_csv('defunciones_limpio.csv')
-instituciones = pd.read_csv('instituciones_limpio.csv')
+instituciones = pd.read_csv('instituciones_limpio.csv', index_col=0)
 
 
 #%% Creamos la estructura de tablas
