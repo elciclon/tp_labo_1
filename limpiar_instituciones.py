@@ -33,5 +33,10 @@ for i in instituciones.index:
     else:
         instituciones.loc[i, 'tipologia_nombre'] = False
 
-
-instituciones.columns
+#%% Simplificamos tipo de financiamiento a Público o Privado
+for i in instituciones.index:
+    financiamiento = str(instituciones.loc[i, 'origen_financiamiento']).lower()
+    if ('privado' in financiamiento) or (financiamiento in ['obra social', 'mutual','otros']):
+        instituciones.loc[i, 'origen_financiamiento'] = 'privado'
+    else:
+        instituciones.loc[i, 'origen_financiamiento'] = 'estatal'
