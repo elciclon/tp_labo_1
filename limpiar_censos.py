@@ -108,15 +108,20 @@ def asigna_cobertura(censo):
 asigna_cobertura(censo_2010_df)
 asigna_cobertura(censo_2022_df)
 #%% Renombramos las columnas
-def renombra_columnas(censo):
-    return censo.rename(columns={"Unnamed: 1": "cobertura", 
-                                 "Unnamed: 2": "provincia",
-                                 "Unnamed: 3": "varón",
-                                 "Unnamed: 4": "mujer"                          
-                          })
+censo_2010_df.rename(columns={"Unnamed: 1": "cobertura", 
+                             "Unnamed: 2": "provincia",
+                             "Unnamed: 3": "varon",
+                             "Unnamed: 4": "mujer"                          
+                      }, inplace=True)
+#mujer y varon estan al reves en los dos censos
+censo_2022_df.rename(columns={"Unnamed: 1": "cobertura", 
+                             "Unnamed: 2": "provincia",
+                             "Unnamed: 3": "mujer",
+                             "Unnamed: 4": "varon"
+                      }, inplace=True)
+#%%
+censo_2022_df = censo_2022_df[['cobertura', 'provincia', 'varon', 'mujer', 'edad']]
 
-censo_2010_df = renombra_columnas(censo_2010_df)
-censo_2022_df = renombra_columnas(censo_2022_df)
 #%% Borramos los encabezados de referencia
 def elimina_encabezados(censo):
     i = 0
