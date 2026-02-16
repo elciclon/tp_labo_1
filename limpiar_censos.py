@@ -150,6 +150,34 @@ censo_2010_df['provincia'] = censo_2010_df['provincia'].replace('Ciudad Autónom
 censo_2022_df.replace(to_replace='-', value=0, inplace=True)
 censo_2010_df.replace(to_replace='-', value=0, inplace=True)
 
+#%%
+def agrupar_edades(censo):
+    censo['rango'] = pd.cut(
+        censo['edad'],
+        bins=[0, 15, 35, 55, 75, 150],
+        right=False,
+        labels = ['0 a 14', '15 a 34', '35 a 54', '55 a 74', '75 y mas'],
+        include_lowest=True
+        )
+    
+agrupar_edades(censo_2010_df)
+agrupar_edades(censo_2022_df)
+#%%
+def separar_sexo(censo):
+    censo_mujeres = censo.loc[:,['provincia', 'rango', 'mujer', 'cobertura']]
+    censo_varones = censo.loc[:,['provincia', 'rango', 'varon', 'cobertura']]
+    censo_mujeres['sexo'] = 'mujer'
+    censo_varones['sexo'] = 'varon'
+    censo_mujeres.rename(columns={'mujer':'cantidad'}, inplace=True)
+    censo_varones.rename(columns={'varon':'cantidad'}, inplace=True)
+    return pd.concat([censo_mujeres, censo_varones], axis=0, ignore_index=True)
+
+censo_2010_df = separar_sexo(censo_2010_df)
+censo_2022_df = separar_sexo(censo_2022_df)
+#%%
+clave_censo = ['provincia', 'rango', 'sexo', 'cobertura']
+censo_2010_df = censo_2010_df.groupby(clave_censo).sum().reset_index()
+censo_2022_df = censo_2022_df.groupby(clave_censo).sum().reset_index()
 
 #%% Guardamos ambos dataframes como csv
 censo_2010_df.to_csv('censo_2010_limpio.csv')
