@@ -48,13 +48,15 @@ for i in instituciones.index:
 instituciones[
     instituciones['departamento_nombre'].isin(['LA CAPITAL', 'CAPITAL'])
     ][['departamento_nombre', 'provincia_nombre']].value_counts()    
-
+print(instituciones[instituciones['provincia_nombre'] == 'CÓRDOBA']['provincia_id'].unique())
+print(instituciones[(instituciones['provincia_nombre'] == 'CÓRDOBA') & (instituciones['provincia_id'] == 66)].index)
     
-#%% Hay dos IDs para la misma provincia
-instituciones.loc[instituciones['provincia_id'] == 86, 'provincia_id'] = 22
-instituciones.loc[instituciones['provincia_id'] == 62, 'provincia_id'] = 26
-instituciones.loc[instituciones['provincia_id'] == 66, 'provincia_id'] = 14
-instituciones.loc[instituciones['provincia_id'] == 50, 'provincia_id'] = 74
+#%% Hay registros mal cargados
+
+instituciones = instituciones.drop(1044)
+instituciones = instituciones.drop(6255)
+instituciones = instituciones.drop(17856)
 instituciones = instituciones.drop(18445)
+instituciones = instituciones.drop(22388)
 #%% Guardamos el archivo
 instituciones.to_csv('instituciones_limpio.csv')

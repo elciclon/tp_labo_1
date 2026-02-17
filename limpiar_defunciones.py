@@ -20,6 +20,9 @@ jurisdiccion_residencia_nombre_NaN = int(defunciones['jurisdicion_residencia_nom
 cie10_clasificacion_NaN = int(defunciones['cie10_clasificacion'].isna().sum())
 cantidad_defunciones = len(defunciones)
 
+metrica_jurisdiccion = jurisdiccion_residencia_nombre_NaN / cantidad_defunciones
+metrica_clasificacion = cie10_clasificacion_NaN / cantidad_defunciones
+
 #%% Crea un diccionario con las categorías agrupadas por letra
 categorias_dict ={}
 for e in categorias.itertuples():
@@ -101,11 +104,6 @@ defunciones = defunciones[[
     ]]
 
 defunciones.columns = ['id_provincia', 'causa', 'rango', 'sexo', 'año', 'cantidad']
-#%% Hay provincias con dos Ids
-defunciones.loc[defunciones['id_provincia'] == 86, 'id_provincia'] = 22
-defunciones.loc[defunciones['id_provincia'] == 62, 'id_provincia'] = 26
-defunciones.loc[defunciones['id_provincia'] == 66, 'id_provincia'] = 14
-defunciones.loc[defunciones['id_provincia'] == 50, 'id_provincia'] = 75
 
 #%% Guarda los archivos
 
