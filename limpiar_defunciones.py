@@ -15,6 +15,11 @@ import pandas as pd
 
 defunciones = pd.read_csv('defunciones.csv')
 categorias = pd.read_csv('categoriasDefunciones.csv')
+#%% Métricas para GQM
+jurisdiccion_residencia_nombre_NaN = int(defunciones['jurisdicion_residencia_nombre'].isna().sum())
+cie10_clasificacion_NaN = int(defunciones['cie10_clasificacion'].isna().sum())
+cantidad_defunciones = len(defunciones)
+
 #%% Crea un diccionario con las categorías agrupadas por letra
 categorias_dict ={}
 for e in categorias.itertuples():
