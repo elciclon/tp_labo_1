@@ -47,9 +47,12 @@ ax = sns.barplot(
        order = provincias_ordenadas['nombre']
        )
 
-ax.set_title('habitantes por provincia')
+ax.set_title('Habitantes por provincia')
 ax.set_xscale('log')
 
+# Nombres de los ejes
+ax.set_xlabel('Cantidad de habitantes (escala logarítmica)')
+ax.set_ylabel('Provincia')
 
 plt.show()
 
