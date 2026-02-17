@@ -69,22 +69,21 @@ departamento = departamento.drop(['establecimiento_id',
 departamento = departamento.rename(columns={"provincia_id": "id_provincia",
                              "departamento_nombre": "nombre",
                              "departamento_id": "id_departamento"})
-departamento = departamento[['id_departamento', 'nombre', 'id_provincia']]
+departamento = departamento[['id_provincia', 'id_departamento', 'nombre']]
 departamento.drop_duplicates(inplace=True, ignore_index=True)
-departamento = departamento.set_index('id_departamento')
+departamento = departamento.set_index(['id_provincia', 'id_departamento'])
 #%% Populamos establecimiento
 establecimiento = pd.DataFrame(columns= ['id_establecimiento', 'financiamiento', 'tiene_terapia', 'id_departamento'])
 establecimiento = instituciones
-establecimiento = establecimiento.drop(['provincia_id',
-                                        'provincia_nombre',
+establecimiento = establecimiento.drop(['provincia_nombre',
                                         'departamento_nombre',
                                         
                   ], axis=1
                   )
 establecimiento = establecimiento.rename(columns={"establecimiento_id": "id_establecimiento",
                                                   "origen_financiamiento": "financiamiento",
-                                                  "departamento_id": "id_departamento"})
-establecimiento = establecimiento[['id_establecimiento', 'financiamiento', 'tiene_terapia', 'id_departamento']]
+                                                  "departamento_id": "id_departamento", "provincia_id": "id_provincia"})
+establecimiento = establecimiento[['id_establecimiento', 'financiamiento', 'tiene_terapia', 'id_departamento', 'id_provincia']]
 establecimiento = establecimiento.set_index('id_establecimiento')
 #%% Exportamos todas las tablas a csv
 provincia.to_csv('provincia.csv')
