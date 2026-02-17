@@ -124,16 +124,6 @@ ax = sns.boxplot(y = 'nombre',
     )
 ax.set_title('ESTABLECIMIENTOS DE SALUD POR DEPARTAMENTO')
 ax.set_ylabel('')
-ax.set_xlabel('')
-
-#%%
-#??????????
-ax.set_title('instituciones de salud por departamento')
-ax.set_xlabel('provincia')
 ax.set_ylabel('cantidad de instituciones por departamento')
-
-provincias = []
-ax.set_xticks(range(len(provincias)), labels=provincias)
-
 
 
