@@ -26,8 +26,15 @@ instituciones = pd.read_csv('instituciones_limpio.csv', index_col=0)
 provincia = pd.DataFrame(columns= ['id_provincia', 'nombre'])
 
 
-defuncion = defunciones
-
+defuncion = defunciones.copy(deep=True)
+# Eliminamos el prefijo numérico y el punto inicial (ej: "01.", "02.")
+defuncion['rango'] = defuncion['rango'].str.replace(r'^\d+\.', '', regex=True)
+# Eliminamos "De a " o "De "
+defuncion['rango'] = defuncion['rango'].str.replace(r'\bDe\s+(a\s+)?', '', regex=True)
+# Quitamos "anios" o "años"
+defuncion['rango'] = defuncion['rango'].str.replace(r'\s+anios|\s+años', '', regex=True)
+# Convierte espacios dobles en simples
+defuncion['rango'] = defuncion['rango'].str.replace(r'\s+', ' ', regex=True).str.strip()
 defuncion = defuncion.set_index(['id_provincia', 'causa', 'rango', 'sexo', 'año'])
 
 

@@ -50,11 +50,15 @@ ax = sns.barplot(
        #palette= {'2022':'darkorange','2010':'skyblue'} da error
        )
 
+
+# Nombres de los ejes
+ax.set_xlabel('Cantidad de habitantes (escala logarítmica)')
+ax.set_ylabel('Provincia')
+
 ax.set_title('HABITANTES POR PROVINCIA')
 ax.set_xscale('log')
-ax.set_ylabel('')
-ax.set_xlabel('')
 ax.set_xticks([100000, 1000000, 10000000])
+
 
 plt.show()
 

@@ -13,7 +13,9 @@ limpiarlos, y responder a los requerimientos de la consigna.
 import pandas as pd
 
 instituciones = pd.read_excel('instituciones_de_salud.xlsx')
-
+#%% Métricas GQM
+cantidad_de_instituciones = int(len(instituciones))
+metrica_registros = 5/cantidad_de_instituciones
 #%% Eliminar columnas innecesarias
 
 instituciones = instituciones.drop(['localidad_id', 
