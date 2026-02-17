@@ -36,23 +36,28 @@ habitan_por_prov = (grupoPoblacional
 provincias_ordenadas =( habitan_por_prov[ habitan_por_prov['año'] == 2022] 
                        .sort_values(by='cantidad', ascending=False)
                        )
+provincias_ordenadas['año'] = provincias_ordenadas['año'].astype(str)
 
+plt.figure(figsize=(12,8))
 ax = sns.barplot(
        data= habitan_por_prov,
        y = 'nombre',
        x = 'cantidad',
        orient = 'y',
        hue = 'año',
-       hue_order=[2022,2010],
+       hue_order=['2022','2010'], #por que no funciona???? ni con int
        order = provincias_ordenadas['nombre']
        )
 
-ax.set_title('Habitantes por provincia')
-ax.set_xscale('log')
 
 # Nombres de los ejes
 ax.set_xlabel('Cantidad de habitantes (escala logarítmica)')
 ax.set_ylabel('Provincia')
+
+ax.set_title('HABITANTES POR PROVINCIA')
+ax.set_xscale('log')
+ax.set_xticks([100000, 1000000, 10000000])
+
 
 plt.show()
 
