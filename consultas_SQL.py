@@ -141,3 +141,34 @@ causasDeMuerteMenosFrecuentes = """
 
 causasDeMuerteMenosFrecuentes = dd.sql(causasDeMuerteMenosFrecuentes).df()
 causasDeMuerteMasFrecuentes = dd.sql(causasDeMuerteMasFrecuentes).df()
+
+#%% EJERCICIO V
+
+cantidadDeDefuncionesPorCategoria2010 = """
+                                SELECT causa, SUM(cantidad) AS Cantidad
+                                FROM defuncion
+                                WHERE año = 2010
+                                GROUP BY causa
+                                """
+                           
+cantidadDeDefuncionesPorCategoria2010 = dd.sql(cantidadDeDefuncionesPorCategoria2010).df()
+
+cantidadDeDefuncionesPorCategoria2022 = """
+                                SELECT causa, SUM(cantidad) AS Cantidad
+                                FROM defuncion
+                                WHERE año = 2022
+                                GROUP BY causa
+                                """
+                                
+cantidadDeDefuncionesPorCategoria2022 = dd.sql(cantidadDeDefuncionesPorCategoria2022).df()
+
+cambiosEnLasCausasDeDefuncion = """
+                        SELECT c22.causa AS 'Categoría de Defunción',
+                        ABS(c22.cantidad - CASE WHEN c10.cantidad IS NULL THEN 0 ELSE c10.cantidad END) AS Diferencia
+                        FROM cantidadDeDefuncionesPorCategoria2022 AS c22
+                        LEFT OUTER JOIN cantidadDeDefuncionesPorCategoria2010 AS c10
+                        ON c22.causa = c10.causa
+                        ORDER BY Diferencia DESC
+                        """
+                        
+cambiosEnLasCausasDeDefuncion = dd.sql(cambiosEnLasCausasDeDefuncion).df()
