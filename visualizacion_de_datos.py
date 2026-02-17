@@ -23,27 +23,24 @@ departamento = pd.read_csv('departamento.csv')
 establecimiento = pd.read_csv('establecimiento.csv')
 
 #%%
-habitan_prov_2010 = grupoPoblacional[grupoPoblacional['año'] == 2010].loc[
-    :, ['id_provincia', 'cantidad']
-    ].groupby('id_provincia').sum().reset_index()
-
-habitan_prov_2022 = grupoPoblacional[grupoPoblacional['año'] == 2022].loc[
-    :, ['id_provincia', 'cantidad']
-    ].groupby('id_provincia').sum().reset_index()
+habitan_por_prov = (grupoPoblacional
+                     .loc[ :, ['id_provincia','año', 'cantidad']]
+                     .groupby(['id_provincia', 'año'])
+                     .sum()
+                     .reset_index()
+                     )
 
 #%% grafico de cantidad de habitantes por provincia
 
-fig, ax = plt.subplots()
-
-ax.bar(
-       habitan_prov_2010['id_provincia'], 
-       habitan_prov_2010['cantidad'],
-       width = 3
+ax = sns.barplot(
+       data= habitan_por_prov,
+       x = 'id_provincia',
+       y = 'cantidad',
+       hue = 'año'
        )
 
 ax.set_title('habitantes por provincia')
-
-
+ax.set_yscale('log')
 
 
 plt.show()
@@ -65,7 +62,14 @@ for causa in defuncion['causa'].drop_duplicates():
         
         )
 
-#%% grafico de tasa de mortalidad pro provincia en 2022
+#%% grafico de tasa de mortalidad por provincia en 2022
+
+sns.barplot(
+    x = provincia,
+    y = tasa_de_mortalidad,
+    hue=''
+    
+    )
 
 
 #%%cantidad de defunciones por grupo etario y sexo en 2022
