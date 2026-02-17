@@ -34,13 +34,14 @@ habitan_por_prov = (grupoPoblacional
 
 ax = sns.barplot(
        data= habitan_por_prov,
-       x = 'id_provincia',
-       y = 'cantidad',
+       y = 'id_provincia',
+       x = 'cantidad',
+       orient = 'y',
        hue = 'año'
        )
 
 ax.set_title('habitantes por provincia')
-ax.set_yscale('log')
+ax.set_xscale('log')
 
 
 plt.show()
@@ -94,9 +95,11 @@ salud_por_depto = (establecimiento
 
 ax = sns.boxplot(x = 'id_provincia',
             y = 'cantidad',
-            data = salud_por_depto
+            data = salud_por_depto,
+            log_scale=True
     )
-
+#%%
+#??????????
 ax.set_title('instituciones de salud por departamento')
 ax.set_xlabel('provincia')
 ax.set_ylabel('cantidad de instituciones por departamento')
