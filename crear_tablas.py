@@ -70,6 +70,7 @@ departamento = departamento.rename(columns={"provincia_id": "id_provincia",
                              "departamento_nombre": "nombre",
                              "departamento_id": "id_departamento"})
 departamento = departamento[['id_departamento', 'nombre', 'id_provincia']]
+departamento.drop_duplicates(inplace=True, ignore_index=True)
 departamento = departamento.set_index('id_departamento')
 #%% Populamos establecimiento
 establecimiento = pd.DataFrame(columns= ['id_establecimiento', 'financiamiento', 'tiene_terapia', 'id_departamento'])
