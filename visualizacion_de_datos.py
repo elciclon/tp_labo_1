@@ -28,16 +28,23 @@ habitan_por_prov = (grupoPoblacional
                      .groupby(['id_provincia', 'año'])
                      .sum()
                      .reset_index()
+                     .merge( provincia, on='id_provincia', how='left' )
                      )
 
 #%% grafico de cantidad de habitantes por provincia
 
+provincias_ordenadas =( habitan_por_prov[ habitan_por_prov['año'] == 2022] 
+                       .sort_values(by='cantidad', ascending=False)
+                       )
+
 ax = sns.barplot(
        data= habitan_por_prov,
-       y = 'id_provincia',
+       y = 'nombre',
        x = 'cantidad',
        orient = 'y',
-       hue = 'año'
+       hue = 'año',
+       hue_order=[2022,2010],
+       order = provincias_ordenadas['nombre']
        )
 
 ax.set_title('habitantes por provincia')
