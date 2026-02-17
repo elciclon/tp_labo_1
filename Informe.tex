@@ -61,6 +61,27 @@ A continuación definimos los esquemas del Modelo Relacional del DER:
      \centering
      \includegraphics[width=0.8\textwidth]{modelorelacional.png}
 \end{figure}
+\newpage
+\subsection*{Calidad de datos}
+La tabla Defunciones tiene valores NaN en las columnas:
+\begin{itemize}
+	\item jurisdiccion\_residencia\_nombre
+	\item muerte\_materna\_id
+	\item muerte\_materna\_clasificacion
+	\item cie10\_clasificacion	
+\end{itemize}
+ El \textbf{atributo de calidad} afectado es el de \textbf{Completitud}, no están presentes todos los valores para representar la realidad. Se trata de un problema asociado a \textbf{errores de Software}, datos obligatorios que no se asumen como tales y por lo tanto no se cargan. 
+ \newline
+ Utilizando la técnica GQM podemos cuantificar la magnitud del problema:
+ \newline
+ \textbf{Objetivo:} El dato correspondiente al nombre de la jurisdicción donde ocurrió el fallecimiento está completo
+ \newline
+ \textbf{Pregunta:} Cuál es la proporción de defunciones que tienen el dato correspondiente a jurisdiccion\_residencia\_nombre con valores NaN?
+ \newline
+ \textbf{Métrica:} \[
+ \text{Métrica Nan} = \frac{\text{cantidad de defunciones con el campo \texttt{jurisdiccion\_residencia\_nombre} como NaN}}{\text{cantidad total de defunciones}}
+ \]
+Instituciones tiene en departamento\_nombre registros "CAPITAL" y registros "LA CAPITAL" Valores no estandarizados. Problema de Instancia , provienen de distintas fuentes, deberían ser consistente pero no lo son, o Problemas de PROCESOS, distintas personas cargan la misma información haciendo distintos asunciones
 \section*{Decisiones tomadas}
 \section*{Análisis de Datos}
 \section*{Conclusiones}
