@@ -103,3 +103,41 @@ establecimientosConTerapiaIntensiva = """
               
 establecimientosConTerapiaIntensiva = dd.sql(establecimientosConTerapiaIntensiva).df()
 
+#%% EJERCICIO III
+
+causasDeMuerteAux = """
+                SELECT d.rango, d.sexo, d.causa, 
+                SUM(d.cantidad) AS Total
+                FROM defuncion AS d 
+                GROUP BY d.causa, d.rango, d.sexo
+                ORDER BY SUM(d.cantidad)
+        
+              """
+
+causasDeMuerteAux = dd.sql(causasDeMuerteAux).df()
+
+causasDeMuerteMasFrecuentes = """
+                SELECT ca.rango AS 'Grupo etario', ca.sexo,
+                ca.causa AS 'Categoría de Defunción', ca.total
+                FROM (SELECT * 
+                      FROM causasDeMuerteAux
+                      ORDER BY total DESC
+                      LIMIT 5
+                      ) AS ca
+                ORDER BY ca.rango, ca.sexo
+        
+              """
+
+causasDeMuerteMenosFrecuentes = """
+                SELECT ca.rango AS 'Grupo etario', ca.sexo,
+                ca.causa AS 'Categoría de Defunción', ca.total
+                FROM (SELECT * 
+                      FROM causasDeMuerteAux
+                      LIMIT 5
+                      ) AS ca
+                ORDER BY ca.rango, ca.sexo
+        
+              """
+
+causasDeMuerteMenosFrecuentes = dd.sql(causasDeMuerteMenosFrecuentes).df()
+causasDeMuerteMasFrecuentes = dd.sql(causasDeMuerteMasFrecuentes).df()
