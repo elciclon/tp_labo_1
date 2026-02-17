@@ -50,5 +50,10 @@ instituciones[
     ][['departamento_nombre', 'provincia_nombre']].value_counts()    
 
     
+#%% Hay dos IDs para la misma provincia
+instituciones.loc[instituciones['provincia_id'] == 86, 'provincia_id'] = 22
+instituciones.loc[instituciones['provincia_id'] == 62, 'provincia_id'] = 26
+instituciones.loc[instituciones['provincia_id'] == 66, 'provincia_id'] = 14
+instituciones.loc[instituciones['provincia_id'] == 50, 'provincia_id'] = 75
 #%% Guardamos el archivo
 instituciones.to_csv('instituciones_limpio.csv')

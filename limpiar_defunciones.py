@@ -100,7 +100,6 @@ defunciones.columns = ['id_provincia', 'causa', 'rango', 'sexo', 'año', 'cantid
 defunciones.loc[defunciones['id_provincia'] == 86, 'id_provincia'] = 22
 defunciones.loc[defunciones['id_provincia'] == 62, 'id_provincia'] = 26
 defunciones.loc[defunciones['id_provincia'] == 66, 'id_provincia'] = 14
-defunciones.loc[defunciones['id_provincia'] == 58, 'id_provincia'] = 62
 defunciones.loc[defunciones['id_provincia'] == 50, 'id_provincia'] = 75
 
 #%% Guarda los archivos
