@@ -20,7 +20,7 @@ provincia = pd.read_csv('provincia.csv')
 defuncion = pd.read_csv('defuncion.csv')
 grupoPoblacional = pd.read_csv('grupoPoblacional.csv')
 departamento = pd.read_csv('departamento.csv')
-estableciemiento = pd.read_csv('establecimiento.csv')
+establecimiento = pd.read_csv('establecimiento.csv')
 
 #%% EJERCICIO I
 
@@ -89,3 +89,17 @@ coberturaDeSalud = """
                     """
                     
 coberturaDeSalud = dd.sql(coberturaDeSalud).df()
+
+#%% EJERCICIO II
+
+establecimientosConTerapiaIntensiva = """
+                SELECT p.nombre AS Provincia, COUNT(*) as 'Cantidad de Establecimientos de Salud',
+                e.financiamiento as 'Tipo de Financiamiento'
+                FROM provincia AS p JOIN establecimiento AS e
+                ON p.id_provincia = e.id_provincia
+                WHERE tiene_terapia = True
+                GROUP BY p.nombre, e.financiamiento
+              """
+              
+establecimientosConTerapiaIntensiva = dd.sql(establecimientosConTerapiaIntensiva).df()
+
