@@ -63,15 +63,16 @@ A continuación definimos los esquemas del Modelo Relacional del DER:
 \end{figure}
 \newpage
 \subsection*{Calidad de datos}
-La tabla Defunciones tiene valores NaN en las columnas:
+La tabla \textbf{Defunciones} tiene valores NaN en las columnas:
 \begin{itemize}
-	\item jurisdiccion\_residencia\_nombre
+	\item jurisdicion\_residencia\_nombre
 	\item muerte\_materna\_id
 	\item muerte\_materna\_clasificacion
 	\item cie10\_clasificacion	
 \end{itemize}
  El \textbf{atributo de calidad} afectado es el de \textbf{Completitud}, no están presentes todos los valores para representar la realidad. Se trata de un problema asociado a \textbf{errores de Software}, datos obligatorios que no se asumen como tales y por lo tanto no se cargan. 
  \newline
+\newline
  Utilizando la técnica GQM podemos cuantificar la magnitud del problema:
  \newline
  \textbf{Objetivo:} El dato correspondiente al nombre de la jurisdicción donde ocurrió el fallecimiento está completo
@@ -79,9 +80,42 @@ La tabla Defunciones tiene valores NaN en las columnas:
  \textbf{Pregunta:} Cuál es la proporción de defunciones que tienen el dato correspondiente a jurisdiccion\_residencia\_nombre con valores NaN?
  \newline
  \textbf{Métrica:} \[
- \text{Métrica Nan} = \frac{\text{cantidad de defunciones con el campo \texttt{jurisdiccion\_residencia\_nombre} como NaN}}{\text{cantidad total de defunciones}}
+ \text{Métrica Nan} = \frac{\text{cantidad de defunciones con el campo \texttt{jurisdicion\_residencia\_nombre} como NaN}}{\text{cantidad total de defunciones}}
  \]
-Instituciones tiene en departamento\_nombre registros "CAPITAL" y registros "LA CAPITAL" Valores no estandarizados. Problema de Instancia , provienen de distintas fuentes, deberían ser consistente pero no lo son, o Problemas de PROCESOS, distintas personas cargan la misma información haciendo distintos asunciones
+ \text{Métrica Nan} = 0.006
+ \newline
+ \newline
+ \textbf{Objetivo:} El dato correspondiente a la causa del fallecimiento está completo
+ \newline
+ \textbf{Pregunta:} Cuál es la proporción de defunciones que tienen el dato correspondiente a cie10\_clasificacion con valores NaN?
+ \newline
+ \textbf{Métrica:} \[
+ \text{Métrica Nan causa} = \frac{\text{cantidad de defunciones con el campo \texttt{cie10\_clasificacion} como NaN}}{\text{cantidad total de defunciones}}
+ \]
+ \text{Métrica Nan causa} = 0.002
+ \newline
+ 
+ \qquad Claramente se trata de un caso de falta de rigor en la carga de datos. Al ser ambos porcentajes menores al 1\% de la cantidad total de tuplas, decidimos descartarlos del cuerpo de datos a procesar. Las columnas relacionadas a la muerte materna no eran relevantes para este trabajo por lo cual lo más conveninente fue eliminarlas. 
+ \newline
+ \newline La tabla \textbf{Instituciones} tiene registros mal cargados en la columna \textbf{id\_provincia}
+ \newline El \textbf{atributo de calidad} afectado es el de la \textbf{Consistencia}, hay contradicciones entre distintos datos almacenados. Se trata de un problema asociado a \textbf{errores de Software}, probablemente un problema de interface poco amigable. 
+ \newline
+ \newline
+ Utilizando la técnica GQM podemos cuantificar la magnitud del problema:
+ \newline
+ \textbf{Objetivo:} El dato correspondiente al atributo id\_provincia se corresponde a una única provincia por cada id suministrado
+ \newline
+ \textbf{Pregunta:} Cuál es la proporción de id's incorrectamente cargados?
+ \newline
+ \textbf{Métrica:} \[
+ \text{Métrica registros} = \frac{\text{cantidad de registros mal cargados}}{\text{cantidad total de instituciones}}
+ \]
+ \text{Métrica registros} = 0.0001
+ 
+ 
+ \qquad Se trata de un caso donde una interface mal diseñada no muestra un desplegable que para cada provincia asigne el Id correspondiente. El ratio es insignificante por lo cual la solución más razonable era eliminar los registros erróneos.
+  
+
 \section*{Decisiones tomadas}
 \section*{Análisis de Datos}
 \section*{Conclusiones}
