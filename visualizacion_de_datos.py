@@ -46,7 +46,8 @@ ax = sns.barplot(
        orient = 'y',
        hue = 'año',
        hue_order=['2022','2010'], #por que no funciona???? ni con int
-       order = provincias_ordenadas['nombre']
+       order = provincias_ordenadas['nombre'],
+       #palette= {'2022':'darkorange','2010':'skyblue'} da error
        )
 
 ax.set_title('HABITANTES POR PROVINCIA')
@@ -102,13 +103,25 @@ salud_por_depto = (establecimiento
                    .count()
                    .reset_index()
                    .rename(columns={'id_establecimiento':'cantidad'})
+                   .merge( provincia, on='id_provincia', how='left' )
                    )
+provincias_ordenadas =( salud_por_depto
+                       .groupby('nombre')[['cantidad']]
+                       .median().reset_index()
+                       .sort_values(by='cantidad', ascending=False)
+                       )
+plt.figure(figsize=(12,8))
 
-ax = sns.boxplot(x = 'id_provincia',
-            y = 'cantidad',
+ax = sns.boxplot(y = 'nombre',
+            x = 'cantidad',
             data = salud_por_depto,
-            log_scale=True
+            log_scale=True,
+            order = provincias_ordenadas['nombre']
     )
+ax.set_title('ESTABLECIMIENTOS DE SALUD POR DEPARTAMENTO')
+ax.set_ylabel('')
+ax.set_xlabel('')
+
 #%%
 #??????????
 ax.set_title('instituciones de salud por departamento')
