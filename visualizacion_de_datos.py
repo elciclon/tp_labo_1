@@ -84,9 +84,17 @@ sns.histplot( x = grupo_etario,
 
 #%%
 
-sns.boxplot(x = provincia,
-            y = cant_establecimientos,
-            data = 
+salud_por_depto = (establecimiento
+                   .loc[:, ['id_provincia', 'id_departamento','id_establecimiento']]
+                   .groupby(['id_provincia', 'id_departamento'])
+                   .count()
+                   .reset_index()
+                   .rename(columns={'id_establecimiento':'cantidad'})
+                   )
+
+ax = sns.boxplot(x = 'id_provincia',
+            y = 'cantidad',
+            data = salud_por_depto
     )
 
 ax.set_title('instituciones de salud por departamento')
