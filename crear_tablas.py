@@ -73,7 +73,7 @@ departamento = departamento[['id_provincia', 'id_departamento', 'nombre']]
 departamento.drop_duplicates(inplace=True, ignore_index=True)
 departamento = departamento.set_index(['id_provincia', 'id_departamento'])
 #%% Populamos establecimiento
-establecimiento = pd.DataFrame(columns= ['id_establecimiento', 'financiamiento', 'tiene_terapia', 'id_departamento'])
+establecimiento = pd.DataFrame(columns= ['id_establecimiento', 'financiamiento', 'tiene_terapia', 'id_departamento', 'id_provincia'])
 establecimiento = instituciones
 establecimiento = establecimiento.drop(['provincia_nombre',
                                         'departamento_nombre',

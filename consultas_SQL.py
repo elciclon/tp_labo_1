@@ -20,7 +20,7 @@ provincia = pd.read_csv('provincia.csv')
 defuncion = pd.read_csv('defuncion.csv')
 grupoPoblacional = pd.read_csv('grupoPoblacional.csv')
 departamento = pd.read_csv('departamento.csv')
-estableciemiento = pd.read_csv('establecimiento.csv')
+establecimiento = pd.read_csv('establecimiento.csv')
 
 #%% EJERCICIO I
 
