@@ -15,6 +15,7 @@
 \usepackage{mathtools}
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage{caption}
 \DeclarePairedDelimiter\bra{\langle}{\rvert}
 \DeclarePairedDelimiter\ket{\lvert}{\rangle}
 \DeclarePairedDelimiterX\braket[2]{\langle}{\rangle}{#1\,\delimsize\vert\,\mathopen{}#2}
@@ -58,12 +59,27 @@ Para resolver los problemas proponemos el siguiente Diagrama Entidad-Relación:
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{tplabo.png}
+    \captionsetup{labelformat =empty, font=footnotesize}
+    \caption{Aclaración: Departamento es entidad débil porque se repiten los id para distintas provincias por lo que se identifican con id\_provincia e id\_departamento.}
 \end{figure}
 A continuación definimos los esquemas del Modelo Relacional del DER:
 \begin{figure}[H]
      \centering
      \includegraphics[width=0.8\textwidth]{modelorelacional.png}
 \end{figure}
+\newpage
+\subsection*{Dependencias Funcionales}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{dependenciasfuncionales.png}
+\end{figure}
+\subsection*{Formas Normales}
+1FN: Todas las tablas están en primera forma normal ya que los atributos son de valores átomicos y no hay relaciones anidadas.
+
+2FN: En todos los esquemas los atributos no primos dependen completamente de la/s claves por lo tanto cumple la segunda forma normal.
+
+3FN: Para cada esquema solo tenemos una dependencia funcional que tiene del lado derecho a la clave por lo que cumple la tercera forma normal.
+
 \newpage
 \subsection*{Formas normales de las tablas Establecimientos de salud y Defunciones}
 Primero analizamos las formas normales en que se encuentra la tabla de Establecimientos:
