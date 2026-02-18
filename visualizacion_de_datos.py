@@ -105,9 +105,7 @@ def_por_prov = (defuncion [defuncion['año'] == 2022]
 
 def_por_prov['defunciones_normalizadas'] = (def_por_prov['defunciones']
                                              /def_por_prov['cantidad'])*1000
-
-provincias_ordenadas= def_por_prov.sort_values(by='defunciones_normalizadas')
-        
+def_por_prov.sort_values(by='defunciones_normalizadas', ascending=False, inplace=True)
 
 ax = sns.histplot( y = 'nombre',
              weights = 'defunciones_normalizadas',
