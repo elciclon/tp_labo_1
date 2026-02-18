@@ -107,16 +107,23 @@ def_por_grupo = (defuncion [defuncion['año'] == 2022]
                  .merge(hab_por_grupo, on=['rango', 'sexo'], how='left')
                  )
 
+def_por_grupo['defunciones_normalizadas'] = (def_por_grupo['defunciones']
+                                             /def_por_grupo['habitantes'])*10000
 
 
-sns.histplot( x = grupo_etario,
-             y = cant_def_normalizadas,
-             data = defunciones
-             hue=sexo,
+
+ax = sns.barplot( x = 'rango',
+             y = 'defunciones_normalizadas',
+             data = def_por_grupo,
+             hue='sexo',
              order=['0 a 14', '15 a 34', '35 a 54', '55 a 74', '75 y mas']
              
     )
+ax.set_title('DEFUNCIONES EN ARGENTINA 2022')
+ax.set_ylabel('defunciones cada diez mil habitantes')
+ax.set_xlabel('rango de edad')
 
+plt.show()
 #%%
 
 salud_por_depto = (establecimiento
