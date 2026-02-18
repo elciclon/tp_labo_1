@@ -32,11 +32,12 @@ habitan_por_prov = (grupoPoblacional
                      )
 
 #%% grafico de cantidad de habitantes por provincia
+habitan_por_prov['año'] = habitan_por_prov['año'].astype(str)
 
-provincias_ordenadas =( habitan_por_prov[ habitan_por_prov['año'] == 2022] 
+provincias_ordenadas =( habitan_por_prov[ habitan_por_prov['año'] == '2022'] 
                        .sort_values(by='cantidad', ascending=False)
                        )
-provincias_ordenadas['año'] = provincias_ordenadas['año'].astype(str)
+
 
 plt.figure(figsize=(12,8))
 ax = sns.barplot(
@@ -46,8 +47,7 @@ ax = sns.barplot(
        orient = 'y',
        hue = 'año',
        hue_order=['2022','2010'], #por que no funciona???? ni con int
-       order = provincias_ordenadas['nombre'],
-       #palette= {'2022':'darkorange','2010':'skyblue'} da error
+       order = provincias_ordenadas['nombre']
        )
 
 
@@ -65,44 +65,65 @@ plt.show()
 
 #%% grafico de defunciones por categoria en el tiempo
 
-fig, ax = plt.subplots()
+fig, ax = plt.subplots(figsize=(10,10))
+ax.set_xticks(range(2005,2022, 2))
+ax.set_xlabel('año')
+ax.set_ylabel('Cantidad de defunciones')
+ax.set_title('Defunciones por categoría a lo largo del tiempo')
+plt.grid(axis='x')
 
 def_por_causa = (defuncion
                  .loc[:,['causa', 'año', 'cantidad']]
                  .groupby(['causa','año'])
-                 .sum().reset_index())
+                 .sum()
+                 .reset_index())
+
+mayores_causas = (defuncion[defuncion['año'] == 2022]
+                 .loc[:,['causa', 'cantidad']]
+                 .groupby(['causa'])
+                 .sum()
+                 .sort_values(by='cantidad', ascending=False)
+                 .reset_index()['causa']
+                 .tolist()
+                 )
+
+cantidad_elementos = len(mayores_causas)
 i = 0
-for causa in defuncion['causa'].drop_duplicates():    
-    i+=1
+while i < cantidad_elementos:
+    
     ax.plot('año', 'cantidad', 
-            data = def_por_causa[(def_por_causa['causa']==causa)],
+            data = def_por_causa[(def_por_causa['causa']==mayores_causas[i])],
             #linewidth=0.5,
-            label=causa
+            label=mayores_causas[i]
         )
-    if i ==5:
+    i+=1
+    if i%6 ==0:
+        plt.legend(
+            bbox_to_anchor = (0.5, -0.05),
+            loc='upper center'
+            
+            )
         plt.show()
-        i=0
-        fig, ax = plt.subplots()
+        if i!=18:
+            fig, ax = plt.subplots(figsize=(10,10))
+            ax.set_xticks(range(2005,2023, 2))
+            ax.set_xlabel('año')
+            ax.set_ylabel('Cantidad de defunciones')
+            ax.set_title('Defunciones por categoría a lo largo del tiempo')
+            plt.grid(axis='x')
+
 
 #%% cantidad de defunciones por provincia en 2022
 plt.figure(figsize=(12,8))
 
-top_causas = (defuncion [defuncion['año'] == 2022]
-              .loc[:, ['causa', 'cantidad']]
-              .groupby('causa').sum().nlargest(4,'cantidad').index.tolist()
-              )
-
-defuncion['causa_reducido'] = defuncion['causa'].apply(
-    lambda causa: causa if causa in top_causas else 'otros'
-    )
-              
+     
 def_por_prov = (defuncion [defuncion['año'] == 2022]
                  .loc[:, ['id_provincia', 'cantidad']]
                  .groupby('id_provincia')
                  .sum()
                  .reset_index()
                  .rename(columns={'cantidad':'defunciones'})
-                 .merge(habitan_por_prov[habitan_por_prov['año']==2022], 
+                 .merge(habitan_por_prov[habitan_por_prov['año']=='2022'], 
                         on='id_provincia', 
                         how='left')
                  )
@@ -133,7 +154,7 @@ def_por_prov = (defuncion [defuncion['año'] == 2022]
                  .sum()
                  .reset_index()
                  .rename(columns={'cantidad':'defunciones'})
-                 .merge(habitan_por_prov[habitan_por_prov['año']==2022], 
+                 .merge(habitan_por_prov[habitan_por_prov['año']=='2022'], 
                         on='id_provincia', 
                         how='left')
                  )
@@ -141,7 +162,7 @@ def_por_prov = (defuncion [defuncion['año'] == 2022]
 def_por_prov['defunciones_normalizadas'] = (def_por_prov['defunciones']
                                              /def_por_prov['cantidad'])*1000
 
-
+#%%
 for causa in defuncion['causa'].drop_duplicates():
     plt.figure(figsize=(12,8))
     plt.xlim(0, 4)
@@ -159,6 +180,29 @@ for causa in defuncion['causa'].drop_duplicates():
 
     plt.show()
 
+#%%
+plt.figure(figsize=(12,8))
+
+
+filtro_causa = def_por_prov ['causa'].isin(
+    [#'Tumores ', 
+     'Enfermedades del aparato circulatorio',
+     'Enfermedades del aparato respiratorio'
+     ])
+ax = sns.barplot( y = 'nombre',
+             x = 'defunciones_normalizadas',
+             data = def_por_prov[filtro_causa],
+             hue='causa',
+             order = provincias_ordenadas['nombre']
+             
+    )
+ax.grid(axis='x')
+plt.xlim(0, 4)
+ax.set_title('TASA DE MORTALIDAD POR PROVINCIA 2022, PRINCIPALES CAUSAS')
+ax.set_ylabel('')
+ax.set_xlabel('defunciones cada mil habitantes')
+
+plt.show()
 
 
 
