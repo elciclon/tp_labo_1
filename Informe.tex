@@ -20,6 +20,9 @@
 \DeclarePairedDelimiterX\braket[2]{\langle}{\rangle}{#1\,\delimsize\vert\,\mathopen{}#2}
 
 \setlength{\parindent}{0pt} 
+\setlength{\parskip}{1em}
+\usepackage{setspace}
+\setstretch{1.15}
 
 \hypersetup{
     colorlinks=true,
@@ -61,6 +64,9 @@ A continuación definimos los esquemas del Modelo Relacional del DER:
      \centering
      \includegraphics[width=0.8\textwidth]{modelorelacional.png}
 \end{figure}
+\newpage
+\subsection*{Formas normales de las tablas Establecimientos de salud y Defunciones}
+
 \newpage
 \subsection*{Calidad de datos}
 La tabla \textbf{Defunciones} tiene valores NaN en las columnas:
