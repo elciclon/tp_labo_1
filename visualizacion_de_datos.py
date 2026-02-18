@@ -97,8 +97,8 @@ defuncion['causa_reducido'] = defuncion['causa'].apply(
     )
               
 def_por_prov = (defuncion [defuncion['año'] == 2022]
-                 .loc[:, ['id_provincia','causa_reducido', 'cantidad']]
-                 .groupby(['id_provincia','causa_reducido'])
+                 .loc[:, ['id_provincia', 'cantidad']]
+                 .groupby('id_provincia')
                  .sum()
                  .reset_index()
                  .rename(columns={'cantidad':'defunciones'})
@@ -109,14 +109,13 @@ def_por_prov = (defuncion [defuncion['año'] == 2022]
 
 def_por_prov['defunciones_normalizadas'] = (def_por_prov['defunciones']
                                              /def_por_prov['cantidad'])*1000
-def_por_prov.sort_values(by='defunciones_normalizadas', ascending=False, inplace=True)
 
-ax = sns.histplot( y = 'nombre',
-             weights = 'defunciones_normalizadas',
+provincias_ordenadas= def_por_prov.sort_values(by='defunciones_normalizadas')
+
+ax = sns.barplot( y = 'nombre',
+             x = 'defunciones_normalizadas',
              data = def_por_prov,
-             hue='causa_reducido',
-             multiple='stack',
-             hue_order=top_causas[::-1]+['otros']
+             order = provincias_ordenadas['nombre']
              
     )
 ax.grid(axis='x')
@@ -125,6 +124,14 @@ ax.set_ylabel('')
 ax.set_xlabel('defunciones cada mil habitantes')
 
 plt.show()
+
+
+#%% defunciones por prov diferenciado por causa
+
+
+
+
+
 
 
 #%%cantidad de defunciones por grupo etario y sexo en 2022
