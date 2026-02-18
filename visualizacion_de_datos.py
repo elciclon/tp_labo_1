@@ -58,6 +58,7 @@ ax.set_ylabel('Provincia')
 ax.set_title('HABITANTES POR PROVINCIA')
 ax.set_xscale('log')
 ax.set_xticks([100000, 1000000, 10000000])
+ax.grid(axis='x')
 
 
 plt.show()
@@ -79,14 +80,39 @@ for causa in defuncion['causa'].drop_duplicates():
         
         )
 
-#%% grafico de tasa de mortalidad por provincia en 2022
+#%% cantidad de defunciones por provincia en 2022
+plt.figure(figsize=(12,8))
 
-sns.barplot(
-    x = provincia,
-    y = tasa_de_mortalidad,
-    hue=''
-    
+
+def_por_prov = (defuncion [defuncion['año'] == 2022]
+                 .loc[:, ['id_provincia', 'cantidad']]
+                 .groupby('id_provincia')
+                 .sum()
+                 .reset_index()
+                 .rename(columns={'cantidad':'defunciones'})
+                 .merge(habitan_por_prov[habitan_por_prov['año']==2022], 
+                        on='id_provincia', 
+                        how='left')
+                 )
+
+def_por_prov['defunciones_normalizadas'] = (def_por_prov['defunciones']
+                                             /def_por_prov['cantidad'])*1000
+
+provincias_ordenadas= def_por_prov.sort_values(by='defunciones_normalizadas')
+        
+
+ax = sns.barplot( y = 'nombre',
+             x = 'defunciones_normalizadas',
+             data = def_por_prov,
+             order = provincias_ordenadas['nombre']
+             
     )
+ax.grid(axis='x')
+ax.set_title('TASA DE MORTALIDAD POR PROVINCIA 2022')
+ax.set_ylabel('')
+ax.set_xlabel('defunciones cada mil habitantes')
+
+plt.show()
 
 
 #%%cantidad de defunciones por grupo etario y sexo en 2022
