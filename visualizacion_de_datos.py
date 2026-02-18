@@ -126,4 +126,4 @@ ax.set_title('ESTABLECIMIENTOS DE SALUD POR DEPARTAMENTO')
 ax.set_ylabel('')
 ax.set_ylabel('cantidad de instituciones por departamento')
 
-
+plt.show()
