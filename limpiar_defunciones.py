@@ -58,10 +58,10 @@ defunciones['cie10_clasificacion'] = defunciones['cie10_causa_id'].astype(str).s
 defunciones = defunciones.drop('cie10_causa_id', axis=1)
 
 #%%
-for col in ['anio', 'jurisdicion_residencia_nombre', 'grupo_edad', 'Sexo', 'cantidad']:
-    print(defunciones[col].value_counts(dropna=False))
+# for col in ['anio', 'jurisdicion_residencia_nombre', 'grupo_edad', 'Sexo', 'cantidad']:
+    # print(defunciones[col].value_counts(dropna=False))
 #%%
-print(defunciones[['jurisdiccion_de_residencia_id', 'jurisdicion_residencia_nombre']].value_counts(dropna=False))
+# print(defunciones[['jurisdiccion_de_residencia_id', 'jurisdicion_residencia_nombre']].value_counts(dropna=False))
 #%%
 defunciones.drop('jurisdicion_residencia_nombre', axis=1, inplace=True)
 
