@@ -142,6 +142,38 @@ causasDeMuerteMenosFrecuentes = """
 causasDeMuerteMenosFrecuentes = dd.sql(causasDeMuerteMenosFrecuentes).df()
 causasDeMuerteMasFrecuentes = dd.sql(causasDeMuerteMasFrecuentes).df()
 
+#%% EJERCICIO IV
+
+personasPorProvinciayRango2022 = """
+            SELECT id_provincia, rango, SUM(cantidad) AS 'Cantidad'
+            FROM grupoPoblacional
+            WHERE año = 2022
+            GROUP BY id_provincia, rango
+            
+            """
+personasPorProvinciayRango2022 = dd.sql(personasPorProvinciayRango2022).df()
+
+
+muertesPorProvinciayRango2022 = """
+            SELECT id_provincia, rango, SUM(cantidad) AS 'Cantidad'
+            FROM defuncion
+            WHERE año = 2022
+            GROUP BY id_provincia, rango
+            
+            """
+muertesPorProvinciayRango2022 = dd.sql(muertesPorProvinciayRango2022).df()
+
+tasaDeMortalidad = """
+            SELECT p.nombre AS Provincia, ppr.rango AS 'Grupo Etario', 
+            (mpr.cantidad / ppr.cantidad) * 1000 AS 'Tasa de Mortalidad'
+            FROM provincia AS p JOIN personasPorProvinciayRango2022 AS ppr
+            ON p.id_provincia = ppr.id_provincia 
+            LEFT OUTER JOIN muertesPorProvinciayRango2022 AS mpr
+            ON p.id_provincia = mpr.id_provincia AND ppr.rango = mpr.rango
+            """
+        
+tasaDeMortalidad = dd.sql(tasaDeMortalidad).df()
+
 #%% EJERCICIO V
 
 cantidadDeDefuncionesPorCategoria2010 = """
