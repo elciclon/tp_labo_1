@@ -299,3 +299,40 @@ ax.set_ylabel('')
 ax.set_xlabel('cantidad de instituciones por departamento')
 
 plt.show()
+
+#%%
+
+plt.figure(figsize=(12,8))
+
+     
+terapia_por_prov = (establecimiento
+                 .loc[:, ['id_provincia', 'tiene_terapia']]
+                 .groupby('id_provincia')
+                 .count()
+                 .reset_index()
+                 .rename(columns={'tiene_terapia':'cant_terapia'})
+                 .merge(habitan_por_prov[habitan_por_prov['año']=='2022'], 
+                        on='id_provincia', 
+                        how='left')
+                 )
+
+terapia_por_prov['cant_normalizada'] = (terapia_por_prov['cant_terapia']
+                                             /terapia_por_prov['cantidad'])*1000
+
+ax = sns.barplot( y = 'nombre',
+             x = 'cant_normalizada',
+             data = terapia_por_prov,
+             order = provincias_ordenadas['nombre']
+             
+    )
+ax.grid(axis='x')
+ax.set_title('ESTABLECIMIENTOS CON TERAPIA INTENSIVA POR PROVINCIA')
+ax.set_ylabel('')
+ax.set_xlabel('Establecimientos cada mil habitantes')
+
+plt.show()
+
+
+
+
+
