@@ -102,8 +102,10 @@ La tabla \textbf{Defunciones} tiene valores NaN en las columnas:
  \newline
  
  \qquad Claramente se trata de un caso de falta de rigor en la carga de datos. Al ser ambos porcentajes menores al 1\% de la cantidad total de tuplas, decidimos descartarlos del cuerpo de datos a procesar. Las columnas relacionadas a la muerte materna no eran relevantes para este trabajo por lo cual lo más conveninente fue eliminarlas. 
- \newline
- \newline La tabla \textbf{Instituciones} tiene registros mal cargados en la columna \textbf{id\_provincia}
+
+ \qquad Una forma de evitar este tipo de errores es implementar una interface que contenga un formulario del tipo menú desplegable, que permita seleccionar sólo una opción de todas las disponibles, y no habilite el registro nulo.
+ \newpage
+ La tabla \textbf{Instituciones} tiene registros mal cargados en la columna \textbf{id\_provincia}
  \newline El \textbf{atributo de calidad} afectado es el de la \textbf{Consistencia}, hay contradicciones entre distintos datos almacenados. Se trata de un problema asociado a \textbf{errores de Software}, probablemente un problema de interface poco amigable. 
  \newline
  \newline
@@ -123,6 +125,11 @@ La tabla \textbf{Defunciones} tiene valores NaN en las columnas:
   
 
 \section*{Decisiones tomadas}
+\qquad Las tablas de \textbf{censos} tenían varios desafíos técnicos que obligaron a tomar varias decisiones. Había encabezados y tablas anidadas que tuvieron que ser adaptadas a un formato manejable para la resolución del trabajo. Eliminamos columnas que no eran relevantes para el dominio del problema, como así también secciones donde se sumaban los totales de distintas categorías.
+
+\qquad La tabla \textbf{defunciones} tenía una diversidad de categorías que tuvo que ser adaptada a una lista más manejable provista por los docentes. Había muchas columnas que no eran relevantes para el presente trabajo y decidimos descartarlas. Eliminamos tuplas que tenían valores null o similares en las columnas \textbf{jurisdicion\_residencia\_nombre}, \textbf{grupo\_edad}, y \textbf{sexo}. Basamos nuestra decisión en que el total de todas estas tuplas representaba menos del 3,5\% de las defunciones.
+
+\qquad La tabla \textbf{instituciones} tenía columnas irrelevantes para el informe que fueron descartadas. Simplificamos la topología de las instituciones, ya que sólo nos interesaba saber si tenían \textbf{terapia intensiva}. Similarmente procedimos con el \textbf{financiamiento}, ya que lo importante era discriminar entre \textbf{estatal} o \textbf{privado}. Había inconsistencias en la columna \textbf{departamento\_nombre} donde algunos registros figuraban como 'LA CAPITAL' y otros como 'CAPITAL'. Consolidamos todos estos casos a 'CAPITAL'. Para finalizar eliminamos registros que tenían mal cargado el dato de la ID de la provincia. Por ser sólo 5 tomamos esta decisión, ya que eran insignificantes dentro del cuerpo del total de datos disponibles.
 \section*{Análisis de Datos}
 \section*{Conclusiones}
 

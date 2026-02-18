@@ -36,7 +36,7 @@ for i in instituciones.index:
         instituciones.loc[i, 'tipologia_nombre'] = False
 instituciones = instituciones.rename(columns={"tipologia_nombre": "tiene_terapia"})
 
-#%% Simplificamos tipo de financiamiento a Público o Privado
+#%% Simplificamos tipo de financiamiento a Estatal o Privado
 for i in instituciones.index:
     financiamiento = str(instituciones.loc[i, 'origen_financiamiento']).lower()
     if ('privado' in financiamiento) or (financiamiento in ['obra social', 'mutual','otros']):
@@ -50,9 +50,7 @@ for i in instituciones.index:
 instituciones[
     instituciones['departamento_nombre'].isin(['LA CAPITAL', 'CAPITAL'])
     ][['departamento_nombre', 'provincia_nombre']].value_counts()    
-print(instituciones[instituciones['provincia_nombre'] == 'CÓRDOBA']['provincia_id'].unique())
-print(instituciones[(instituciones['provincia_nombre'] == 'CÓRDOBA') & (instituciones['provincia_id'] == 66)].index)
-    
+
 #%% Hay registros mal cargados
 
 instituciones = instituciones.drop(1044)
