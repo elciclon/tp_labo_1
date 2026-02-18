@@ -78,21 +78,21 @@ Ahora para la tabla de Defunciones:
 
 1FN: También cumple la primera forma normal ya que los atributos solo tienen valores átomicos y no hay relaciones anidadas.
 
-2FN: La clave de esta tabla es compuesta, tenemos la siguiente clave candidata:
+2FN: La clave de esta tabla es compuesta y es la siguiente:
 
-(anio, A, B, C, muerte\_materna\_id, muerte\_materna\_clasificacion, grupo\_edad)
+(anio, jurisdicion\_residencia\_id, cie10\_causa\_id, sexo\_id, muerte\_materna\_id, grupo\_edad)
 
-Donde A, B y C puede ser cualquiera de los siguientes atributos:
+Podemos notar que hay atributos no primos que dependen parcialmente de la clave:
 
 \begin{itemize}
-	\item A = jurisdicion\_residencia\_id / jurisdiccion\_residencia\_nombre
-	\item B = cie10\_causa\_id / cie10\_clasificacion
-	\item C = sexo\_id / Sexo
+	\item $jurisdiccion\_residencia\_id \rightarrow jurisdicion\_residencia\_nombre$
+	\item $muerte\_materna\_id \rightarrow muerte\_materna\_clasificacion$
+	\item $cie10\_causa\_id \rightarrow cie10\_clasificacion$	
 \end{itemize}
 
-Por lo que el único atributo no primo es cantidad y este depende completamente de las claves candidatas por lo que se cumple la segunda forma normal.
+Por lo que no cumple la segunda forma normal.
 
-3FN: Nos fijamos solamente en las dependencias funcionales que tengan del lado derecho a cantidad ya que los demás son atributos primos, como cantidad depende totalmente de las claves entonces las dependencias son de una super clave a cantidad por lo que cumple la tercera forma normal. 
+3FN: No cumple con la segunda entonces no puede cumplir con la tercera forma normal. 
 
 \newpage
 \subsection*{Calidad de datos}
