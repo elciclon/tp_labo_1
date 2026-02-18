@@ -1,481 +1,481 @@
 ,provincia,rango,sexo,cobertura,cantidad
-0,Buenos Aires,0 a 14,mujer,False,813708
-1,Buenos Aires,0 a 14,mujer,True,1071339
-2,Buenos Aires,0 a 14,varon,False,831420
-3,Buenos Aires,0 a 14,varon,True,1112203
-4,Buenos Aires,15 a 34,mujer,False,1229295
-5,Buenos Aires,15 a 34,mujer,True,1426872
-6,Buenos Aires,15 a 34,varon,False,1188914
-7,Buenos Aires,15 a 34,varon,True,1405510
-8,Buenos Aires,35 a 54,mujer,False,762799
-9,Buenos Aires,35 a 54,mujer,True,1620065
-10,Buenos Aires,35 a 54,varon,False,770304
-11,Buenos Aires,35 a 54,varon,True,1448701
-12,Buenos Aires,55 a 74,mujer,False,212856
-13,Buenos Aires,55 a 74,mujer,True,1321923
-14,Buenos Aires,55 a 74,varon,False,277938
-15,Buenos Aires,55 a 74,varon,True,1027454
-16,Buenos Aires,75 y mas,mujer,False,13674
-17,Buenos Aires,75 y mas,mujer,True,542956
-18,Buenos Aires,75 y mas,varon,False,10485
-19,Buenos Aires,75 y mas,varon,True,320490
-20,Caba,0 a 14,mujer,False,45470
-21,Caba,0 a 14,mujer,True,180859
-22,Caba,0 a 14,varon,False,46115
-23,Caba,0 a 14,varon,True,187432
-24,Caba,15 a 34,mujer,False,104103
-25,Caba,15 a 34,mujer,True,350327
-26,Caba,15 a 34,varon,False,103680
-27,Caba,15 a 34,varon,True,320557
-28,Caba,35 a 54,mujer,False,70057
-29,Caba,35 a 54,mujer,True,397471
-30,Caba,35 a 54,varon,False,72927
-31,Caba,35 a 54,varon,True,343381
-32,Caba,55 a 74,mujer,False,28784
-33,Caba,55 a 74,mujer,True,321889
-34,Caba,55 a 74,varon,False,29057
-35,Caba,55 a 74,varon,True,236399
-36,Caba,75 y mas,mujer,False,2967
-37,Caba,75 y mas,mujer,True,164746
-38,Caba,75 y mas,varon,False,1758
-39,Caba,75 y mas,varon,True,87475
-40,Catamarca,0 a 14,mujer,False,22000
-41,Catamarca,0 a 14,mujer,True,25419
-42,Catamarca,0 a 14,varon,False,22166
-43,Catamarca,0 a 14,varon,True,25850
-44,Catamarca,15 a 34,mujer,False,40385
-45,Catamarca,15 a 34,mujer,True,30886
-46,Catamarca,15 a 34,varon,False,39600
-47,Catamarca,15 a 34,varon,True,30592
-48,Catamarca,35 a 54,mujer,False,19921
-49,Catamarca,35 a 54,mujer,True,37144
-50,Catamarca,35 a 54,varon,False,19430
-51,Catamarca,35 a 54,varon,True,34716
-52,Catamarca,55 a 74,mujer,False,4235
-53,Catamarca,55 a 74,mujer,True,28548
-54,Catamarca,55 a 74,varon,False,5633
-55,Catamarca,55 a 74,varon,True,24608
-56,Catamarca,75 y mas,mujer,False,286
-57,Catamarca,75 y mas,mujer,True,9713
-58,Catamarca,75 y mas,varon,False,259
-59,Catamarca,75 y mas,varon,True,6234
-60,Chaco,0 a 14,mujer,False,83988
-61,Chaco,0 a 14,mujer,True,50804
-62,Chaco,0 a 14,varon,False,86131
-63,Chaco,0 a 14,varon,True,51884
-64,Chaco,15 a 34,mujer,False,125048
-65,Chaco,15 a 34,mujer,True,69320
-66,Chaco,15 a 34,varon,False,121551
-67,Chaco,15 a 34,varon,True,63641
-68,Chaco,35 a 54,mujer,False,65305
-69,Chaco,35 a 54,mujer,True,79974
-70,Chaco,35 a 54,varon,False,65781
-71,Chaco,35 a 54,varon,True,67298
-72,Chaco,55 a 74,mujer,False,16125
-73,Chaco,55 a 74,mujer,True,67615
-74,Chaco,55 a 74,varon,False,21591
-75,Chaco,55 a 74,varon,True,52600
-76,Chaco,75 y mas,mujer,False,931
-77,Chaco,75 y mas,mujer,True,21581
-78,Chaco,75 y mas,varon,False,800
-79,Chaco,75 y mas,varon,True,12635
-80,Chubut,0 a 14,mujer,False,19030
-81,Chubut,0 a 14,mujer,True,46473
-82,Chubut,0 a 14,varon,False,19536
-83,Chubut,0 a 14,varon,True,47440
-84,Chubut,15 a 34,mujer,False,34739
-85,Chubut,15 a 34,mujer,True,55807
-86,Chubut,15 a 34,varon,False,36485
-87,Chubut,15 a 34,varon,True,53572
-88,Chubut,35 a 54,mujer,False,19558
-89,Chubut,35 a 54,mujer,True,64530
-90,Chubut,35 a 54,varon,False,21838
-91,Chubut,35 a 54,varon,True,59197
-92,Chubut,55 a 74,mujer,False,5013
-93,Chubut,55 a 74,mujer,True,41312
-94,Chubut,55 a 74,varon,False,7054
-95,Chubut,55 a 74,varon,True,35044
-96,Chubut,75 y mas,mujer,False,446
-97,Chubut,75 y mas,mujer,True,13254
-98,Chubut,75 y mas,varon,False,383
-99,Chubut,75 y mas,varon,True,8743
-100,Corrientes,0 a 14,mujer,False,68859
-101,Corrientes,0 a 14,mujer,True,74372
-102,Corrientes,0 a 14,varon,False,70874
-103,Corrientes,0 a 14,varon,True,77477
-104,Corrientes,15 a 34,mujer,False,115937
-105,Corrientes,15 a 34,mujer,True,89668
-106,Corrientes,15 a 34,varon,False,115936
-107,Corrientes,15 a 34,varon,True,79964
-108,Corrientes,35 a 54,mujer,False,58180
-109,Corrientes,35 a 54,mujer,True,92407
-110,Corrientes,35 a 54,varon,False,62357
-111,Corrientes,35 a 54,varon,True,77053
-112,Corrientes,55 a 74,mujer,False,14298
-113,Corrientes,55 a 74,mujer,True,80772
-114,Corrientes,55 a 74,varon,False,20814
-115,Corrientes,55 a 74,varon,True,64452
-116,Corrientes,75 y mas,mujer,False,1110
-117,Corrientes,75 y mas,mujer,True,27280
-118,Corrientes,75 y mas,varon,False,1034
-119,Corrientes,75 y mas,varon,True,16827
-120,Córdoba,0 a 14,mujer,False,168243
-121,Córdoba,0 a 14,mujer,True,229302
-122,Córdoba,0 a 14,varon,False,171827
-123,Córdoba,0 a 14,varon,True,237238
-124,Córdoba,15 a 34,mujer,False,260383
-125,Córdoba,15 a 34,mujer,True,337932
-126,Córdoba,15 a 34,varon,False,258933
-127,Córdoba,15 a 34,varon,True,323980
-128,Córdoba,35 a 54,mujer,False,165982
-129,Córdoba,35 a 54,mujer,True,346322
-130,Córdoba,35 a 54,varon,False,171530
-131,Córdoba,35 a 54,varon,True,310272
-132,Córdoba,55 a 74,mujer,False,41589
-133,Córdoba,55 a 74,mujer,True,299447
-134,Córdoba,55 a 74,varon,False,59762
-135,Córdoba,55 a 74,varon,True,231213
-136,Córdoba,75 y mas,mujer,False,2326
-137,Córdoba,75 y mas,mujer,True,121723
-138,Córdoba,75 y mas,varon,False,1987
-139,Córdoba,75 y mas,varon,True,72073
-140,Entre Ríos,0 a 14,mujer,False,66519
-141,Entre Ríos,0 a 14,mujer,True,87786
-142,Entre Ríos,0 a 14,varon,False,68560
-143,Entre Ríos,0 a 14,varon,True,91840
-144,Entre Ríos,15 a 34,mujer,False,106873
-145,Entre Ríos,15 a 34,mujer,True,112736
-146,Entre Ríos,15 a 34,varon,False,106421
-147,Entre Ríos,15 a 34,varon,True,109273
-148,Entre Ríos,35 a 54,mujer,False,57555
-149,Entre Ríos,35 a 54,mujer,True,128621
-150,Entre Ríos,35 a 54,varon,False,61968
-151,Entre Ríos,35 a 54,varon,True,115440
-152,Entre Ríos,55 a 74,mujer,False,14324
-153,Entre Ríos,55 a 74,mujer,True,109853
-154,Entre Ríos,55 a 74,varon,False,20856
-155,Entre Ríos,55 a 74,varon,True,87895
-156,Entre Ríos,75 y mas,mujer,False,666
-157,Entre Ríos,75 y mas,mujer,True,42828
-158,Entre Ríos,75 y mas,varon,False,570
-159,Entre Ríos,75 y mas,varon,True,24513
-160,Formosa,0 a 14,mujer,False,49899
-161,Formosa,0 a 14,mujer,True,25552
-162,Formosa,0 a 14,varon,False,51197
-163,Formosa,0 a 14,varon,True,26277
-164,Formosa,15 a 34,mujer,False,70688
-165,Formosa,15 a 34,mujer,True,31575
-166,Formosa,15 a 34,varon,False,66901
-167,Formosa,15 a 34,varon,True,30708
-168,Formosa,35 a 54,mujer,False,36618
-169,Formosa,35 a 54,mujer,True,38188
-170,Formosa,35 a 54,varon,False,37588
-171,Formosa,35 a 54,varon,True,31939
-172,Formosa,55 a 74,mujer,False,10167
-173,Formosa,55 a 74,mujer,True,35634
-174,Formosa,55 a 74,varon,False,13747
-175,Formosa,55 a 74,varon,True,28335
-176,Formosa,75 y mas,mujer,False,830
-177,Formosa,75 y mas,mujer,True,11065
-178,Formosa,75 y mas,varon,False,737
-179,Formosa,75 y mas,varon,True,7862
-180,Jujuy,0 a 14,mujer,False,47131
-181,Jujuy,0 a 14,mujer,True,46727
-182,Jujuy,0 a 14,varon,False,47590
-183,Jujuy,0 a 14,varon,True,48052
-184,Jujuy,15 a 34,mujer,False,80029
-185,Jujuy,15 a 34,mujer,True,51518
-186,Jujuy,15 a 34,varon,False,76824
-187,Jujuy,15 a 34,varon,True,51119
-188,Jujuy,35 a 54,mujer,False,47824
-189,Jujuy,35 a 54,mujer,True,62504
-190,Jujuy,35 a 54,varon,False,46051
-191,Jujuy,35 a 54,varon,True,56255
-192,Jujuy,55 a 74,mujer,False,12700
-193,Jujuy,55 a 74,mujer,True,50610
-194,Jujuy,55 a 74,varon,False,14238
-195,Jujuy,55 a 74,varon,True,39024
-196,Jujuy,75 y mas,mujer,False,1168
-197,Jujuy,75 y mas,mujer,True,17408
-198,Jujuy,75 y mas,varon,False,692
-199,Jujuy,75 y mas,varon,True,11900
-200,La Pampa,0 a 14,mujer,False,15528
-201,La Pampa,0 a 14,mujer,True,22708
-202,La Pampa,0 a 14,varon,False,15657
-203,La Pampa,0 a 14,varon,True,23959
-204,La Pampa,15 a 34,mujer,False,23231
-205,La Pampa,15 a 34,mujer,True,29274
-206,La Pampa,15 a 34,varon,False,23367
-207,La Pampa,15 a 34,varon,True,29734
-208,La Pampa,35 a 54,mujer,False,13733
-209,La Pampa,35 a 54,mujer,True,34981
-210,La Pampa,35 a 54,varon,False,14822
-211,La Pampa,35 a 54,varon,True,31511
-212,La Pampa,55 a 74,mujer,False,3132
-213,La Pampa,55 a 74,mujer,True,28805
-214,La Pampa,55 a 74,varon,False,5485
-215,La Pampa,55 a 74,varon,True,24160
-216,La Pampa,75 y mas,mujer,False,99
-217,La Pampa,75 y mas,mujer,True,11411
-218,La Pampa,75 y mas,varon,False,82
-219,La Pampa,75 y mas,varon,True,7514
-220,La Rioja,0 a 14,mujer,False,20196
-221,La Rioja,0 a 14,mujer,True,21514
-222,La Rioja,0 a 14,varon,False,20898
-223,La Rioja,0 a 14,varon,True,22109
-224,La Rioja,15 a 34,mujer,False,36674
-225,La Rioja,15 a 34,mujer,True,30791
-226,La Rioja,15 a 34,varon,False,35548
-227,La Rioja,15 a 34,varon,True,29123
-228,La Rioja,35 a 54,mujer,False,17691
-229,La Rioja,35 a 54,mujer,True,33369
-230,La Rioja,35 a 54,varon,False,18603
-231,La Rioja,35 a 54,varon,True,29049
-232,La Rioja,55 a 74,mujer,False,3731
-233,La Rioja,55 a 74,mujer,True,24490
-234,La Rioja,55 a 74,varon,False,5037
-235,La Rioja,55 a 74,varon,True,20764
-236,La Rioja,75 y mas,mujer,False,254
-237,La Rioja,75 y mas,mujer,True,7477
-238,La Rioja,75 y mas,varon,False,232
-239,La Rioja,75 y mas,varon,True,4903
-240,Mendoza,0 a 14,mujer,False,106951
-241,Mendoza,0 a 14,mujer,True,124352
-242,Mendoza,0 a 14,varon,False,109930
-243,Mendoza,0 a 14,varon,True,128231
-244,Mendoza,15 a 34,mujer,False,154756
-245,Mendoza,15 a 34,mujer,True,157417
-246,Mendoza,15 a 34,varon,False,153524
-247,Mendoza,15 a 34,varon,True,151658
-248,Mendoza,35 a 54,mujer,False,92132
-249,Mendoza,35 a 54,mujer,True,174166
-250,Mendoza,35 a 54,varon,False,92940
-251,Mendoza,35 a 54,varon,True,154586
-252,Mendoza,55 a 74,mujer,False,25031
-253,Mendoza,55 a 74,mujer,True,152605
-254,Mendoza,55 a 74,varon,False,32511
-255,Mendoza,55 a 74,varon,True,117783
-256,Mendoza,75 y mas,mujer,False,1445
-257,Mendoza,75 y mas,mujer,True,61198
-258,Mendoza,75 y mas,varon,False,1148
-259,Mendoza,75 y mas,varon,True,38409
-260,Misiones,0 a 14,mujer,False,91248
-261,Misiones,0 a 14,mujer,True,76366
-262,Misiones,0 a 14,varon,False,94517
-263,Misiones,0 a 14,varon,True,78830
-264,Misiones,15 a 34,mujer,False,122444
-265,Misiones,15 a 34,mujer,True,93668
-266,Misiones,15 a 34,varon,False,117755
-267,Misiones,15 a 34,varon,True,87216
-268,Misiones,35 a 54,mujer,False,62562
-269,Misiones,35 a 54,mujer,True,93375
-270,Misiones,35 a 54,varon,False,63621
-271,Misiones,35 a 54,varon,True,82140
-272,Misiones,55 a 74,mujer,False,16787
-273,Misiones,55 a 74,mujer,True,72558
-274,Misiones,55 a 74,varon,False,23207
-275,Misiones,55 a 74,varon,True,59301
-276,Misiones,75 y mas,mujer,False,953
-277,Misiones,75 y mas,mujer,True,21175
-278,Misiones,75 y mas,varon,False,808
-279,Misiones,75 y mas,varon,True,14816
-280,Neuquén,0 a 14,mujer,False,27054
-281,Neuquén,0 a 14,mujer,True,51960
-282,Neuquén,0 a 14,varon,False,27387
-283,Neuquén,0 a 14,varon,True,53233
-284,Neuquén,15 a 34,mujer,False,45312
-285,Neuquén,15 a 34,mujer,True,65746
-286,Neuquén,15 a 34,varon,False,46281
-287,Neuquén,15 a 34,varon,True,65117
-288,Neuquén,35 a 54,mujer,False,27780
-289,Neuquén,35 a 54,mujer,True,73325
-290,Neuquén,35 a 54,varon,False,29412
-291,Neuquén,35 a 54,varon,True,66954
-292,Neuquén,55 a 74,mujer,False,8456
-293,Neuquén,55 a 74,mujer,True,47124
-294,Neuquén,55 a 74,varon,False,10655
-295,Neuquén,55 a 74,varon,True,38607
-296,Neuquén,75 y mas,mujer,False,519
-297,Neuquén,75 y mas,mujer,True,13750
-298,Neuquén,75 y mas,varon,False,394
-299,Neuquén,75 y mas,varon,True,9512
-300,Río Negro,0 a 14,mujer,False,30868
-301,Río Negro,0 a 14,mujer,True,50158
-302,Río Negro,0 a 14,varon,False,31832
-303,Río Negro,0 a 14,varon,True,51944
-304,Río Negro,15 a 34,mujer,False,53622
-305,Río Negro,15 a 34,mujer,True,60620
-306,Río Negro,15 a 34,varon,False,53482
-307,Río Negro,15 a 34,varon,True,59556
-308,Río Negro,35 a 54,mujer,False,32231
-309,Río Negro,35 a 54,mujer,True,72766
-310,Río Negro,35 a 54,varon,False,34573
-311,Río Negro,35 a 54,varon,True,63938
-312,Río Negro,55 a 74,mujer,False,8698
-313,Río Negro,55 a 74,mujer,True,54386
-314,Río Negro,55 a 74,varon,False,12330
-315,Río Negro,55 a 74,varon,True,43900
-316,Río Negro,75 y mas,mujer,False,588
-317,Río Negro,75 y mas,mujer,True,18874
-318,Río Negro,75 y mas,varon,False,548
-319,Río Negro,75 y mas,varon,True,12783
-320,Salta,0 a 14,mujer,False,98674
-321,Salta,0 a 14,mujer,True,81053
-322,Salta,0 a 14,varon,False,100356
-323,Salta,0 a 14,varon,True,82780
-324,Salta,15 a 34,mujer,False,142429
-325,Salta,15 a 34,mujer,True,98685
-326,Salta,15 a 34,varon,False,140223
-327,Salta,15 a 34,varon,True,94674
-328,Salta,35 a 54,mujer,False,77101
-329,Salta,35 a 54,mujer,True,105920
-330,Salta,35 a 54,varon,False,76488
-331,Salta,35 a 54,varon,True,91692
-332,Salta,55 a 74,mujer,False,21195
-333,Salta,55 a 74,mujer,True,82047
-334,Salta,55 a 74,varon,False,26948
-335,Salta,55 a 74,varon,True,63380
-336,Salta,75 y mas,mujer,False,1693
-337,Salta,75 y mas,mujer,True,28586
-338,Salta,75 y mas,varon,False,1499
-339,Salta,75 y mas,varon,True,18802
-340,San Juan,0 a 14,mujer,False,52079
-341,San Juan,0 a 14,mujer,True,47495
-342,San Juan,0 a 14,varon,False,53086
-343,San Juan,0 a 14,varon,True,49770
-344,San Juan,15 a 34,mujer,False,74375
-345,San Juan,15 a 34,mujer,True,55878
-346,San Juan,15 a 34,varon,False,75330
-347,San Juan,15 a 34,varon,True,54164
-348,San Juan,35 a 54,mujer,False,42357
-349,San Juan,35 a 54,mujer,True,61454
-350,San Juan,35 a 54,varon,False,42425
-351,San Juan,35 a 54,varon,True,55029
-352,San Juan,55 a 74,mujer,False,10927
-353,San Juan,55 a 74,mujer,True,55046
-354,San Juan,55 a 74,varon,False,14133
-355,San Juan,55 a 74,varon,True,41426
-356,San Juan,75 y mas,mujer,False,583
-357,San Juan,75 y mas,mujer,True,20650
-358,San Juan,75 y mas,varon,False,497
-359,San Juan,75 y mas,varon,True,12741
-360,San Luis,0 a 14,mujer,False,24435
-361,San Luis,0 a 14,mujer,True,34648
-362,San Luis,0 a 14,varon,False,25311
-363,San Luis,0 a 14,varon,True,36146
-364,San Luis,15 a 34,mujer,False,43728
-365,San Luis,15 a 34,mujer,True,44108
-366,San Luis,15 a 34,varon,False,44951
-367,San Luis,15 a 34,varon,True,41067
-368,San Luis,35 a 54,mujer,False,21282
-369,San Luis,35 a 54,mujer,True,50975
-370,San Luis,35 a 54,varon,False,24661
-371,San Luis,35 a 54,varon,True,43749
-372,San Luis,55 a 74,mujer,False,5809
-373,San Luis,55 a 74,mujer,True,37816
-374,San Luis,55 a 74,varon,False,9181
-375,San Luis,55 a 74,varon,True,30457
-376,San Luis,75 y mas,mujer,False,234
-377,San Luis,75 y mas,mujer,True,13207
-378,San Luis,75 y mas,varon,False,228
-379,San Luis,75 y mas,varon,True,8555
-380,Santa Cruz,0 a 14,mujer,False,46096
-381,Santa Cruz,0 a 14,mujer,True,34836
-382,Santa Cruz,0 a 14,varon,False,47062
-383,Santa Cruz,0 a 14,varon,True,35848
-384,Santa Cruz,15 a 34,mujer,False,66998
-385,Santa Cruz,15 a 34,mujer,True,41176
-386,Santa Cruz,15 a 34,varon,False,69253
-387,Santa Cruz,15 a 34,varon,True,38323
-388,Santa Cruz,35 a 54,mujer,False,53733
-389,Santa Cruz,35 a 54,mujer,True,41567
-390,Santa Cruz,35 a 54,varon,False,54017
-391,Santa Cruz,35 a 54,varon,True,38875
-392,Santa Cruz,55 a 74,mujer,False,23673
-393,Santa Cruz,55 a 74,mujer,True,20957
-394,Santa Cruz,55 a 74,varon,False,22664
-395,Santa Cruz,55 a 74,varon,True,18506
-396,Santa Cruz,75 y mas,mujer,False,5409
-397,Santa Cruz,75 y mas,mujer,True,5179
-398,Santa Cruz,75 y mas,varon,False,3697
-399,Santa Cruz,75 y mas,varon,True,3485
-400,Santa Fe,0 a 14,mujer,False,511723
-401,Santa Fe,0 a 14,mujer,True,222755
-402,Santa Fe,0 a 14,varon,False,527582
-403,Santa Fe,0 a 14,varon,True,229832
-404,Santa Fe,15 a 34,mujer,False,762557
-405,Santa Fe,15 a 34,mujer,True,312027
-406,Santa Fe,15 a 34,varon,False,730281
-407,Santa Fe,15 a 34,varon,True,308227
-408,Santa Fe,35 a 54,mujer,False,614037
-409,Santa Fe,35 a 54,mujer,True,345099
-410,Santa Fe,35 a 54,varon,False,584897
-411,Santa Fe,35 a 54,varon,True,320053
-412,Santa Fe,55 a 74,mujer,False,354789
-413,Santa Fe,55 a 74,mujer,True,286071
-414,Santa Fe,55 a 74,varon,False,321853
-415,Santa Fe,55 a 74,varon,True,228037
-416,Santa Fe,75 y mas,mujer,False,121013
-417,Santa Fe,75 y mas,mujer,True,117499
-418,Santa Fe,75 y mas,varon,False,71339
-419,Santa Fe,75 y mas,varon,True,68447
-420,Santiago del Estero,0 a 14,mujer,False,222352
-421,Santiago del Estero,0 a 14,mujer,True,43396
-422,Santiago del Estero,0 a 14,varon,False,227241
-423,Santiago del Estero,0 a 14,varon,True,45081
-424,Santiago del Estero,15 a 34,mujer,False,307875
-425,Santiago del Estero,15 a 34,mujer,True,53243
-426,Santiago del Estero,15 a 34,varon,False,296819
-427,Santiago del Estero,15 a 34,varon,True,52777
-428,Santiago del Estero,35 a 54,mujer,False,193042
-429,Santiago del Estero,35 a 54,mujer,True,68758
-430,Santiago del Estero,35 a 54,varon,False,192011
-431,Santiago del Estero,35 a 54,varon,True,59235
-432,Santiago del Estero,55 a 74,mujer,False,85056
-433,Santiago del Estero,55 a 74,mujer,True,58978
-434,Santiago del Estero,55 a 74,varon,False,88284
-435,Santiago del Estero,55 a 74,varon,True,48320
-436,Santiago del Estero,75 y mas,mujer,False,22953
-437,Santiago del Estero,75 y mas,mujer,True,21535
-438,Santiago del Estero,75 y mas,varon,False,14883
-439,Santiago del Estero,75 y mas,varon,True,13665
-440,Tierra del Fuego,0 a 14,mujer,False,23347
-441,Tierra del Fuego,0 a 14,mujer,True,18879
-442,Tierra del Fuego,0 a 14,varon,False,23675
-443,Tierra del Fuego,0 a 14,varon,True,19197
-444,Tierra del Fuego,15 a 34,mujer,False,36494
-445,Tierra del Fuego,15 a 34,mujer,True,24112
-446,Tierra del Fuego,15 a 34,varon,False,38713
-447,Tierra del Fuego,15 a 34,varon,True,22613
-448,Tierra del Fuego,35 a 54,mujer,False,29660
-449,Tierra del Fuego,35 a 54,mujer,True,23262
-450,Tierra del Fuego,35 a 54,varon,False,29745
-451,Tierra del Fuego,35 a 54,varon,True,21263
-452,Tierra del Fuego,55 a 74,mujer,False,13940
-453,Tierra del Fuego,55 a 74,mujer,True,12336
-454,Tierra del Fuego,55 a 74,varon,False,13917
-455,Tierra del Fuego,55 a 74,varon,True,11301
-456,Tierra del Fuego,75 y mas,mujer,False,2255
-457,Tierra del Fuego,75 y mas,mujer,True,2147
-458,Tierra del Fuego,75 y mas,varon,False,1585
-459,Tierra del Fuego,75 y mas,varon,True,1475
-460,Tucumán,0 a 14,mujer,False,281033
-461,Tucumán,0 a 14,mujer,True,116531
-462,Tucumán,0 a 14,varon,False,286617
-463,Tucumán,0 a 14,varon,True,119359
-464,Tucumán,15 a 34,mujer,False,411793
-465,Tucumán,15 a 34,mujer,True,161523
-466,Tucumán,15 a 34,varon,False,401967
-467,Tucumán,15 a 34,varon,True,154419
-468,Tucumán,35 a 54,mujer,False,289903
-469,Tucumán,35 a 54,mujer,True,156955
-470,Tucumán,35 a 54,varon,False,281023
-471,Tucumán,35 a 54,varon,True,136075
-472,Tucumán,55 a 74,mujer,False,156809
-473,Tucumán,55 a 74,mujer,True,123925
-474,Tucumán,55 a 74,varon,False,145192
-475,Tucumán,55 a 74,varon,True,98670
-476,Tucumán,75 y mas,mujer,False,42450
-477,Tucumán,75 y mas,mujer,True,40352
-478,Tucumán,75 y mas,varon,False,25947
-479,Tucumán,75 y mas,varon,True,24131
+0,Buenos Aires,0 a 14,femenino,False,813708
+1,Buenos Aires,0 a 14,femenino,True,1071339
+2,Buenos Aires,0 a 14,masculino,False,831420
+3,Buenos Aires,0 a 14,masculino,True,1112203
+4,Buenos Aires,15 a 34,femenino,False,1229295
+5,Buenos Aires,15 a 34,femenino,True,1426872
+6,Buenos Aires,15 a 34,masculino,False,1188914
+7,Buenos Aires,15 a 34,masculino,True,1405510
+8,Buenos Aires,35 a 54,femenino,False,762799
+9,Buenos Aires,35 a 54,femenino,True,1620065
+10,Buenos Aires,35 a 54,masculino,False,770304
+11,Buenos Aires,35 a 54,masculino,True,1448701
+12,Buenos Aires,55 a 74,femenino,False,212856
+13,Buenos Aires,55 a 74,femenino,True,1321923
+14,Buenos Aires,55 a 74,masculino,False,277938
+15,Buenos Aires,55 a 74,masculino,True,1027454
+16,Buenos Aires,75 y mas,femenino,False,13674
+17,Buenos Aires,75 y mas,femenino,True,542956
+18,Buenos Aires,75 y mas,masculino,False,10485
+19,Buenos Aires,75 y mas,masculino,True,320490
+20,Caba,0 a 14,femenino,False,45470
+21,Caba,0 a 14,femenino,True,180859
+22,Caba,0 a 14,masculino,False,46115
+23,Caba,0 a 14,masculino,True,187432
+24,Caba,15 a 34,femenino,False,104103
+25,Caba,15 a 34,femenino,True,350327
+26,Caba,15 a 34,masculino,False,103680
+27,Caba,15 a 34,masculino,True,320557
+28,Caba,35 a 54,femenino,False,70057
+29,Caba,35 a 54,femenino,True,397471
+30,Caba,35 a 54,masculino,False,72927
+31,Caba,35 a 54,masculino,True,343381
+32,Caba,55 a 74,femenino,False,28784
+33,Caba,55 a 74,femenino,True,321889
+34,Caba,55 a 74,masculino,False,29057
+35,Caba,55 a 74,masculino,True,236399
+36,Caba,75 y mas,femenino,False,2967
+37,Caba,75 y mas,femenino,True,164746
+38,Caba,75 y mas,masculino,False,1758
+39,Caba,75 y mas,masculino,True,87475
+40,Catamarca,0 a 14,femenino,False,22000
+41,Catamarca,0 a 14,femenino,True,25419
+42,Catamarca,0 a 14,masculino,False,22166
+43,Catamarca,0 a 14,masculino,True,25850
+44,Catamarca,15 a 34,femenino,False,40385
+45,Catamarca,15 a 34,femenino,True,30886
+46,Catamarca,15 a 34,masculino,False,39600
+47,Catamarca,15 a 34,masculino,True,30592
+48,Catamarca,35 a 54,femenino,False,19921
+49,Catamarca,35 a 54,femenino,True,37144
+50,Catamarca,35 a 54,masculino,False,19430
+51,Catamarca,35 a 54,masculino,True,34716
+52,Catamarca,55 a 74,femenino,False,4235
+53,Catamarca,55 a 74,femenino,True,28548
+54,Catamarca,55 a 74,masculino,False,5633
+55,Catamarca,55 a 74,masculino,True,24608
+56,Catamarca,75 y mas,femenino,False,286
+57,Catamarca,75 y mas,femenino,True,9713
+58,Catamarca,75 y mas,masculino,False,259
+59,Catamarca,75 y mas,masculino,True,6234
+60,Chaco,0 a 14,femenino,False,83988
+61,Chaco,0 a 14,femenino,True,50804
+62,Chaco,0 a 14,masculino,False,86131
+63,Chaco,0 a 14,masculino,True,51884
+64,Chaco,15 a 34,femenino,False,125048
+65,Chaco,15 a 34,femenino,True,69320
+66,Chaco,15 a 34,masculino,False,121551
+67,Chaco,15 a 34,masculino,True,63641
+68,Chaco,35 a 54,femenino,False,65305
+69,Chaco,35 a 54,femenino,True,79974
+70,Chaco,35 a 54,masculino,False,65781
+71,Chaco,35 a 54,masculino,True,67298
+72,Chaco,55 a 74,femenino,False,16125
+73,Chaco,55 a 74,femenino,True,67615
+74,Chaco,55 a 74,masculino,False,21591
+75,Chaco,55 a 74,masculino,True,52600
+76,Chaco,75 y mas,femenino,False,931
+77,Chaco,75 y mas,femenino,True,21581
+78,Chaco,75 y mas,masculino,False,800
+79,Chaco,75 y mas,masculino,True,12635
+80,Chubut,0 a 14,femenino,False,19030
+81,Chubut,0 a 14,femenino,True,46473
+82,Chubut,0 a 14,masculino,False,19536
+83,Chubut,0 a 14,masculino,True,47440
+84,Chubut,15 a 34,femenino,False,34739
+85,Chubut,15 a 34,femenino,True,55807
+86,Chubut,15 a 34,masculino,False,36485
+87,Chubut,15 a 34,masculino,True,53572
+88,Chubut,35 a 54,femenino,False,19558
+89,Chubut,35 a 54,femenino,True,64530
+90,Chubut,35 a 54,masculino,False,21838
+91,Chubut,35 a 54,masculino,True,59197
+92,Chubut,55 a 74,femenino,False,5013
+93,Chubut,55 a 74,femenino,True,41312
+94,Chubut,55 a 74,masculino,False,7054
+95,Chubut,55 a 74,masculino,True,35044
+96,Chubut,75 y mas,femenino,False,446
+97,Chubut,75 y mas,femenino,True,13254
+98,Chubut,75 y mas,masculino,False,383
+99,Chubut,75 y mas,masculino,True,8743
+100,Corrientes,0 a 14,femenino,False,68859
+101,Corrientes,0 a 14,femenino,True,74372
+102,Corrientes,0 a 14,masculino,False,70874
+103,Corrientes,0 a 14,masculino,True,77477
+104,Corrientes,15 a 34,femenino,False,115937
+105,Corrientes,15 a 34,femenino,True,89668
+106,Corrientes,15 a 34,masculino,False,115936
+107,Corrientes,15 a 34,masculino,True,79964
+108,Corrientes,35 a 54,femenino,False,58180
+109,Corrientes,35 a 54,femenino,True,92407
+110,Corrientes,35 a 54,masculino,False,62357
+111,Corrientes,35 a 54,masculino,True,77053
+112,Corrientes,55 a 74,femenino,False,14298
+113,Corrientes,55 a 74,femenino,True,80772
+114,Corrientes,55 a 74,masculino,False,20814
+115,Corrientes,55 a 74,masculino,True,64452
+116,Corrientes,75 y mas,femenino,False,1110
+117,Corrientes,75 y mas,femenino,True,27280
+118,Corrientes,75 y mas,masculino,False,1034
+119,Corrientes,75 y mas,masculino,True,16827
+120,Córdoba,0 a 14,femenino,False,168243
+121,Córdoba,0 a 14,femenino,True,229302
+122,Córdoba,0 a 14,masculino,False,171827
+123,Córdoba,0 a 14,masculino,True,237238
+124,Córdoba,15 a 34,femenino,False,260383
+125,Córdoba,15 a 34,femenino,True,337932
+126,Córdoba,15 a 34,masculino,False,258933
+127,Córdoba,15 a 34,masculino,True,323980
+128,Córdoba,35 a 54,femenino,False,165982
+129,Córdoba,35 a 54,femenino,True,346322
+130,Córdoba,35 a 54,masculino,False,171530
+131,Córdoba,35 a 54,masculino,True,310272
+132,Córdoba,55 a 74,femenino,False,41589
+133,Córdoba,55 a 74,femenino,True,299447
+134,Córdoba,55 a 74,masculino,False,59762
+135,Córdoba,55 a 74,masculino,True,231213
+136,Córdoba,75 y mas,femenino,False,2326
+137,Córdoba,75 y mas,femenino,True,121723
+138,Córdoba,75 y mas,masculino,False,1987
+139,Córdoba,75 y mas,masculino,True,72073
+140,Entre Ríos,0 a 14,femenino,False,66519
+141,Entre Ríos,0 a 14,femenino,True,87786
+142,Entre Ríos,0 a 14,masculino,False,68560
+143,Entre Ríos,0 a 14,masculino,True,91840
+144,Entre Ríos,15 a 34,femenino,False,106873
+145,Entre Ríos,15 a 34,femenino,True,112736
+146,Entre Ríos,15 a 34,masculino,False,106421
+147,Entre Ríos,15 a 34,masculino,True,109273
+148,Entre Ríos,35 a 54,femenino,False,57555
+149,Entre Ríos,35 a 54,femenino,True,128621
+150,Entre Ríos,35 a 54,masculino,False,61968
+151,Entre Ríos,35 a 54,masculino,True,115440
+152,Entre Ríos,55 a 74,femenino,False,14324
+153,Entre Ríos,55 a 74,femenino,True,109853
+154,Entre Ríos,55 a 74,masculino,False,20856
+155,Entre Ríos,55 a 74,masculino,True,87895
+156,Entre Ríos,75 y mas,femenino,False,666
+157,Entre Ríos,75 y mas,femenino,True,42828
+158,Entre Ríos,75 y mas,masculino,False,570
+159,Entre Ríos,75 y mas,masculino,True,24513
+160,Formosa,0 a 14,femenino,False,49899
+161,Formosa,0 a 14,femenino,True,25552
+162,Formosa,0 a 14,masculino,False,51197
+163,Formosa,0 a 14,masculino,True,26277
+164,Formosa,15 a 34,femenino,False,70688
+165,Formosa,15 a 34,femenino,True,31575
+166,Formosa,15 a 34,masculino,False,66901
+167,Formosa,15 a 34,masculino,True,30708
+168,Formosa,35 a 54,femenino,False,36618
+169,Formosa,35 a 54,femenino,True,38188
+170,Formosa,35 a 54,masculino,False,37588
+171,Formosa,35 a 54,masculino,True,31939
+172,Formosa,55 a 74,femenino,False,10167
+173,Formosa,55 a 74,femenino,True,35634
+174,Formosa,55 a 74,masculino,False,13747
+175,Formosa,55 a 74,masculino,True,28335
+176,Formosa,75 y mas,femenino,False,830
+177,Formosa,75 y mas,femenino,True,11065
+178,Formosa,75 y mas,masculino,False,737
+179,Formosa,75 y mas,masculino,True,7862
+180,Jujuy,0 a 14,femenino,False,47131
+181,Jujuy,0 a 14,femenino,True,46727
+182,Jujuy,0 a 14,masculino,False,47590
+183,Jujuy,0 a 14,masculino,True,48052
+184,Jujuy,15 a 34,femenino,False,80029
+185,Jujuy,15 a 34,femenino,True,51518
+186,Jujuy,15 a 34,masculino,False,76824
+187,Jujuy,15 a 34,masculino,True,51119
+188,Jujuy,35 a 54,femenino,False,47824
+189,Jujuy,35 a 54,femenino,True,62504
+190,Jujuy,35 a 54,masculino,False,46051
+191,Jujuy,35 a 54,masculino,True,56255
+192,Jujuy,55 a 74,femenino,False,12700
+193,Jujuy,55 a 74,femenino,True,50610
+194,Jujuy,55 a 74,masculino,False,14238
+195,Jujuy,55 a 74,masculino,True,39024
+196,Jujuy,75 y mas,femenino,False,1168
+197,Jujuy,75 y mas,femenino,True,17408
+198,Jujuy,75 y mas,masculino,False,692
+199,Jujuy,75 y mas,masculino,True,11900
+200,La Pampa,0 a 14,femenino,False,15528
+201,La Pampa,0 a 14,femenino,True,22708
+202,La Pampa,0 a 14,masculino,False,15657
+203,La Pampa,0 a 14,masculino,True,23959
+204,La Pampa,15 a 34,femenino,False,23231
+205,La Pampa,15 a 34,femenino,True,29274
+206,La Pampa,15 a 34,masculino,False,23367
+207,La Pampa,15 a 34,masculino,True,29734
+208,La Pampa,35 a 54,femenino,False,13733
+209,La Pampa,35 a 54,femenino,True,34981
+210,La Pampa,35 a 54,masculino,False,14822
+211,La Pampa,35 a 54,masculino,True,31511
+212,La Pampa,55 a 74,femenino,False,3132
+213,La Pampa,55 a 74,femenino,True,28805
+214,La Pampa,55 a 74,masculino,False,5485
+215,La Pampa,55 a 74,masculino,True,24160
+216,La Pampa,75 y mas,femenino,False,99
+217,La Pampa,75 y mas,femenino,True,11411
+218,La Pampa,75 y mas,masculino,False,82
+219,La Pampa,75 y mas,masculino,True,7514
+220,La Rioja,0 a 14,femenino,False,20196
+221,La Rioja,0 a 14,femenino,True,21514
+222,La Rioja,0 a 14,masculino,False,20898
+223,La Rioja,0 a 14,masculino,True,22109
+224,La Rioja,15 a 34,femenino,False,36674
+225,La Rioja,15 a 34,femenino,True,30791
+226,La Rioja,15 a 34,masculino,False,35548
+227,La Rioja,15 a 34,masculino,True,29123
+228,La Rioja,35 a 54,femenino,False,17691
+229,La Rioja,35 a 54,femenino,True,33369
+230,La Rioja,35 a 54,masculino,False,18603
+231,La Rioja,35 a 54,masculino,True,29049
+232,La Rioja,55 a 74,femenino,False,3731
+233,La Rioja,55 a 74,femenino,True,24490
+234,La Rioja,55 a 74,masculino,False,5037
+235,La Rioja,55 a 74,masculino,True,20764
+236,La Rioja,75 y mas,femenino,False,254
+237,La Rioja,75 y mas,femenino,True,7477
+238,La Rioja,75 y mas,masculino,False,232
+239,La Rioja,75 y mas,masculino,True,4903
+240,Mendoza,0 a 14,femenino,False,106951
+241,Mendoza,0 a 14,femenino,True,124352
+242,Mendoza,0 a 14,masculino,False,109930
+243,Mendoza,0 a 14,masculino,True,128231
+244,Mendoza,15 a 34,femenino,False,154756
+245,Mendoza,15 a 34,femenino,True,157417
+246,Mendoza,15 a 34,masculino,False,153524
+247,Mendoza,15 a 34,masculino,True,151658
+248,Mendoza,35 a 54,femenino,False,92132
+249,Mendoza,35 a 54,femenino,True,174166
+250,Mendoza,35 a 54,masculino,False,92940
+251,Mendoza,35 a 54,masculino,True,154586
+252,Mendoza,55 a 74,femenino,False,25031
+253,Mendoza,55 a 74,femenino,True,152605
+254,Mendoza,55 a 74,masculino,False,32511
+255,Mendoza,55 a 74,masculino,True,117783
+256,Mendoza,75 y mas,femenino,False,1445
+257,Mendoza,75 y mas,femenino,True,61198
+258,Mendoza,75 y mas,masculino,False,1148
+259,Mendoza,75 y mas,masculino,True,38409
+260,Misiones,0 a 14,femenino,False,91248
+261,Misiones,0 a 14,femenino,True,76366
+262,Misiones,0 a 14,masculino,False,94517
+263,Misiones,0 a 14,masculino,True,78830
+264,Misiones,15 a 34,femenino,False,122444
+265,Misiones,15 a 34,femenino,True,93668
+266,Misiones,15 a 34,masculino,False,117755
+267,Misiones,15 a 34,masculino,True,87216
+268,Misiones,35 a 54,femenino,False,62562
+269,Misiones,35 a 54,femenino,True,93375
+270,Misiones,35 a 54,masculino,False,63621
+271,Misiones,35 a 54,masculino,True,82140
+272,Misiones,55 a 74,femenino,False,16787
+273,Misiones,55 a 74,femenino,True,72558
+274,Misiones,55 a 74,masculino,False,23207
+275,Misiones,55 a 74,masculino,True,59301
+276,Misiones,75 y mas,femenino,False,953
+277,Misiones,75 y mas,femenino,True,21175
+278,Misiones,75 y mas,masculino,False,808
+279,Misiones,75 y mas,masculino,True,14816
+280,Neuquén,0 a 14,femenino,False,27054
+281,Neuquén,0 a 14,femenino,True,51960
+282,Neuquén,0 a 14,masculino,False,27387
+283,Neuquén,0 a 14,masculino,True,53233
+284,Neuquén,15 a 34,femenino,False,45312
+285,Neuquén,15 a 34,femenino,True,65746
+286,Neuquén,15 a 34,masculino,False,46281
+287,Neuquén,15 a 34,masculino,True,65117
+288,Neuquén,35 a 54,femenino,False,27780
+289,Neuquén,35 a 54,femenino,True,73325
+290,Neuquén,35 a 54,masculino,False,29412
+291,Neuquén,35 a 54,masculino,True,66954
+292,Neuquén,55 a 74,femenino,False,8456
+293,Neuquén,55 a 74,femenino,True,47124
+294,Neuquén,55 a 74,masculino,False,10655
+295,Neuquén,55 a 74,masculino,True,38607
+296,Neuquén,75 y mas,femenino,False,519
+297,Neuquén,75 y mas,femenino,True,13750
+298,Neuquén,75 y mas,masculino,False,394
+299,Neuquén,75 y mas,masculino,True,9512
+300,Río Negro,0 a 14,femenino,False,30868
+301,Río Negro,0 a 14,femenino,True,50158
+302,Río Negro,0 a 14,masculino,False,31832
+303,Río Negro,0 a 14,masculino,True,51944
+304,Río Negro,15 a 34,femenino,False,53622
+305,Río Negro,15 a 34,femenino,True,60620
+306,Río Negro,15 a 34,masculino,False,53482
+307,Río Negro,15 a 34,masculino,True,59556
+308,Río Negro,35 a 54,femenino,False,32231
+309,Río Negro,35 a 54,femenino,True,72766
+310,Río Negro,35 a 54,masculino,False,34573
+311,Río Negro,35 a 54,masculino,True,63938
+312,Río Negro,55 a 74,femenino,False,8698
+313,Río Negro,55 a 74,femenino,True,54386
+314,Río Negro,55 a 74,masculino,False,12330
+315,Río Negro,55 a 74,masculino,True,43900
+316,Río Negro,75 y mas,femenino,False,588
+317,Río Negro,75 y mas,femenino,True,18874
+318,Río Negro,75 y mas,masculino,False,548
+319,Río Negro,75 y mas,masculino,True,12783
+320,Salta,0 a 14,femenino,False,98674
+321,Salta,0 a 14,femenino,True,81053
+322,Salta,0 a 14,masculino,False,100356
+323,Salta,0 a 14,masculino,True,82780
+324,Salta,15 a 34,femenino,False,142429
+325,Salta,15 a 34,femenino,True,98685
+326,Salta,15 a 34,masculino,False,140223
+327,Salta,15 a 34,masculino,True,94674
+328,Salta,35 a 54,femenino,False,77101
+329,Salta,35 a 54,femenino,True,105920
+330,Salta,35 a 54,masculino,False,76488
+331,Salta,35 a 54,masculino,True,91692
+332,Salta,55 a 74,femenino,False,21195
+333,Salta,55 a 74,femenino,True,82047
+334,Salta,55 a 74,masculino,False,26948
+335,Salta,55 a 74,masculino,True,63380
+336,Salta,75 y mas,femenino,False,1693
+337,Salta,75 y mas,femenino,True,28586
+338,Salta,75 y mas,masculino,False,1499
+339,Salta,75 y mas,masculino,True,18802
+340,San Juan,0 a 14,femenino,False,52079
+341,San Juan,0 a 14,femenino,True,47495
+342,San Juan,0 a 14,masculino,False,53086
+343,San Juan,0 a 14,masculino,True,49770
+344,San Juan,15 a 34,femenino,False,74375
+345,San Juan,15 a 34,femenino,True,55878
+346,San Juan,15 a 34,masculino,False,75330
+347,San Juan,15 a 34,masculino,True,54164
+348,San Juan,35 a 54,femenino,False,42357
+349,San Juan,35 a 54,femenino,True,61454
+350,San Juan,35 a 54,masculino,False,42425
+351,San Juan,35 a 54,masculino,True,55029
+352,San Juan,55 a 74,femenino,False,10927
+353,San Juan,55 a 74,femenino,True,55046
+354,San Juan,55 a 74,masculino,False,14133
+355,San Juan,55 a 74,masculino,True,41426
+356,San Juan,75 y mas,femenino,False,583
+357,San Juan,75 y mas,femenino,True,20650
+358,San Juan,75 y mas,masculino,False,497
+359,San Juan,75 y mas,masculino,True,12741
+360,San Luis,0 a 14,femenino,False,24435
+361,San Luis,0 a 14,femenino,True,34648
+362,San Luis,0 a 14,masculino,False,25311
+363,San Luis,0 a 14,masculino,True,36146
+364,San Luis,15 a 34,femenino,False,43728
+365,San Luis,15 a 34,femenino,True,44108
+366,San Luis,15 a 34,masculino,False,44951
+367,San Luis,15 a 34,masculino,True,41067
+368,San Luis,35 a 54,femenino,False,21282
+369,San Luis,35 a 54,femenino,True,50975
+370,San Luis,35 a 54,masculino,False,24661
+371,San Luis,35 a 54,masculino,True,43749
+372,San Luis,55 a 74,femenino,False,5809
+373,San Luis,55 a 74,femenino,True,37816
+374,San Luis,55 a 74,masculino,False,9181
+375,San Luis,55 a 74,masculino,True,30457
+376,San Luis,75 y mas,femenino,False,234
+377,San Luis,75 y mas,femenino,True,13207
+378,San Luis,75 y mas,masculino,False,228
+379,San Luis,75 y mas,masculino,True,8555
+380,Santa Cruz,0 a 14,femenino,False,46096
+381,Santa Cruz,0 a 14,femenino,True,34836
+382,Santa Cruz,0 a 14,masculino,False,47062
+383,Santa Cruz,0 a 14,masculino,True,35848
+384,Santa Cruz,15 a 34,femenino,False,66998
+385,Santa Cruz,15 a 34,femenino,True,41176
+386,Santa Cruz,15 a 34,masculino,False,69253
+387,Santa Cruz,15 a 34,masculino,True,38323
+388,Santa Cruz,35 a 54,femenino,False,53733
+389,Santa Cruz,35 a 54,femenino,True,41567
+390,Santa Cruz,35 a 54,masculino,False,54017
+391,Santa Cruz,35 a 54,masculino,True,38875
+392,Santa Cruz,55 a 74,femenino,False,23673
+393,Santa Cruz,55 a 74,femenino,True,20957
+394,Santa Cruz,55 a 74,masculino,False,22664
+395,Santa Cruz,55 a 74,masculino,True,18506
+396,Santa Cruz,75 y mas,femenino,False,5409
+397,Santa Cruz,75 y mas,femenino,True,5179
+398,Santa Cruz,75 y mas,masculino,False,3697
+399,Santa Cruz,75 y mas,masculino,True,3485
+400,Santa Fe,0 a 14,femenino,False,511723
+401,Santa Fe,0 a 14,femenino,True,222755
+402,Santa Fe,0 a 14,masculino,False,527582
+403,Santa Fe,0 a 14,masculino,True,229832
+404,Santa Fe,15 a 34,femenino,False,762557
+405,Santa Fe,15 a 34,femenino,True,312027
+406,Santa Fe,15 a 34,masculino,False,730281
+407,Santa Fe,15 a 34,masculino,True,308227
+408,Santa Fe,35 a 54,femenino,False,614037
+409,Santa Fe,35 a 54,femenino,True,345099
+410,Santa Fe,35 a 54,masculino,False,584897
+411,Santa Fe,35 a 54,masculino,True,320053
+412,Santa Fe,55 a 74,femenino,False,354789
+413,Santa Fe,55 a 74,femenino,True,286071
+414,Santa Fe,55 a 74,masculino,False,321853
+415,Santa Fe,55 a 74,masculino,True,228037
+416,Santa Fe,75 y mas,femenino,False,121013
+417,Santa Fe,75 y mas,femenino,True,117499
+418,Santa Fe,75 y mas,masculino,False,71339
+419,Santa Fe,75 y mas,masculino,True,68447
+420,Santiago del Estero,0 a 14,femenino,False,222352
+421,Santiago del Estero,0 a 14,femenino,True,43396
+422,Santiago del Estero,0 a 14,masculino,False,227241
+423,Santiago del Estero,0 a 14,masculino,True,45081
+424,Santiago del Estero,15 a 34,femenino,False,307875
+425,Santiago del Estero,15 a 34,femenino,True,53243
+426,Santiago del Estero,15 a 34,masculino,False,296819
+427,Santiago del Estero,15 a 34,masculino,True,52777
+428,Santiago del Estero,35 a 54,femenino,False,193042
+429,Santiago del Estero,35 a 54,femenino,True,68758
+430,Santiago del Estero,35 a 54,masculino,False,192011
+431,Santiago del Estero,35 a 54,masculino,True,59235
+432,Santiago del Estero,55 a 74,femenino,False,85056
+433,Santiago del Estero,55 a 74,femenino,True,58978
+434,Santiago del Estero,55 a 74,masculino,False,88284
+435,Santiago del Estero,55 a 74,masculino,True,48320
+436,Santiago del Estero,75 y mas,femenino,False,22953
+437,Santiago del Estero,75 y mas,femenino,True,21535
+438,Santiago del Estero,75 y mas,masculino,False,14883
+439,Santiago del Estero,75 y mas,masculino,True,13665
+440,Tierra del Fuego,0 a 14,femenino,False,23347
+441,Tierra del Fuego,0 a 14,femenino,True,18879
+442,Tierra del Fuego,0 a 14,masculino,False,23675
+443,Tierra del Fuego,0 a 14,masculino,True,19197
+444,Tierra del Fuego,15 a 34,femenino,False,36494
+445,Tierra del Fuego,15 a 34,femenino,True,24112
+446,Tierra del Fuego,15 a 34,masculino,False,38713
+447,Tierra del Fuego,15 a 34,masculino,True,22613
+448,Tierra del Fuego,35 a 54,femenino,False,29660
+449,Tierra del Fuego,35 a 54,femenino,True,23262
+450,Tierra del Fuego,35 a 54,masculino,False,29745
+451,Tierra del Fuego,35 a 54,masculino,True,21263
+452,Tierra del Fuego,55 a 74,femenino,False,13940
+453,Tierra del Fuego,55 a 74,femenino,True,12336
+454,Tierra del Fuego,55 a 74,masculino,False,13917
+455,Tierra del Fuego,55 a 74,masculino,True,11301
+456,Tierra del Fuego,75 y mas,femenino,False,2255
+457,Tierra del Fuego,75 y mas,femenino,True,2147
+458,Tierra del Fuego,75 y mas,masculino,False,1585
+459,Tierra del Fuego,75 y mas,masculino,True,1475
+460,Tucumán,0 a 14,femenino,False,281033
+461,Tucumán,0 a 14,femenino,True,116531
+462,Tucumán,0 a 14,masculino,False,286617
+463,Tucumán,0 a 14,masculino,True,119359
+464,Tucumán,15 a 34,femenino,False,411793
+465,Tucumán,15 a 34,femenino,True,161523
+466,Tucumán,15 a 34,masculino,False,401967
+467,Tucumán,15 a 34,masculino,True,154419
+468,Tucumán,35 a 54,femenino,False,289903
+469,Tucumán,35 a 54,femenino,True,156955
+470,Tucumán,35 a 54,masculino,False,281023
+471,Tucumán,35 a 54,masculino,True,136075
+472,Tucumán,55 a 74,femenino,False,156809
+473,Tucumán,55 a 74,femenino,True,123925
+474,Tucumán,55 a 74,masculino,False,145192
+475,Tucumán,55 a 74,masculino,True,98670
+476,Tucumán,75 y mas,femenino,False,42450
+477,Tucumán,75 y mas,femenino,True,40352
+478,Tucumán,75 y mas,masculino,False,25947
+479,Tucumán,75 y mas,masculino,True,24131

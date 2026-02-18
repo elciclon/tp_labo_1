@@ -91,6 +91,23 @@ sns.barplot(
 
 #%%cantidad de defunciones por grupo etario y sexo en 2022
 
+hab_por_grupo = (grupoPoblacional [grupoPoblacional['año'] == 2022]
+                 .loc[:, ['rango', 'sexo', 'cantidad']]
+                 .groupby(['rango', 'sexo'])
+                 .sum()
+                 .reset_index()
+                 .rename(columns={'cantidad':'habitantes'})
+                 )
+def_por_grupo = (defuncion [defuncion['año'] == 2022]
+                 .loc[:, ['rango', 'sexo', 'cantidad']]
+                 .groupby(['rango', 'sexo'])
+                 .sum()
+                 .reset_index()
+                 .rename(columns={'cantidad':'defunciones'})
+                 .merge(hab_por_grupo, on=['rango', 'sexo'], how='left')
+                 )
+
+
 
 sns.histplot( x = grupo_etario,
              y = cant_def_normalizadas,

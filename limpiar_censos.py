@@ -166,8 +166,8 @@ agrupar_edades(censo_2022_df)
 def separar_sexo(censo):
     censo_mujeres = censo.loc[:,['provincia', 'rango', 'mujer', 'cobertura']]
     censo_varones = censo.loc[:,['provincia', 'rango', 'varon', 'cobertura']]
-    censo_mujeres['sexo'] = 'mujer'
-    censo_varones['sexo'] = 'varon'
+    censo_mujeres['sexo'] = 'femenino'
+    censo_varones['sexo'] = 'masculino'
     censo_mujeres.rename(columns={'mujer':'cantidad'}, inplace=True)
     censo_varones.rename(columns={'varon':'cantidad'}, inplace=True)
     return pd.concat([censo_mujeres, censo_varones], axis=0, ignore_index=True)
