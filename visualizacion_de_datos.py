@@ -83,10 +83,18 @@ for causa in defuncion['causa'].drop_duplicates():
 #%% cantidad de defunciones por provincia en 2022
 plt.figure(figsize=(12,8))
 
+top_causas = (defuncion [defuncion['año'] == 2022]
+              .loc[:, ['causa', 'cantidad']]
+              .groupby('causa').sum().nlargest(4,'cantidad').index.tolist()
+              )
 
+defuncion['causa_reducido'] = defuncion['causa'].apply(
+    lambda causa: causa if causa in top_causas else 'otros'
+    )
+              
 def_por_prov = (defuncion [defuncion['año'] == 2022]
-                 .loc[:, ['id_provincia', 'cantidad']]
-                 .groupby('id_provincia')
+                 .loc[:, ['id_provincia','causa_reducido', 'cantidad']]
+                 .groupby(['id_provincia','causa_reducido'])
                  .sum()
                  .reset_index()
                  .rename(columns={'cantidad':'defunciones'})
@@ -101,10 +109,12 @@ def_por_prov['defunciones_normalizadas'] = (def_por_prov['defunciones']
 provincias_ordenadas= def_por_prov.sort_values(by='defunciones_normalizadas')
         
 
-ax = sns.barplot( y = 'nombre',
-             x = 'defunciones_normalizadas',
+ax = sns.histplot( y = 'nombre',
+             weights = 'defunciones_normalizadas',
              data = def_por_prov,
-             order = provincias_ordenadas['nombre']
+             hue='causa_reducido',
+             multiple='stack',
+             hue_order=top_causas[::-1]+['otros']
              
     )
 ax.grid(axis='x')
