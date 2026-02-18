@@ -91,6 +91,7 @@ sns.barplot(
 
 #%%cantidad de defunciones por grupo etario y sexo en 2022
 
+
 sns.histplot( x = grupo_etario,
              y = cant_def_normalizadas,
              data = defunciones
@@ -124,6 +125,35 @@ ax = sns.boxplot(y = 'nombre',
     )
 ax.set_title('ESTABLECIMIENTOS DE SALUD POR DEPARTAMENTO')
 ax.set_ylabel('')
-ax.set_ylabel('cantidad de instituciones por departamento')
+ax.set_xlabel('cantidad de instituciones por departamento')
 
+plt.show()
 
+#%% terapia intensiva por departamento
+
+terapia_por_depto = (establecimiento [establecimiento['tiene_terapia']]
+                   .loc[:, ['id_provincia', 'id_departamento','id_establecimiento']]
+                   .groupby(['id_provincia', 'id_departamento'])
+                   .count()
+                   .reset_index()
+                   .rename(columns={'id_establecimiento':'cantidad'})
+                   .merge( provincia, on='id_provincia', how='left' )
+                   )
+provincias_ordenadas_terapia =( terapia_por_depto
+                       .groupby('nombre')[['cantidad']]
+                       .median().reset_index()
+                       .sort_values(by='cantidad', ascending=False)
+                       )
+plt.figure(figsize=(12,8))
+
+ax = sns.boxplot(y = 'nombre',
+            x = 'cantidad',
+            data = terapia_por_depto,
+            log_scale=True,
+            order = provincias_ordenadas_terapia['nombre']
+    )
+ax.set_title('ESTABLECIMIENTOS DE SALUD CON TERAPIA INTENSIVA POR DEPARTAMENTO')
+ax.set_ylabel('')
+ax.set_xlabel('cantidad de instituciones por departamento')
+
+plt.show()
