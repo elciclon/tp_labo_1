@@ -71,14 +71,18 @@ def_por_causa = (defuncion
                  .loc[:,['causa', 'año', 'cantidad']]
                  .groupby(['causa','año'])
                  .sum().reset_index())
-
+i = 0
 for causa in defuncion['causa'].drop_duplicates():    
+    i+=1
     ax.plot('año', 'cantidad', 
             data = def_por_causa[(def_por_causa['causa']==causa)],
             #linewidth=0.5,
             label=causa
-        
         )
+    if i ==5:
+        plt.show()
+        i=0
+        fig, ax = plt.subplots()
 
 #%% cantidad de defunciones por provincia en 2022
 plt.figure(figsize=(12,8))
