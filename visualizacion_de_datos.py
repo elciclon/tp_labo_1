@@ -108,7 +108,7 @@ def_por_grupo = (defuncion [defuncion['año'] == 2022]
                  )
 
 def_por_grupo['defunciones_normalizadas'] = (def_por_grupo['defunciones']
-                                             /def_por_grupo['habitantes'])*10000
+                                             /def_por_grupo['habitantes'])*1000
 
 
 
@@ -120,7 +120,7 @@ ax = sns.barplot( x = 'rango',
              
     )
 ax.set_title('DEFUNCIONES EN ARGENTINA 2022')
-ax.set_ylabel('defunciones cada diez mil habitantes')
+ax.set_ylabel('defunciones cada mil habitantes')
 ax.set_xlabel('rango de edad')
 
 plt.show()
