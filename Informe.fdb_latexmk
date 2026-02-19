@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1771458988.66243 "/home/Estudiante/Documentos/tp_labo_1/Informe.tex" "Informe.pdf" "Informe" 1771458990.10881 0
+["pdflatex"] 1771464390.87346 "/home/Estudiante/Documentos/tp_labo_1/Informe.tex" "Informe.pdf" "Informe" 1771464392.44079 0
   "/etc/texmf/web2c/texmf.cnf" 1742473084.8233 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/Estudiante/Documentos/tp_labo_1/Informe.tex" 1771458986.55453 14686 09db12b0af1d4cd2f9c43c7c52f7941a ""
+  "/home/Estudiante/Documentos/tp_labo_1/Informe.tex" 1771464249.65573 17307 64c147adbad7d6e1b06b4e4d850d9602 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768653 4484 b828043cbd581d289d955903c1339981 ""
@@ -116,10 +116,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1742473092.16919 5349216 bf3a80e68d946c7acd95ff030fd9bb63 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1742473124 6852781 75999aacf08ac95e28fcefb24e944c19 ""
-  "Informe.aux" 1771458990.05599 3523 82c0aebb6fcfa41a584ed6089e3c293a "pdflatex"
-  "Informe.out" 1771458988.92159 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Informe.tex" 1771458986.55453 14686 09db12b0af1d4cd2f9c43c7c52f7941a ""
+  "Informe.aux" 1771464392.38111 3528 9913c8646fa9b58a12aceb3c115fe2bc "pdflatex"
+  "Informe.out" 1771464391.13917 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Informe.tex" 1771464249.65573 17307 64c147adbad7d6e1b06b4e4d850d9602 ""
   "caratula.sty" 1771446790.31205 11307 b7d6c7f15260a7fe039ae1559c1c577c ""
+  "images/cambiosdefuncion.png" 1771462339.74087 32044 f2243a3a94b0a67ab12612c7e7586585 ""
+  "images/coberturadesalud.png" 1771462339.74114 54189 88b8bfad493ca575c25a94d432d691ae ""
   "images/def_en_tiempo_causas_medio.png" 1771453393.89994 167132 ab64210b6686a195f788f4d2fdf2c9e0 ""
   "images/def_en_tiempo_menores_causas.png" 1771453424.16889 178457 58602f6eeaa222e5ea3253169366e3b3 ""
   "images/defunciones_en_el_tiempo_mayores_causas.png" 1771453374.09495 145314 905c13846b63ea509c540f6d19cf576b ""
@@ -132,7 +134,11 @@
   "images/logo_dc.jpg" 1771446790.62705 128041 19e4b2b1b4914681ffe3d5d821eeea3c ""
   "images/logo_uba.jpg" 1771446790.62705 229119 10f3a63be47e1e95e44f30008ec3af50 ""
   "images/modelorelacional.png" 1771446790.62805 60891 b2f95378ed684af354754350173211d4 ""
+  "images/muertemenosfrecuentes.png" 1771462339.74129 27388 382e34b10d39399b35a062da4c7d35cc ""
+  "images/muertesmasfrecuentes.png" 1771462339.74144 27473 5efadddc30db315a5cbcba06e47c4223 ""
+  "images/tasademortalidad.png" 1771462339.74159 27324 a855689f61e2fda0787767c4873a0ad6 ""
   "images/terapia_intensiva.png" 1771454524.55885 82453 048a9164a2189ae06dff55fa01fdf610 ""
+  "images/terapiaintensivadf.png" 1771462339.74159 19566 790e0feebd8ada11bf22dc1eb7a8d9b3 ""
   "images/tplabo.png" 1771446790.62805 79788 c5e637f83f305f1814b88b9ccb407686 ""
   (generated)
   "Informe.aux"
