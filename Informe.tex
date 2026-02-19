@@ -50,6 +50,13 @@
 
 \maketitle
 \section*{Resumen}
+Buscamos establecer alguna correlacion entre las causas de muerte en nuestro pais, y variables demográficas y de acceso a la salud.
+Realizamos un procesamiento de los datos del censo 2010 y 2022, como así también del registro de los establecimientos de salud y las defunciones entre 2005 a 2022.
+No pudimos establecer causalidad directa entre las variables analizadas y las causas o cantidad de fallecimientos, si bien encontramos alguna relación entre
+la natalidad y enfermedades puntuales.
+
+
+
 \section*{Introducción}
 El objetivo del presente trabajo es clarificar si existe cierta relación entre las enfermedades que llevan a la muerte, variables
 demográficas y de acceso a la salud, y si hubo variaciones a lo largo del tiempo. Para abordar el desafío tendremos que sanear la información provista que presenta inconvenientes tales como tablas anidadas, encabezados dentro de las tuplas, inconsistencias e información innecesaria. Tendremos que relacionar toda la información confeccionando un Diagrama Entidad Relación para, a partir del mismo crear un Modelo Relacional. Este modelo relacional será el insumo para crear una base de datos relacional, la cual será la herramienta de consulta que utilizaremos para abordar el objeto de estudio, y las preguntas que se desprenden del mismo. Utilizaremos recursos técnicos como Python, con sus módulos pandas, numpy y duckdb para modelar la base datos. Para las consultas a dicha base utilizaremos SQL, y para graficar los módulos de Python matplotlib y seaborn. El presente informe continúa con una sección "Procesamiento de Datos" donde explicaremos la metodología utilizada para sanear y consolidar la información. Un apartado "Decisiones tomadas" donde documentaremos el criterio que utilizamos a la hora de resolver situaciones surgidas de la problemática. En la sección "Análisis de Datos" responderemos las preguntas consignadas por los docentes. Y para finalizar una sección con las conclusiones que se desprenden del presente trabajo.
@@ -250,5 +257,14 @@ La tabla \textbf{Defunciones} tiene valores NaN en las columnas:
 \end{figure}
 
 \section*{Conclusiones}
+\qquad Despues de analizar los gráficos y las consultas sobre las tablas de nuestro modelo, 
+observamos un aumento sostenido en el tiempo en la cantidad de defunciones por enfermedades relacionadas a los sistemas circulatorios y respiratorios
+para el cual no encontramos correlación con las variables que analizamos en el presente informe. Si bien observamos una cierta correlación
+entre la cantidad de habitantes en los distritos más poblados y una  mayor proporción de fallecimientos por causas relacionadas al sistema circulatorio 
+por sobre el respiratorio, esto no es determinante, al haber algunos casos que rompen con esta tendencia.
+Observando los datos de las coberturas de salud por provincia observamos una baja en la natalidad entre 2010 y 2022, que se correlaciona con una 
+baja en la tasa de muertes causadas por afecciones originadas en el periodo prenatal, y por malformaciones congénitas, deformidades, y anomalías cromosómicas.
+Tampoco detectamos impacto de la cantidad de establecimientos con terapia intensiva en las enfermedades causales de los fallecimientos
+
 
 \end{document}
