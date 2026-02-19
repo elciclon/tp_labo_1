@@ -34,7 +34,7 @@ cantidadConCobertura2010 = """
 
                             """
               
-cantidadConCobertura2010 = dd.sql(cantidadConCobertura2010).df()
+cantidadConCobertura2010 = dd.query(cantidadConCobertura2010).df()
 
 cantidadSinCobertura2010 = """
 
@@ -46,7 +46,7 @@ cantidadSinCobertura2010 = """
 
                             """
               
-cantidadSinCobertura2010 = dd.sql(cantidadSinCobertura2010).df()
+cantidadSinCobertura2010 = dd.query(cantidadSinCobertura2010).df()
 
 cantidadConCobertura2022 = """
 
@@ -58,7 +58,7 @@ cantidadConCobertura2022 = """
 
                             """
               
-cantidadConCobertura2022 = dd.sql(cantidadConCobertura2022).df()
+cantidadConCobertura2022 = dd.query(cantidadConCobertura2022).df()
 
 cantidadSinCobertura2022 = """
 
@@ -70,7 +70,7 @@ cantidadSinCobertura2022 = """
 
                             """
               
-cantidadSinCobertura2022 = dd.sql(cantidadSinCobertura2022).df()
+cantidadSinCobertura2022 = dd.query(cantidadSinCobertura2022).df()
 
 coberturaDeSalud = """
 
@@ -88,7 +88,7 @@ coberturaDeSalud = """
 
                     """
                     
-coberturaDeSalud = dd.sql(coberturaDeSalud).df()
+coberturaDeSalud = dd.query(coberturaDeSalud).df()
 
 #%% EJERCICIO II
 
@@ -101,7 +101,7 @@ establecimientosConTerapiaIntensiva = """
                 GROUP BY p.nombre, e.financiamiento
               """
               
-establecimientosConTerapiaIntensiva = dd.sql(establecimientosConTerapiaIntensiva).df()
+establecimientosConTerapiaIntensiva = dd.query(establecimientosConTerapiaIntensiva).df()
 
 #%% EJERCICIO III
 
@@ -109,21 +109,76 @@ causasDeMuerteAux = """
                 SELECT d.rango, d.sexo, d.causa, 
                 SUM(d.cantidad) AS Total
                 FROM defuncion AS d 
-                GROUP BY d.causa, d.rango, d.sexo
+                GROUP BY d.rango, d.sexo, d.causa
                 ORDER BY SUM(d.cantidad)
         
               """
 
-causasDeMuerteAux = dd.sql(causasDeMuerteAux).df()
+causasDeMuerteAux = dd.query(causasDeMuerteAux).df()
 
 causasDeMuerteMasFrecuentes = """
                 SELECT ca.rango AS 'Grupo etario', ca.sexo,
                 ca.causa AS 'Categoría de Defunción', ca.total
                 FROM (SELECT * 
                       FROM causasDeMuerteAux
+                      WHERE rango = '0 a 14' AND sexo= 'femenino'
                       ORDER BY total DESC
                       LIMIT 5
                       ) AS ca
+                UNION (SELECT * 
+                      FROM causasDeMuerteAux
+                      WHERE rango = '15 a 34' AND sexo= 'femenino'
+                      ORDER BY total DESC
+                      LIMIT 5
+                      ) 
+                UNION (SELECT * 
+                      FROM causasDeMuerteAux
+                      WHERE rango = '15 a 34' AND sexo= 'masculino'
+                      ORDER BY total DESC
+                      LIMIT 5
+                      ) 
+                UNION (SELECT * 
+                      FROM causasDeMuerteAux
+                      WHERE rango = '0 a 14' AND sexo= 'masculino'
+                      ORDER BY total DESC
+                      LIMIT 5
+                      ) 
+                UNION (SELECT * 
+                      FROM causasDeMuerteAux
+                      WHERE rango = '35 a 54' AND sexo= 'femenino'
+                      ORDER BY total DESC
+                      LIMIT 5
+                      ) 
+                UNION (SELECT * 
+                      FROM causasDeMuerteAux
+                      WHERE rango = '35 a 54' AND sexo= 'masculino'
+                      ORDER BY total DESC
+                      LIMIT 5
+                      ) 
+                UNION (SELECT * 
+                      FROM causasDeMuerteAux
+                      WHERE rango = '55 a 74' AND sexo= 'femenino'
+                      ORDER BY total DESC
+                      LIMIT 5
+                      ) 
+                UNION (SELECT * 
+                      FROM causasDeMuerteAux
+                      WHERE rango = '55 a 74' AND sexo= 'masculino'
+                      ORDER BY total DESC
+                      LIMIT 5
+                      ) 
+                UNION (SELECT * 
+                      FROM causasDeMuerteAux
+                      WHERE rango = '75 y mas' AND sexo= 'femenino'
+                      ORDER BY total DESC
+                      LIMIT 5
+                      ) 
+                UNION (SELECT * 
+                      FROM causasDeMuerteAux
+                      WHERE rango = '75 y mas' AND sexo= 'masculino'
+                      ORDER BY total DESC
+                      LIMIT 5
+                      ) 
                 ORDER BY ca.rango, ca.sexo
         
               """
@@ -133,14 +188,60 @@ causasDeMuerteMenosFrecuentes = """
                 ca.causa AS 'Categoría de Defunción', ca.total
                 FROM (SELECT * 
                       FROM causasDeMuerteAux
+                      WHERE rango = '0 a 14' AND sexo= 'femenino'
                       LIMIT 5
                       ) AS ca
+                UNION (SELECT * 
+                      FROM causasDeMuerteAux
+                      WHERE rango = '15 a 34' AND sexo= 'femenino'
+                      LIMIT 5
+                      ) 
+                UNION (SELECT * 
+                      FROM causasDeMuerteAux
+                      WHERE rango = '15 a 34' AND sexo= 'masculino'
+                      LIMIT 5
+                      ) 
+                UNION (SELECT * 
+                      FROM causasDeMuerteAux
+                      WHERE rango = '0 a 14' AND sexo= 'masculino'
+                      LIMIT 5
+                      ) 
+                UNION (SELECT * 
+                      FROM causasDeMuerteAux
+                      WHERE rango = '35 a 54' AND sexo= 'femenino'
+                      LIMIT 5
+                      ) 
+                UNION (SELECT * 
+                      FROM causasDeMuerteAux
+                      WHERE rango = '35 a 54' AND sexo= 'masculino'
+                      LIMIT 5
+                      ) 
+                UNION (SELECT * 
+                      FROM causasDeMuerteAux
+                      WHERE rango = '55 a 74' AND sexo= 'femenino'
+                      LIMIT 5
+                      ) 
+                UNION (SELECT * 
+                      FROM causasDeMuerteAux
+                      WHERE rango = '55 a 74' AND sexo= 'masculino'
+                      LIMIT 5
+                      ) 
+                UNION (SELECT * 
+                      FROM causasDeMuerteAux
+                      WHERE rango = '75 y mas' AND sexo= 'femenino'
+                      LIMIT 5
+                      ) 
+                UNION (SELECT * 
+                      FROM causasDeMuerteAux
+                      WHERE rango = '75 y mas' AND sexo= 'masculino'
+                      LIMIT 5
+                      ) 
                 ORDER BY ca.rango, ca.sexo
         
               """
 
-causasDeMuerteMenosFrecuentes = dd.sql(causasDeMuerteMenosFrecuentes).df()
-causasDeMuerteMasFrecuentes = dd.sql(causasDeMuerteMasFrecuentes).df()
+causasDeMuerteMenosFrecuentes = dd.query(causasDeMuerteMenosFrecuentes).df()
+causasDeMuerteMasFrecuentes = dd.query(causasDeMuerteMasFrecuentes).df()
 
 #%% EJERCICIO IV
 
@@ -151,7 +252,7 @@ personasPorProvinciayRango2022 = """
             GROUP BY id_provincia, rango
             
             """
-personasPorProvinciayRango2022 = dd.sql(personasPorProvinciayRango2022).df()
+personasPorProvinciayRango2022 = dd.query(personasPorProvinciayRango2022).df()
 
 
 muertesPorProvinciayRango2022 = """
@@ -161,7 +262,7 @@ muertesPorProvinciayRango2022 = """
             GROUP BY id_provincia, rango
             
             """
-muertesPorProvinciayRango2022 = dd.sql(muertesPorProvinciayRango2022).df()
+muertesPorProvinciayRango2022 = dd.query(muertesPorProvinciayRango2022).df()
 
 tasaDeMortalidad = """
             SELECT p.nombre AS Provincia, ppr.rango AS 'Grupo Etario', 
@@ -172,7 +273,7 @@ tasaDeMortalidad = """
             ON p.id_provincia = mpr.id_provincia AND ppr.rango = mpr.rango
             """
         
-tasaDeMortalidad = dd.sql(tasaDeMortalidad).df()
+tasaDeMortalidad = dd.query(tasaDeMortalidad).df()
 
 #%% EJERCICIO V
 
@@ -183,7 +284,7 @@ cantidadDeDefuncionesPorCategoria2010 = """
                                 GROUP BY causa
                                 """
                            
-cantidadDeDefuncionesPorCategoria2010 = dd.sql(cantidadDeDefuncionesPorCategoria2010).df()
+cantidadDeDefuncionesPorCategoria2010 = dd.query(cantidadDeDefuncionesPorCategoria2010).df()
 
 cantidadDeDefuncionesPorCategoria2022 = """
                                 SELECT causa, SUM(cantidad) AS Cantidad
@@ -192,7 +293,7 @@ cantidadDeDefuncionesPorCategoria2022 = """
                                 GROUP BY causa
                                 """
                                 
-cantidadDeDefuncionesPorCategoria2022 = dd.sql(cantidadDeDefuncionesPorCategoria2022).df()
+cantidadDeDefuncionesPorCategoria2022 = dd.query(cantidadDeDefuncionesPorCategoria2022).df()
 
 cambiosEnLasCausasDeDefuncion = """
                         SELECT c22.causa AS 'Categoría de Defunción',
@@ -203,4 +304,4 @@ cambiosEnLasCausasDeDefuncion = """
                         ORDER BY Diferencia DESC
                         """
                         
-cambiosEnLasCausasDeDefuncion = dd.sql(cambiosEnLasCausasDeDefuncion).df()
+cambiosEnLasCausasDeDefuncion = dd.query(cambiosEnLasCausasDeDefuncion).df()
