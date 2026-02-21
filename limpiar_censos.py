@@ -52,11 +52,13 @@ censo_2022_df = censo_2022_df.reset_index(drop=True)
 #%% Elimina todas las tuplas con totales
 def elimina_totales(censo):
     i = 0
-    
-    while i < len(censo):
+    cantidad = len(censo)
+    while i < cantidad:
+        if i==13000:
+            pass
         if 'Total' in str(censo.loc[i,'Unnamed: 1']):# Castea a str por Nan
             i+=1
-            while 'AREA' not in str(censo.loc[i,'Unnamed: 1']):# Castea a str por Nan
+            while(i<cantidad and'AREA' not in str(censo.loc[i,'Unnamed: 1'])):# Castea a str por Nan
                 censo = censo.drop([i], axis = 0)
                 i+=1
         i+=1
@@ -64,7 +66,7 @@ def elimina_totales(censo):
 
 censo_2010_df = elimina_totales(censo_2010_df)
 censo_2022_df = elimina_totales(censo_2022_df)
-
+#%%
 censo_2010_df = censo_2010_df[censo_2010_df['Unnamed: 1'] != 'Total']
 censo_2022_df = censo_2022_df[censo_2022_df['Unnamed: 1'] != 'Total']
 

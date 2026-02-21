@@ -162,7 +162,7 @@ def_por_prov = (defuncion [defuncion['año'] == 2022]
 def_por_prov['defunciones_normalizadas'] = (def_por_prov['defunciones']
                                              /def_por_prov['cantidad'])*1000
 
-#%%
+#%% tasa de mortalidad por causa, todas las causas
 for causa in defuncion['causa'].drop_duplicates():
     plt.figure(figsize=(12,8))
     plt.xlim(0, 4)
@@ -180,7 +180,7 @@ for causa in defuncion['causa'].drop_duplicates():
 
     plt.show()
 
-#%%
+#%% tasa de mortalidad principales causas
 plt.figure(figsize=(12,8))
 
 
@@ -203,6 +203,9 @@ ax.set_ylabel('')
 ax.set_xlabel('defunciones cada mil habitantes')
 
 plt.show()
+
+#%% 
+
 
 
 
