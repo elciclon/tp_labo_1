@@ -6,9 +6,8 @@ Integrantes: Rozas Chavez, Antuanette Carolina
              Madril, Joaquin Leandro
              Fernández Fazio, Adrián Patricio
              
-Este archivo incluye todo el código para crear las tablas a partir de los 
-documentos provistos ya saneados, y responder a los requerimientos de la 
-consigna.
+Este archivo incluye todo el código para realizar las consultas SQL,
+ y responder a los requerimientos de la consigna.
 
 """
 #%% Cargamos las tablas
