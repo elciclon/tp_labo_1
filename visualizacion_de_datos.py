@@ -23,6 +23,31 @@ departamento = pd.read_csv('departamento.csv')
 establecimiento = pd.read_csv('establecimiento.csv')
 
 #%%
+def normalizar_defunciones(grupo:list[str])->pd.DataFrame:
+    grupo_poblacion = [col for col in grupo if col != 'causa']
+    hab_grupo = (grupoPoblacional [grupoPoblacional['año'] == 2022]
+                     .loc[:, grupo_poblacion+['cantidad']]
+                     .groupby(grupo_poblacion)
+                     .sum()
+                     .reset_index()
+                     .rename(columns={'cantidad':'habitantes'})
+                     )
+    if 'id_provincia' in grupo:
+        hab_grupo = hab_grupo.merge(provincia, on='id_provincia', how='left')
+    def_grupo = (defuncion [defuncion['año'] == 2022]
+                     .loc[:, grupo +['cantidad']]
+                     .groupby(grupo)
+                     .sum()
+                     .reset_index()
+                     .rename(columns={'cantidad':'defunciones'})
+                     .merge(hab_grupo, on=grupo_poblacion, how='left')
+                     )
+
+    def_grupo['defunciones_normalizadas'] = (def_grupo['defunciones']
+                                                 /def_grupo['habitantes'])*1000
+    return def_grupo.copy()
+
+#%%
 habitan_por_prov = (grupoPoblacional
                      .loc[ :, ['id_provincia','año', 'cantidad']]
                      .groupby(['id_provincia', 'año'])
@@ -38,7 +63,6 @@ provincias_ordenadas =( habitan_por_prov[ habitan_por_prov['año'] == '2022']
                        .sort_values(by='cantidad', ascending=False)
                        )
 
-
 plt.figure(figsize=(12,8))
 ax = sns.barplot(
        data= habitan_por_prov,
@@ -46,7 +70,7 @@ ax = sns.barplot(
        x = 'cantidad',
        orient = 'y',
        hue = 'año',
-       hue_order=['2022','2010'], #por que no funciona???? ni con int
+       hue_order=['2022','2010'],
        order = provincias_ordenadas['nombre']
        )
 
@@ -116,20 +140,9 @@ while i < cantidad_elementos:
 #%% cantidad de defunciones por provincia en 2022
 plt.figure(figsize=(12,8))
 
-     
-def_por_prov = (defuncion [defuncion['año'] == 2022]
-                 .loc[:, ['id_provincia', 'cantidad']]
-                 .groupby('id_provincia')
-                 .sum()
-                 .reset_index()
-                 .rename(columns={'cantidad':'defunciones'})
-                 .merge(habitan_por_prov[habitan_por_prov['año']=='2022'], 
-                        on='id_provincia', 
-                        how='left')
-                 )
 
-def_por_prov['defunciones_normalizadas'] = (def_por_prov['defunciones']
-                                             /def_por_prov['cantidad'])*1000
+
+def_por_prov = normalizar_defunciones(['id_provincia'])
 
 provincias_ordenadas= def_por_prov.sort_values(by='defunciones_normalizadas')
 
@@ -137,7 +150,6 @@ ax = sns.barplot( y = 'nombre',
              x = 'defunciones_normalizadas',
              data = def_por_prov,
              order = provincias_ordenadas['nombre']
-             
     )
 ax.grid(axis='x')
 ax.set_title('TASA DE MORTALIDAD POR PROVINCIA 2022')
@@ -148,21 +160,9 @@ plt.show()
 
 
 #%% defunciones por prov diferenciado por causa
-def_por_prov = (defuncion [defuncion['año'] == 2022]
-                 .loc[:, ['id_provincia', 'causa', 'cantidad']]
-                 .groupby(['id_provincia', 'causa'])
-                 .sum()
-                 .reset_index()
-                 .rename(columns={'cantidad':'defunciones'})
-                 .merge(habitan_por_prov[habitan_por_prov['año']=='2022'], 
-                        on='id_provincia', 
-                        how='left')
-                 )
+def_por_prov = normalizar_defunciones(['id_provincia', 'causa'])
 
-def_por_prov['defunciones_normalizadas'] = (def_por_prov['defunciones']
-                                             /def_por_prov['cantidad'])*1000
-
-#%% tasa de mortalidad por causa, todas las causas
+# tasa de mortalidad por causa, todas las causas
 for causa in defuncion['causa'].drop_duplicates():
     plt.figure(figsize=(12,8))
     plt.xlim(0, 4)
@@ -204,34 +204,31 @@ ax.set_xlabel('defunciones cada mil habitantes')
 
 plt.show()
 
-#%% 
+
+#%% tasa de mortalidad POR GRUPO ETARIO, PARA CADA PROVINCIA
+def_provincia_grupo = normalizar_defunciones(['id_provincia','rango'])
 
 
+for rango in defuncion['rango'].drop_duplicates():
+    plt.figure(figsize=(12,8))
+    #plt.xlim(0, 10)
+    filtro_edad = def_provincia_grupo ['rango'] == rango
+    ax = sns.barplot( y = 'nombre',
+                 x = 'defunciones_normalizadas',
+                 data = def_provincia_grupo[filtro_edad],
+                 order = provincias_ordenadas['nombre']
+                 
+        )
+    ax.grid(axis='x')
+    ax.set_title(rango)
+    ax.set_ylabel('')
+    ax.set_xlabel('defunciones cada mil habitantes')
 
+    plt.show()
 
 
 #%%cantidad de defunciones por grupo etario y sexo en 2022
-
-hab_por_grupo = (grupoPoblacional [grupoPoblacional['año'] == 2022]
-                 .loc[:, ['rango', 'sexo', 'cantidad']]
-                 .groupby(['rango', 'sexo'])
-                 .sum()
-                 .reset_index()
-                 .rename(columns={'cantidad':'habitantes'})
-                 )
-def_por_grupo = (defuncion [defuncion['año'] == 2022]
-                 .loc[:, ['rango', 'sexo', 'cantidad']]
-                 .groupby(['rango', 'sexo'])
-                 .sum()
-                 .reset_index()
-                 .rename(columns={'cantidad':'defunciones'})
-                 .merge(hab_por_grupo, on=['rango', 'sexo'], how='left')
-                 )
-
-def_por_grupo['defunciones_normalizadas'] = (def_por_grupo['defunciones']
-                                             /def_por_grupo['habitantes'])*1000
-
-
+def_por_grupo = normalizar_defunciones(['rango', 'sexo'])
 
 ax = sns.barplot( x = 'rango',
              y = 'defunciones_normalizadas',
