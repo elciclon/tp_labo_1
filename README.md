@@ -32,3 +32,9 @@ The process addressed critical data quality challenges, including:
 1. Clone the repository:
    ```bash
    git clone https://github.com/elciclon/argentina-health-statistics-etl.git
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Run the main script:
+   ```bash
+   python main.py
